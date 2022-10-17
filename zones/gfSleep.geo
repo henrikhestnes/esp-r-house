@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,gfSleep # tag version, format, zone name
-*date Fri Oct 14 17:16:26 2022  # latest file modification 
+*date Mon Oct 17 12:27:13 2022  # latest file modification 
 gfSleep describes the Ground Floor sleeping room
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,0.00000,0.00000  #   1
@@ -37,15 +37,15 @@ gfSleep describes the Ground Floor sleeping room
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,Wall-1,VERT,-,-,-,int_doors,OPAQUE,EXTERIOR,00,000  #   1 ||< external
-*surf,Wall-4,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,00,000  #   2 ||< external
-*surf,gfSlpCeil,CEIL,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,00,000  #   3 ||< not yet defined
-*surf,gfSlpFlr,FLOR,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,00,000  #   4 ||< not yet defined
-*surf,gfSlpWin,VERT,Wall-1,C-WINDOW,-,dbl_glz,DCF7671_06nb,ANOTHER,010,000  #   5 ||< external
+*surf,Wall-1,VERT,-,-,-,int_doors,OPAQUE,EXTERIOR,000,000  #   1 ||< external
+*surf,Wall-4,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,000,000  #   2 ||< external
+*surf,gfSlpCeil,CEIL,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,000,000  #   3 ||< not yet defined
+*surf,gfSlpFlr,FLOR,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,000,000  #   4 ||< not yet defined
+*surf,gfSlpWin,VERT,Wall-1,C-WINDOW,-,dbl_glz,DCF7671_06nb,EXTERIOR,000,000  #   5 ||< external
 *surf,gfSlpDoorLr,VERT,gfLrWallSlp,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,010,010  #   6 ||< gfSlpDoorLr:gfLivRoom
-*surf,gfLrWallSlp2,VERT,-,PARTN,-,UNKNOWN,OPAQUE,ANOTHER,010,003  #   7 ||< gfLrWallSlp2:gfLivRoom
-*surf,gfStrWallSlp,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,010,006  #   8 ||< gfStrWallSlp:stairs
-*surf,gfLrWallSlp,VERT,-,PARTN,-,UNKNOWN,OPAQUE,ANOTHER,010,004  #   9 ||< gfLrWallSlp:gfLivRoom
+*surf,gfLrWallSlp2,VERT,-,PARTN,-,UNKNOWN,OPAQUE,ANOTHER,003,003  #   7 ||< gfLrWallSlp2:gfLivRoom
+*surf,gfStrWallSlp,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,006,006  #   8 ||< gfStrWallSlp:stairs
+*surf,gfLrWallSlp,VERT,-,PARTN,-,UNKNOWN,OPAQUE,ANOTHER,004,004  #   9 ||< gfLrWallSlp:gfLivRoom
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
