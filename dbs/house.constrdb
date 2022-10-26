@@ -13,7 +13,7 @@ Tags are:
 - *layer layer data... mat ref, thickness,mat name: mat description
 - *Text ... *End_text  markers for database documentation
 *End_text
-*date,Wed Oct 26 17:34:01 2022
+*date,Wed Oct 26 19:05:49 2022
 *Category,walls,opaque facade constructions,opaque facades representing different ages and performance (mostly UK based)
 *Category,partitions,internal partitions,partitions between zones (some have matching mirror versions)
 *Category,doors,inside and outside doors,doors of different ages types and performance characteristics
@@ -422,9 +422,9 @@ Tags are:
 *end_item
 *item,int_doors,internal wood door 25mm # tag name menu entry
 *itemdoc,internal solid oak door 25mm.
-*incat,doors
+*incat,project specific
 *type,OPAQ,OPAQUE,SYMMETRIC
-*layer,69,0.0250,oak : Oak (radial cut)
+*layer,69,0.0200,oak : Oak (radial cut)
 *end_item
 *item,Vehicle_door,UK code compliant vehicle door # tag name menu entry
 *itemdoc,UK code compliant vehicle door e.g. sbem.
@@ -514,7 +514,7 @@ Tags are:
 *end_item
 *item,tripglz_1.08,tripple glazing with 1.08 Uvalue # tag name menu entry
 *itemdoc,tripple glazing 6mm clear float glass with 12mm air gaps and lowe coatings to reach U=1.08. A good commercial grade.
-*incat,glazing
+*incat,project specific
 *type,TRAN,trip_gl_kai,NONSYMMETRIC
 *layer,243,0.0060,clear float : clear float glass with optics from UK national method dat
 *layer,0,0.0120,gap  0.367 0.367 0.367
@@ -1752,5 +1752,29 @@ Tags are:
 *layer,91,0.0200,HighDensityParticleBd : HDF based on info in Handbook of Heat Transfer
 *layer,290,0.0220,EPS k 0.05 : EPS k=0.05 (non-hygroscopic)
 *layer,91,0.0200,HighDensityParticleBd : HDF based on info in Handbook of Heat Transfer
+*end_item
+*item,floor_ground_floor,floor_ground_floor # tag name menu entry
+*itemdoc,no documentation yet for floor_ground_floor in project specific
+*incat,project specific
+*type,OPAQ,OPAQUE,NONSYMMETRIC
+*layer,89,0.0120,parquet : Parquet (ready to install) from IBO PassivHaus
+*layer,356,0.2000,glasswool : glasswool for isolation
+*layer,55,0.1000,thermalite_aircrete_HS_7 : thermalite aircrete high strength 7 730kg/m3
+*end_item
+*item,floor_divider,floor_divider # tag name menu entry
+*itemdoc,no documentation yet for floor_divider in project specific
+*incat,project specific
+*type,OPAQ,OPAQUE,NONSYMMETRIC
+*layer,89,0.0120,parquet : Parquet (ready to install) from IBO PassivHaus
+*layer,356,0.1000,glasswool : glasswool for isolation
+*layer,357,0.0120,plaster_wall : plaster_wall (derived from glasswool)
+*end_item
+*item,ext_roof,ext_roof # tag name menu entry
+*itemdoc,no documentation yet for ext_roof in project specific
+*incat,project specific
+*type,OPAQ,OPAQUE,NONSYMMETRIC
+*layer,162,0.0060,roofing felt : Roofing felt (impermeable)
+*layer,356,0.3000,glasswool : glasswool for isolation
+*layer,357,0.0120,plaster_wall : plaster_wall (derived from glasswool)
 *end_item
 *db_end
