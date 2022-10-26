@@ -13,7 +13,7 @@ Tags are:
 - *layer layer data... mat ref, thickness,mat name: mat description
 - *Text ... *End_text  markers for database documentation
 *End_text
-*date,Wed Oct 26 15:54:13 2022
+*date,Wed Oct 26 17:34:01 2022
 *Category,walls,opaque facade constructions,opaque facades representing different ages and performance (mostly UK based)
 *Category,partitions,internal partitions,partitions between zones (some have matching mirror versions)
 *Category,doors,inside and outside doors,doors of different ages types and performance characteristics
@@ -1610,12 +1610,6 @@ Tags are:
 *layer,235,0.0120,aerogel : aerogel is a synthetic porous ultralight material typically s
 *layer,47,0.0040,wt cotd alum : White coated aluminium
 *end_item
-*item,placeholder,placeholder # tag name menu entry
-*itemdoc,no documentation yet for placeholder inproject specific
-*incat,project specific
-*type,OPAQ,OPAQUE,SYMMETRIC
-*layer,1,0.1000,Paviour brick : Paviour brick (inorganic-porous)
-*end_item
 *item,no-fines-1940,no-fines rendered conc 1940ss # tag name menu entry
 *itemdoc,no-fines-1940 in walls by UK commercial residential in late 1940s.
 *incat,walls
@@ -1734,5 +1728,29 @@ Tags are:
 *incat,project specific
 *type,TRAN,SC_fictit,SYMMETRIC
 *layer,245,0.0010,fict : fictitious material (almost not there) with matching single laye
+*end_item
+*item,int_wall,int_wall # tag name menu entry
+*itemdoc,no documentation yet for int_wall in project specific
+*incat,project specific
+*type,OPAQ,OPAQUE,SYMMETRIC
+*layer,357,0.0120,plaster_wall : plaster_wall (derived from glasswool)
+*layer,356,0.0500,glasswool : glasswool for isolation
+*layer,357,0.0120,plaster_wall : plaster_wall (derived from glasswool)
+*end_item
+*item,ext_door,ext_door # tag name menu entry
+*itemdoc,no documentation yet for ext_door in project specific
+*incat,project specific
+*type,OPAQ,OPAQUE,SYMMETRIC
+*layer,91,0.0250,HighDensityParticleBd : HDF based on info in Handbook of Heat Transfer
+*layer,289,0.0250,EPS k 0.04 : EPS k=0.04 (non-hygroscopic)
+*layer,91,0.0250,HighDensityParticleBd : HDF based on info in Handbook of Heat Transfer
+*end_item
+*item,balcony_door,balcony_door # tag name menu entry
+*itemdoc,no documentation yet for balcony_door in project specific
+*incat,project specific
+*type,OPAQ,OPAQUE,SYMMETRIC
+*layer,91,0.0200,HighDensityParticleBd : HDF based on info in Handbook of Heat Transfer
+*layer,290,0.0220,EPS k 0.05 : EPS k=0.05 (non-hygroscopic)
+*layer,91,0.0200,HighDensityParticleBd : HDF based on info in Handbook of Heat Transfer
 *end_item
 *db_end
