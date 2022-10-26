@@ -643,8 +643,10 @@ Category (17) holds the implied air material (legacy index of zero), several gap
 *item,air (k) 50mm foil,355,17,air (k) 50mm one side foil horizontal heat flow PHPP method
 0.1000,1.204,1006.000,0.150,0.150,0.990,0.990,1.000,25.0,-
 # class index |nb items|description (32 char)
-*class,18, 1,Project specific
+*class,18, 2,Project specific
 Category (18) holds non-standard materials associated with a project so that these can be isolated prior to acceptance as a standard material.
 *item,Spruce,345,18,Spruce for wall clothing
 0.1200,470.000,1900.000,0.930,0.930,0.700,0.700,12.000,19.0,-
+*item,glasswool,356,18,glasswool for isolation
+0.0360,20.000,1030.000,0.930,0.930,0.700,0.700,12.000,225.0,-
 *end

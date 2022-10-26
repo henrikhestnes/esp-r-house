@@ -13,7 +13,7 @@ Tags are:
 - *layer layer data... mat ref, thickness,mat name: mat description
 - *Text ... *End_text  markers for database documentation
 *End_text
-*date,Fri Oct 21 15:35:48 2022
+*date,Wed Oct 26 15:05:03 2022
 *Category,walls,opaque facade constructions,opaque facades representing different ages and performance (mostly UK based)
 *Category,partitions,internal partitions,partitions between zones (some have matching mirror versions)
 *Category,doors,inside and outside doors,doors of different ages types and performance characteristics
@@ -1724,9 +1724,9 @@ Tags are:
 *item,ext_wall_norway,ext_wall_norway # tag name menu entry
 *itemdoc,no documentation yet for ext_wall_norway in project specific
 *incat,project specific
-*type,OPAQ,OPAQUE,SYMMETRIC
-*layer,1,0.1000,breeze block : Breeze block (inorganic-porous)
-*layer,1,0.1000,breeze block : Breeze block (inorganic-porous)
+*type,OPAQ,OPAQUE,NONSYMMETRIC
+*layer,345,0.0190,Spruce : Spruce for wall clothing
+*layer,356,0.2250,glasswool : glasswool for isolation
 *end_item
 *item,fictious,fictious # tag name menu entry
 *itemdoc,no documentation yet for fictious in own_constructions
