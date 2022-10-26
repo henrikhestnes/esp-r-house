@@ -1728,4 +1728,10 @@ Tags are:
 *layer,1,0.1000,breeze block : Breeze block (inorganic-porous)
 *layer,1,0.1000,breeze block : Breeze block (inorganic-porous)
 *end_item
+*item,fictious,fictious # tag name menu entry
+*itemdoc,no documentation yet for fictious in own_constructions
+*incat,project specific
+*type,TRAN,SC_fictit,SYMMETRIC
+*layer,245,0.0010,fict : fictitious material (almost not there) with matching single laye
+*end_item
 *db_end
