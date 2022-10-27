@@ -1720,7 +1720,7 @@ Tags are:
 *incat,project specific
 *type,OPAQ,OPAQUE,NONSYMMETRIC
 *layer,345,0.0190,Spruce : Spruce for wall clothing
-*layer,356,0.2250,glasswool : glasswool for isolation
+*layer,356,0.2250,glasswool_glava : glasswool for isolation
 *layer,357,0.0120,plaster_wall : plaster_wall (derived from glasswool)
 *end_item
 *item,fictious,fictious # tag name menu entry
@@ -1734,7 +1734,7 @@ Tags are:
 *incat,project specific
 *type,OPAQ,OPAQUE,SYMMETRIC
 *layer,357,0.0120,plaster_wall : plaster_wall (derived from glasswool)
-*layer,356,0.0500,glasswool : glasswool for isolation
+*layer,356,0.0500,glasswool_glava : glasswool for isolation
 *layer,357,0.0120,plaster_wall : plaster_wall (derived from glasswool)
 *end_item
 *item,ext_door,ext_door # tag name menu entry
@@ -1758,7 +1758,7 @@ Tags are:
 *incat,project specific
 *type,OPAQ,OPAQUE,NONSYMMETRIC
 *layer,89,0.0120,parquet : Parquet (ready to install) from IBO PassivHaus
-*layer,356,0.2000,glasswool : glasswool for isolation
+*layer,356,0.2000,glasswool_glava : glasswool for isolation
 *layer,55,0.1000,thermalite_aircrete_HS_7 : thermalite aircrete high strength 7 730kg/m3
 *end_item
 *item,floor_divider,floor_divider # tag name menu entry
@@ -1766,7 +1766,7 @@ Tags are:
 *incat,project specific
 *type,OPAQ,OPAQUE,NONSYMMETRIC
 *layer,89,0.0120,parquet : Parquet (ready to install) from IBO PassivHaus
-*layer,356,0.1000,glasswool : glasswool for isolation
+*layer,356,0.1000,glasswool_glava : glasswool for isolation
 *layer,357,0.0120,plaster_wall : plaster_wall (derived from glasswool)
 *end_item
 *item,ext_roof,ext_roof # tag name menu entry
@@ -1774,7 +1774,7 @@ Tags are:
 *incat,project specific
 *type,OPAQ,OPAQUE,NONSYMMETRIC
 *layer,162,0.0060,roofing felt : Roofing felt (impermeable)
-*layer,356,0.3000,glasswool : glasswool for isolation
+*layer,356,0.3000,glasswool_glava : glasswool for isolation
 *layer,357,0.0120,plaster_wall : plaster_wall (derived from glasswool)
 *end_item
 *db_end

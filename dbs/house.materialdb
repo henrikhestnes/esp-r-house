@@ -396,6 +396,8 @@ Category (11) Insulation materials (1) is an initial tranche of loose, batt and 
 0.0400,16.000,840.000,0.900,0.900,0.650,0.650,30.000,100.0,-
 *item,Glass Fibre Thermal Bridging,317,11,Glass Fibre Thermal Bridging for use with CETC testing
 0.0520,97.000,1507.000,0.900,0.900,0.650,0.650,30.000,100.0,-
+*item,glasswool,211,11,Glasswool (generic) (non-hygroscopic)
+0.0400,250.000,840.000,0.900,0.900,0.300,0.300,4.000,100.0,-
 *item,hard rubber,208,11,Hard rubber (impermeable)
 0.1500,1200.000,1000.000,0.940,0.940,0.920,0.920,500.000,10.0,-
 *item,hemp insulation panels,299,11,hemp insulation panels with supporting fibres from IBO PassivHaus
@@ -645,7 +647,7 @@ Category (17) holds the implied air material (legacy index of zero), several gap
 Category (18) holds non-standard materials associated with a project so that these can be isolated prior to acceptance as a standard material.
 *item,Spruce,345,18,Spruce for wall clothing
 0.1200,470.000,1900.000,0.930,0.930,0.700,0.700,12.000,19.0,-
-*item,glasswool,356,18,glasswool for isolation
+*item,glasswool_glava,356,18,glasswool for isolation
 0.0360,20.000,1030.000,0.930,0.930,0.700,0.700,6.000,225.0,-
 *item,plaster_wall,357,18,plaster_wall (derived from glasswool)
 0.2200,900.000,800.000,0.930,0.930,0.700,0.700,6.000,12.0,-
