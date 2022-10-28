@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,gfBath # tag version, format, zone name
-*date Mon Oct 17 12:31:33 2022  # latest file modification 
+*date Fri Oct 28 11:33:52 2022  # latest file modification 
 gfBath describes the bathroom in the ground floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,4.43000,5.70000,0.00000  #   1
@@ -34,7 +34,7 @@ gfBath describes the bathroom in the ground floor
 *surf,gfBthCeil,CEIL,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,00,000  #   3 ||< not yet defined
 *surf,gfBthFlr,FLOR,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,00,000  #   4 ||< not yet defined
 *surf,gfLrDoorBth,VERT,gfLrWallBth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,013,013  #   5 ||< gfLrDoorBth:gfLivRoom
-*surf,gfLrWallBth,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,008,008  #   6 ||< gfLrWallBth:gfLivRoom
+*surf,gfLrWallBth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,008,008  #   6 ||< gfLrWallBth:gfLivRoom
 *surf,gfBthWallSr,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,005,008  #   7 ||< gfBthWallSr:gfStorRoom
 # 
 *insol,3,0,0,0  # default insolation distribution

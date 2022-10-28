@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,gfStorRoom # tag version, format, zone name
-*date Mon Oct 17 12:32:08 2022  # latest file modification 
+*date Fri Oct 28 11:34:52 2022  # latest file modification 
 gfStorRoom describes the storage room in the ground floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,5.70000,0.00000  #   1
@@ -37,7 +37,7 @@ gfStorRoom describes the storage room in the ground floor
 *surf,gfSrCeil,CEIL,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,00,000  #   3 ||< not yet defined
 *surf,gfSrFlr,FLOR,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,00,000  #   4 ||< not yet defined
 *surf,gfLrDoorSr,VERT,gfLrWallSr,-,-,int_doors,OPAQUE,ANOTHER,014,000  #   5 ||< gfLrDoorSr:gfLivRoom
-*surf,gfLrWallSr,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,009,000  #   6 ||< gfLrWallSr:gfLivRoom
+*surf,gfLrWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,009,000  #   6 ||< gfLrWallSr:gfLivRoom
 *surf,gfStrWallSr,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,003,012  #   7 ||< gfStrWallSr:stairs
 *surf,gfBthWallSr,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,004,007  #   8 ||< gfBthWallSr:gfBath
 # 

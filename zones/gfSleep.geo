@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,gfSleep # tag version, format, zone name
-*date Thu Oct 27 18:17:19 2022  # latest file modification 
+*date Fri Oct 28 11:23:39 2022  # latest file modification 
 gfSleep describes the Ground Floor sleeping room
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,0.00000,0.00000  #   1
@@ -40,12 +40,12 @@ gfSleep describes the Ground Floor sleeping room
 *surf,Wall-1,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
 *surf,Wall-4,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
 *surf,gfSlpCeil,CEIL,-,-,-,floor_divider,OPAQUE,UNKNOWN,00,000  #   3 ||< not yet defined
-*surf,gfSlpFlr,FLOR,-,-,-,floor_ground_floor,OPAQUE,UNKNOWN,00,000  #   4 ||< not yet defined
-*surf,gfSlpWin,VERT,Wall-1,C-WINDOW,-,dbl_glz,DCF7671_06nb,EXTERIOR,00,000  #   5 ||< external
+*surf,gfSlpFlr,FLOR,-,FLOOR,EXTGRND,floor_ground_floor,OPAQUE,GROUND,001,0  #   4 ||< ground profile  1
+*surf,gfSlpWin,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,trip_gl_kai,EXTERIOR,00,000  #   5 ||< external
 *surf,gfSlpDoorLr,VERT,gfLrWallSlp,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,010,010  #   6 ||< gfSlpDoorLr:gfLivRoom
-*surf,gfLrWallSlp2,VERT,-,PARTN,-,UNKNOWN,OPAQUE,ANOTHER,003,003  #   7 ||< gfLrWallSlp2:gfLivRoom
-*surf,gfStrWallSlp,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,006,006  #   8 ||< gfStrWallSlp:stairs
-*surf,gfLrWallSlp,VERT,-,PARTN,-,UNKNOWN,OPAQUE,ANOTHER,004,004  #   9 ||< gfLrWallSlp:gfLivRoom
+*surf,gfLrWallSlp2,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,003  #   7 ||< gfLrWallSlp2:gfLivRoom
+*surf,gfStrWallSlp,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #   8 ||< gfStrWallSlp:stairs
+*surf,gfLrWallSlp,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,004,004  #   9 ||< gfLrWallSlp:gfLivRoom
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
