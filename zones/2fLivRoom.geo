@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,2fLivRoom # tag version, format, zone name
-*date Tue Nov  1 16:29:14 2022  # latest file modification 
+*date Tue Nov  1 18:04:24 2022  # latest file modification 
 2fLivRoom describes the living room and kitchen of 2nd floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,0.00000,4.80000  #   1
@@ -78,10 +78,10 @@
 *surf,Wall-8,VERT,-,WALL,-,ext_door,OPAQUE,EXTERIOR,00,000  #   5 ||< external
 *surf,Top-9,SLOP,-,ROOF,FLAT,ext_roof,OPAQUE,EXTERIOR,00,000  #   6 ||< external
 *surf,Wall-1,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   7 ||< external
-*surf,1fSlp1Ceil,FLOR,-,PARTN,-,NONSYMMETRIC,OPAQUE,ANOTHER,006,004  #   8 ||< 1fSlp1Ceil:1fSleep1
-*surf,1fSlp2Ceil,FLOR,-,PARTN,-,NONSYMMETRIC,OPAQUE,ANOTHER,007,004  #   9 ||< 1fSlp2Ceil:1fSleep2
-*surf,1fSlp3Ceil,FLOR,-,PARTN,-,NONSYMMETRIC,OPAQUE,ANOTHER,008,004  #  10 ||< 1fSlp3Ceil:1fSleep3
-*surf,1fEntCeil,FLOR,-,PARTN,-,NONSYMMETRIC,OPAQUE,ANOTHER,011,002  #  11 ||< 1fEntCeil:1fEntrance
+*surf,1fSlp1Ceil,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,006,004  #   8 ||< 1fSlp1Ceil:1fSleep1
+*surf,1fSlp2Ceil,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,007,004  #   9 ||< 1fSlp2Ceil:1fSleep2
+*surf,1fSlp3Ceil,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,008,004  #  10 ||< 1fSlp3Ceil:1fSleep3
+*surf,1fEntCeil,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,011,002  #  11 ||< 1fEntCeil:1fEntrance
 *surf,2fStrWallKch,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,008  #  12 ||< 2fStrWallKch:stairs
 *surf,strWall2f,VERT,-,PARTN,-,fictious,SC_fictit,ANOTHER,003,004  #  13 ||< strWall2f:stairs
 *surf,2fLrWin1,VERT,Wall-3,C-WINDOW,-,tripglz_1.08,trip_gl_kai,EXTERIOR,00,000  #  14 ||< external

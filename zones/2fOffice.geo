@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,2fOffice # tag version, format, zone name
-*date Tue Nov  1 16:36:47 2022  # latest file modification 
+*date Tue Nov  1 18:05:48 2022  # latest file modification 
 2fOffice describes the office in 2nd floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,5.70000,4.80000  #   1
@@ -36,7 +36,7 @@
 *surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
 *surf,Wall-4,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
 *surf,2fOfcCeil,SLOP,-,ROOF,FLAT,ext_roof,OPAQUE,EXTERIOR,00,000  #   3 ||< external
-*surf,1fBthCeil,FLOR,-,PARTN,-,NONSYMMETRIC,OPAQUE,ANOTHER,009,003  #   4 ||< 1fBthCeil:1fBath
+*surf,1fBthCeil,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,009,003  #   4 ||< 1fBthCeil:1fBath
 *surf,2fStrWallOfc,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,010  #   5 ||< 2fStrWallOfc:stairs
 *surf,2fLrWal1Of,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,012,003  #   6 ||< 2fLrWal1Of:2fLivRoom
 *surf,2fLrWal2Of,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,012,004  #   7 ||< 2fLrWal2Of:2fLivRoom

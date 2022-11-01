@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,1fSleep2 # tag version, format, zone name
-*date Tue Nov  1 15:39:10 2022  # latest file modification 
+*date Tue Nov  1 17:47:00 2022  # latest file modification 
 1fSleep2 describes the biggest sleeping room in first floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,3.60000,0.00000,2.40000  #   1
@@ -30,7 +30,7 @@
 *edges,4,11,12,13,14  #   6
 *edges,4,15,16,17,18  #   7
 *edges,4,4,1,5,8  #   8
-*edges,5,2,1,4,9,3  #   9
+*edges,7,2,1,4,16,15,9,3  #   9
 # 
 # surf attributes:
 #  surf name, surf position VERT/CEIL/FLOR/SLOP/UNKN
@@ -40,12 +40,12 @@
 *surf,Wall-1,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
 *surf,Wall-2,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
 *surf,1fSl2WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,005,005  #   3 ||< 1fSl2WallEnt:1fEntrance
-*surf,1fSlp2Ceil,CEIL,-,PARTN,-,floor_divider,OPAQUE,ANOTHER,12,009  #   4 ||< 1fSlp1Ceil:2fLivRoom
+*surf,1fSlp2Ceil,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,12,009  #   4 ||< 1fSlp2Ceil:2fLivRoom
 *surf,1fSl2Wallsl3,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #   5 ||< 1fSl2Wallsl3:1fSleep3
 *surf,1fSlp2Win,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,trip_gl_kai,EXTERIOR,00,000  #   6 ||< external
 *surf,1fSl2DoorEnt,VERT,1fSl2WallEnt,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,004,004  #   7 ||< 1fSl2DoorEnt:1fEntrance
 *surf,1fSl1WallSl2,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,002,002  #   8 ||< 1fSl1WallSl2:1fSleep1
-*surf,gfLrCeilSlp2,FLOR,-,PARTN,-,NONSYMMETRIC,OPAQUE,ANOTHER,016,016  #   9 ||< gfLrCeilSlp2:gfLivRoom
+*surf,gfLrCeilSlp2,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,016,016  #   9 ||< gfLrCeilSlp2:gfLivRoom
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

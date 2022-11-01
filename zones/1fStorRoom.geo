@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,1fStorRoom # tag version, format, zone name
-*date Tue Nov  1 14:57:30 2022  # latest file modification 
+*date Tue Nov  1 18:00:42 2022  # latest file modification 
 1fStorRoom describes the external storage room
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,-3.30000,5.70000,2.40000  #   1
@@ -29,13 +29,13 @@
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,Wall-1,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,000,000  #   1 ||< external
-*surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,000,000  #   2 ||< external
-*surf,Wall-4,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,000,000  #   3 ||< external
-*surf,Top-5,CEIL,-,ROOF,FLAT,ext_roof,OPAQUE,EXTERIOR,000,000  #   4 ||< external
+*surf,Wall-1,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
+*surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
+*surf,Wall-4,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   3 ||< external
+*surf,Top-5,CEIL,-,ROOF,FLAT,ext_roof,OPAQUE,EXTERIOR,00,000  #   4 ||< external
 *surf,Base-6,FLOR,-,FLOOR,EXTGRND,floor_ground_floor,OPAQUE,GROUND,001,001  #   5 ||< user def grnd profile  1
-*surf,1fBthWallSr,VERT,-,PARTN,-,NONSYMMETRIC,OPAQUE,ANOTHER,002,002  #   6 ||< 1fBthWallSr:1fBath
-*surf,extSrDoor,VERT,Wall-3,DOOR,CLOSED,ext_door,OPAQUE,EXTERIOR,000,000  #   7 ||< external
+*surf,1fBthWallSr,VERT,-,PARTN,-,inv_ext_wall_norway,OPAQUE,ANOTHER,002,002  #   6 ||< 1fBthWallSr:1fBath
+*surf,extSrDoor,VERT,Wall-3,DOOR,CLOSED,ext_door,OPAQUE,EXTERIOR,00,000  #   7 ||< external
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

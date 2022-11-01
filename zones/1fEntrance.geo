@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,1fEntrance # tag version, format, zone name
-*date Tue Nov  1 15:39:10 2022  # latest file modification 
+*date Tue Nov  1 18:11:26 2022  # latest file modification 
 1fEntrance describes the 1st floor entrance
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,1.80000,3.00000,2.40000  #   1
@@ -45,14 +45,14 @@
 *edges,8,16,17,14,2,8,19,18,15  #   5
 *edges,8,7,1,23,22,21,20,18,19  #   6
 *edges,5,24,20,21,22,23  #   7
-*edges,4,6,1,7,12  #   8
-*edges,4,26,25,28,27  #   9
-*edges,8,5,26,27,28,25,6,12,11  #  10
-*edges,4,4,5,11,10  #  11
-*edges,14,13,2,14,15,18,20,24,23,1,6,25,26,5,29  #  12
-*edges,5,13,29,30,31,3  #  13
-*edges,5,29,5,4,32,30  #  14
-*edges,5,31,30,32,33,34  #  15
+*edges,4,26,25,28,27  #   8
+*edges,8,5,26,27,28,25,6,12,11  #   9
+*edges,4,4,5,11,10  #  10
+*edges,14,13,2,14,15,18,20,24,23,1,6,25,26,5,29  #  11
+*edges,5,13,29,30,31,3  #  12
+*edges,5,29,5,4,32,30  #  13
+*edges,5,31,30,32,33,34  #  14
+*edges,4,6,1,7,12  #  15
 # 
 # surf attributes:
 #  surf name, surf position VERT/CEIL/FLOR/SLOP/UNKN
@@ -60,20 +60,20 @@
 #  construction name, optical name
 #  boundary condition tag followed by two data items
 *surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
-*surf,1fEntCeil,CEIL,-,PARTN,-,floor_divider,OPAQUE,ANOTHER,12,011  #   2 ||< 1fSlp3Ceil:2fLivRoom
+*surf,1fEntCeil,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,12,011  #   2 ||< 1fEntCeil:2fLivRoom
 *surf,1fSl3WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,003  #   3 ||< 1fSl3WallEnt:1fSleep3
 *surf,1fSl2DoorEnt,VERT,1fSl2WallEnt,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,007,007  #   4 ||< 1fSl2DoorEnt:1fSleep2
 *surf,1fSl2WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,003  #   5 ||< 1fSl2WallEnt:1fSleep2
 *surf,1fSl1WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,009,009  #   6 ||< 1fSl1WallEnt:1fSleep1
 *surf,1fSl1DoorEnt,VERT,-,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,010,010  #   7 ||< 1fSl1DoorEnt:1fSleep1
-*surf,strWall1f,VERT,-,PARTN,-,fictious,SC_fictit,ANOTHER,003,003  #   8 ||< strWall1f:stairs
-*surf,1fBthDoorEnt,VERT,1fEntWal2Bth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,004,004  #   9 ||< 1fBthDoorEnt:1fBath
-*surf,1fEntWal2Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,005,005  #  10 ||< 1fEntWal2Bth:1fBath
-*surf,1fEntWal1Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #  11 ||< 1fEntWal1Bth:1fBath
-*surf,gfLrCeil,FLOR,-,PARTN,-,NONSYMMETRIC,OPAQUE,ANOTHER,005,005  #  12 ||< gfLrCeil:gfLivRoom
-*surf,gfBthCeilEnt,FLOR,-,PARTN,-,NONSYMMETRIC,OPAQUE,ANOTHER,003,003  #  13 ||< gfBthCeilEnt:gfBath
-*surf,gfSrCeilEnt,FLOR,-,PARTN,-,NONSYMMETRIC,OPAQUE,ANOTHER,009,009  #  14 ||< gfSrCeilEnt:gfStorRoom
-*surf,1fEntDoor,VERT,Wall-3,DOOR,CLOSED,ext_door,OPAQUE,EXTERIOR,00,000  #  15 ||< external
+*surf,1fBthDoorEnt,VERT,1fEntWal2Bth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,004,004  #   8 ||< 1fBthDoorEnt:1fBath
+*surf,1fEntWal2Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,005,005  #   9 ||< 1fEntWal2Bth:1fBath
+*surf,1fEntWal1Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #  10 ||< 1fEntWal1Bth:1fBath
+*surf,gfLrCeil,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,005,005  #  11 ||< gfLrCeil:gfLivRoom
+*surf,gfBthCeilEnt,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,003,003  #  12 ||< gfBthCeilEnt:gfBath
+*surf,gfSrCeilEnt,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,009,009  #  13 ||< gfSrCeilEnt:gfStorRoom
+*surf,1fEntDoor,VERT,Wall-3,DOOR,CLOSED,ext_door,OPAQUE,EXTERIOR,00,000  #  14 ||< external
+*surf,strWall1f,VERT,-,PARTN,-,fictious,SC_fictit,ANOTHER,003,003  #  15 ||< strWall1f:stairs
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
