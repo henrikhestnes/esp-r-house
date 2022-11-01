@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,1fEntrance # tag version, format, zone name
-*date Tue Nov  1 14:58:04 2022  # latest file modification 
+*date Tue Nov  1 15:39:10 2022  # latest file modification 
 1fEntrance describes the 1st floor entrance
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,1.80000,3.00000,2.40000  #   1
@@ -59,8 +59,8 @@
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,000,000  #   1 ||< external
-*surf,1fEntCeil,CEIL,-,PARTN,-,floor_divider,OPAQUE,UNKNOWN,000,000  #   2 ||< not yet defined
+*surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
+*surf,1fEntCeil,CEIL,-,PARTN,-,floor_divider,OPAQUE,ANOTHER,12,011  #   2 ||< 1fSlp3Ceil:2fLivRoom
 *surf,1fSl3WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,003  #   3 ||< 1fSl3WallEnt:1fSleep3
 *surf,1fSl2DoorEnt,VERT,1fSl2WallEnt,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,007,007  #   4 ||< 1fSl2DoorEnt:1fSleep2
 *surf,1fSl2WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,003  #   5 ||< 1fSl2WallEnt:1fSleep2
@@ -73,7 +73,7 @@
 *surf,gfLrCeil,FLOR,-,PARTN,-,NONSYMMETRIC,OPAQUE,ANOTHER,005,005  #  12 ||< gfLrCeil:gfLivRoom
 *surf,gfBthCeilEnt,FLOR,-,PARTN,-,NONSYMMETRIC,OPAQUE,ANOTHER,003,003  #  13 ||< gfBthCeilEnt:gfBath
 *surf,gfSrCeilEnt,FLOR,-,PARTN,-,NONSYMMETRIC,OPAQUE,ANOTHER,009,009  #  14 ||< gfSrCeilEnt:gfStorRoom
-*surf,1fEntDoor,VERT,Wall-3,DOOR,CLOSED,ext_door,OPAQUE,EXTERIOR,000,000  #  15 ||< external
+*surf,1fEntDoor,VERT,Wall-3,DOOR,CLOSED,ext_door,OPAQUE,EXTERIOR,00,000  #  15 ||< external
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

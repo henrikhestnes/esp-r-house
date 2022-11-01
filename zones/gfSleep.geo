@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,gfSleep # tag version, format, zone name
-*date Tue Nov  1 14:53:29 2022  # latest file modification 
+*date Tue Nov  1 16:35:01 2022  # latest file modification 
 gfSleep describes the Ground Floor sleeping room
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,0.00000,0.00000  #   1
@@ -40,7 +40,7 @@ gfSleep describes the Ground Floor sleeping room
 *surf,Wall-1,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,000,000  #   1 ||< external
 *surf,Wall-4,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,000,000  #   2 ||< external
 *surf,gfSlpCeil,CEIL,-,PARTN,-,floor_divider,OPAQUE,ANOTHER,005,005  #   3 ||< gfSlpCeil:1fSleep1
-*surf,gfSlpFlr,FLOR,-,FLOOR,EXTGRND,floor_ground_floor,OPAQUE,GROUND,000,001  #   4 ||< ground profile  1
+*surf,gfSlpFlr,FLOR,-,FLOOR,EXTGRND,floor_ground_floor,OPAQUE,GROUND,001,001  #   4 ||< ground profile  1
 *surf,gfSlpWin,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,trip_gl_kai,EXTERIOR,000,000  #   5 ||< external
 *surf,gfSlpDoorLr,VERT,gfLrWallSlp,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,010,010  #   6 ||< gfSlpDoorLr:gfLivRoom
 *surf,gfLrWallSlp2,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,003  #   7 ||< gfLrWall2Slp:gfLivRoom
