@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,1fBath # tag version, format, zone name
-*date Mon Oct 31 19:28:05 2022  # latest file modification 
+*date Tue Nov  1 14:14:23 2022  # latest file modification 
 1fBath describes the bath in 1floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,5.70000,2.40000  #   1
@@ -27,8 +27,8 @@
 *edges,8,9,2,6,14,13,10,11,12  #   5
 *edges,4,2,3,7,6  #   6
 *edges,4,1,13,14,5  #   7
-*edges,8,13,1,15,4,3,2,9,10  #   8
-*edges,4,15,16,8,4  #   9
+*edges,4,15,16,8,4  #   8
+*edges,8,13,1,15,4,3,2,9,10  #   9
 # 
 # surf attributes:
 #  surf name, surf position VERT/CEIL/FLOR/SLOP/UNKN
@@ -36,14 +36,14 @@
 #  construction name, optical name
 #  boundary condition tag followed by two data items
 *surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
-*surf,1fBthWallSr,VERT,-,-,-,ext_wall_norway,OPAQUE,ANOTHER,011,006  #   2 ||< 1fBthWallSr:1fStorRoom
+*surf,1fBthWallSr,VERT,-,PARTN,-,ext_wall_norway,OPAQUE,ANOTHER,011,006  #   2 ||< 1fBthWallSr:1fStorRoom
 *surf,1fBthCeil,CEIL,-,PARTN,-,floor_divider,OPAQUE,UNKNOWN,00,000  #   3 ||< not yet defined
-*surf,1fBthDoorEnt,VERT,1fEntWal2Bth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,09,013  #   4 ||< 1fEntDoor:1fEntrance
-*surf,1fEntWal2Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,009,003  #   5 ||< 1fEntWal2Bth:1fEntrance
-*surf,1fEntWal1Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,009,002  #   6 ||< 1fEntWal1Bth:1fEntrance
+*surf,1fBthDoorEnt,VERT,1fEntWal2Bth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,11,009  #   4 ||< strWall1f:1fEntrance
+*surf,1fEntWal2Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,11,010  #   5 ||< 1fBthDoorEnt:1fEntrance
+*surf,1fEntWal1Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,11,011  #   6 ||< 1fEntWal2Bth:1fEntrance
 *surf,1fStrWallBth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,009  #   7 ||< 1fStrWallBth:stairs
-*surf,gfSrCeilBth,FLOR,-,PARTN,-,NONSYMMETRIC,OPAQUE,ANOTHER,005,003  #   8 ||< gfSrCeilBth:gfStorRoom
-*surf,Wall-9,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   9 ||< external
+*surf,Wall-9,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   8 ||< external
+*surf,gfSrCeilBth,FLOR,-,PARTN,-,NONSYMMETRIC,OPAQUE,ANOTHER,005,003  #   9 ||< gfSrCeilBth:gfStorRoom
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

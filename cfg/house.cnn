@@ -1,117 +1,131 @@
 *connections for house
-*Date Tue Nov  1 11:03:06 2022
-    114  # number of connections
-   8   6   3   2  17  #    1 gfBthCeilSlp in 1fSleep3 >|< gfLrCeilSlp3 in gfLivRoom
+*Date Tue Nov  1 14:45:56 2022
+    128  # number of connections
+   8   6   0   0   0  #    1 1fSl2Wallsl3 in 1fSleep3 is External
    1   1   0   0   0  #    2 Wall-1 in gfSleep is External
-   1   2   3   6   5  #    3 Wall-4 in gfSleep >|< gfSlpCeil in 1fSleep1
-   1   3   4   0   1  #    4 gfSlpCeil in gfSleep >|< user def ground profile 1
-   1   4   0   0   0  #    5 gfSlpFlr in gfSleep is External
-   1   5   3   2  10  #    6 gfSlpWin in gfSleep >|< gfSlpDoorLr in gfLivRoom
-   1   6   3   2   3  #    7 gfSlpDoorLr in gfSleep >|< gfLrWall2Slp in gfLivRoom
-   1   7   3   3   6  #    8 gfLrWallSlp2 in gfSleep >|< gfStrWallSlp in stairs
-   1   8   3   2   4  #    9 gfStrWallSlp in gfSleep >|< gfLrWallSlp in gfLivRoom
-   1   9   0   0   0  #   10 gfLrWallSlp in gfSleep is External
+   1   2   4   0   1  #    3 Wall-4 in gfSleep >|< user def ground profile 1
+   1   3   3   6   5  #    4 gfSlpCeil in gfSleep >|< gfSlpCeil in 1fSleep1
+   1   4   4   0   1  #    5 gfSlpFlr in gfSleep >|< user def ground profile 1
+   1   5   0   0   0  #    6 gfSlpWin in gfSleep is External
+   1   6   3   2  10  #    7 gfSlpDoorLr in gfSleep >|< gfSlpDoorLr in gfLivRoom
+   1   7   3   2   3  #    8 gfLrWallSlp2 in gfSleep >|< gfLrWall2Slp in gfLivRoom
+   1   8   3   3   6  #    9 gfStrWallSlp in gfSleep >|< gfStrWallSlp in stairs
+   1   9   3   2   4  #   10 gfLrWallSlp in gfSleep >|< gfLrWallSlp in gfLivRoom
    2   1   0   0   0  #   11 Wall-1 in gfLivRoom is External
-   2   2   3   1   7  #   12 Wall-2 in gfLivRoom >|< gfLrWallSlp2 in gfSleep
-   2   3   3   1   9  #   13 gfLrWall2Slp in gfLivRoom >|< gfLrWallSlp in gfSleep
-   2   4   3   9   9  #   14 gfLrWallSlp in gfLivRoom >|< gfLrCeil in 1fEntrance
-   2   5   4   0   1  #   15 gfLrCeil in gfLivRoom >|< user def ground profile 1
-   2   6   3   3  11  #   16 gfLrFlr in gfLivRoom >|< gfLrWallStr in stairs
-   2   7   3   4   6  #   17 gfLrWallStr in gfLivRoom >|< gfLrWallBth in gfBath
-   2   8   3   5   6  #   18 gfLrWallBth in gfLivRoom >|< gfLrWallSr in gfStorRoom
-   2   9   3   1   6  #   19 gfLrWallSr in gfLivRoom >|< gfSlpDoorLr in gfSleep
-   2  10   0   0   0  #   20 gfSlpDoorLr in gfLivRoom is External
+   2   2   0   0   0  #   12 Wall-2 in gfLivRoom is External
+   2   3   3   1   7  #   13 gfLrWall2Slp in gfLivRoom >|< gfLrWallSlp2 in gfSleep
+   2   4   3   1   9  #   14 gfLrWallSlp in gfLivRoom >|< gfLrWallSlp in gfSleep
+   2   5   3  11  12  #   15 gfLrCeil in gfLivRoom >|< gfLrCeil in 1fEntrance
+   2   6   4   0   1  #   16 gfLrFlr in gfLivRoom >|< user def ground profile 1
+   2   7   3   3  11  #   17 gfLrWallStr in gfLivRoom >|< gfLrWallStr in stairs
+   2   8   3   4   6  #   18 gfLrWallBth in gfLivRoom >|< gfLrWallBth in gfBath
+   2   9   3   5   6  #   19 gfLrWallSr in gfLivRoom >|< gfLrWallSr in gfStorRoom
+   2  10   3   1   6  #   20 gfSlpDoorLr in gfLivRoom >|< gfSlpDoorLr in gfSleep
    2  11   0   0   0  #   21 gfLrWin in gfLivRoom is External
-   2  12   3   4   5  #   22 gfLrDoorExt in gfLivRoom >|< gfLrDoorBth in gfBath
-   2  13   3   5   5  #   23 gfLrDoorBth in gfLivRoom >|< gfLrDoorSr in gfStorRoom
-   2  14   3   6   7  #   24 gfLrDoorSr in gfLivRoom >|< gfLrCeilSlp in 1fSleep1
-   2  15   3   7   9  #   25 gfLrCeilSlp in gfLivRoom >|< gfLrCeilSlp2 in 1fSleep2
-   2  16  -1   0   0  #   26 gfLrCeilSlp2 in gfLivRoom not yet defined
+   2  12   0   0   0  #   22 gfLrDoorExt in gfLivRoom is External
+   2  13   3   4   5  #   23 gfLrDoorBth in gfLivRoom >|< gfLrDoorBth in gfBath
+   2  14   3   5   5  #   24 gfLrDoorSr in gfLivRoom >|< gfLrDoorSr in gfStorRoom
+   2  15   3   6   7  #   25 gfLrCeilSlp in gfLivRoom >|< gfLrCeilSlp in 1fSleep1
+   2  16   3   7   9  #   26 gfLrCeilSlp2 in gfLivRoom >|< gfLrCeilSlp2 in 1fSleep2
    2  17   3   8   5  #   27 gfLrCeilSlp3 in gfLivRoom >|< gfLrCeilSlp3 in 1fSleep3
-   3   1   4   0   1  #   28 strWallExt in stairs >|< user def ground profile 1
-   3   2   3   9   8  #   29 strFloor in stairs >|< strWall1f in 1fEntrance
-   3   3  -1   0   0  #   30 strWall1f in stairs not yet defined
-   3   4   0   0   0  #   31 strWall2f in stairs is External
-   3   5   3   1   8  #   32 strCeil in stairs >|< gfStrWallSlp in gfSleep
-   3   6   3   6   6  #   33 gfStrWallSlp in stairs >|< 1fStrWallSlp in 1fSleep1
-   3   7  -1   0   0  #   34 1fStrWallSlp in stairs not yet defined
-   3   8   3  10   7  #   35 2fStrWallKch in stairs >|< 1fStrWallBth in 1fBath
-   3   9  -1   0   0  #   36 1fStrWallBth in stairs not yet defined
-   3  10   3   2   7  #   37 2fStrWallOfc in stairs >|< gfLrWallStr in gfLivRoom
-   3  11   3   5   7  #   38 gfLrWallStr in stairs >|< gfStrWallSr in gfStorRoom
-   3  12   0   0   0  #   39 gfStrWallSr in stairs is External
-   4   1   0   0   0  #   40 Wall-2 in gfBath is External
-   4   2   3   9  10  #   41 Wall-3 in gfBath >|< gfBthCeilEnt in 1fEntrance
-   4   3   4   0   1  #   42 gfBthCeilEnt in gfBath >|< user def ground profile 1
-   4   4   3   2  13  #   43 gfBthFlr in gfBath >|< gfLrDoorBth in gfLivRoom
-   4   5   3   2   8  #   44 gfLrDoorBth in gfBath >|< gfLrWallBth in gfLivRoom
-   4   6   3   5   8  #   45 gfLrWallBth in gfBath >|< gfBthWallSr in gfStorRoom
-   4   7  -1   0   0  #   46 gfBthWallSr in gfBath not yet defined
-   4   8   3   8   6  #   47 gfBthCeilSlp in gfBath >|< gfBthCeilSlp in 1fSleep3
+   3   1  -1   0   0  #   28 strWallExt in stairs not yet defined
+   3   2   4   0   1  #   29 strFloor in stairs >|< user def ground profile 1
+   3   3   3  11   8  #   30 strWall1f in stairs >|< strWall1f in 1fEntrance
+   3   4  -1   0   0  #   31 strWall2f in stairs not yet defined
+   3   5   0   0   0  #   32 strCeil in stairs is External
+   3   6   3   1   8  #   33 gfStrWallSlp in stairs >|< gfStrWallSlp in gfSleep
+   3   7   3   6   6  #   34 1fStrWallSlp in stairs >|< 1fStrWallSlp in 1fSleep1
+   3   8  -1   0   0  #   35 2fStrWallKch in stairs not yet defined
+   3   9   3   9   7  #   36 1fStrWallBth in stairs >|< 1fStrWallBth in 1fBath
+   3  10   3   5   7  #   37 2fStrWallOfc in stairs >|< gfStrWallSr in gfStorRoom
+   3  11   3   2   7  #   38 gfLrWallStr in stairs >|< gfLrWallStr in gfLivRoom
+   3  12   3   5   7  #   39 gfStrWallSr in stairs >|< gfStrWallSr in gfStorRoom
+   4   1  -1   0   0  #   40 Wall-2 in gfBath not yet defined
+   4   2   0   0   0  #   41 Wall-3 in gfBath is External
+   4   3   3  11  13  #   42 gfBthCeilEnt in gfBath >|< gfBthCeilEnt in 1fEntrance
+   4   4   4   0   1  #   43 gfBthFlr in gfBath >|< user def ground profile 1
+   4   5   3   2  13  #   44 gfLrDoorBth in gfBath >|< gfLrDoorBth in gfLivRoom
+   4   6   3   2   8  #   45 gfLrWallBth in gfBath >|< gfLrWallBth in gfLivRoom
+   4   7   3   5   8  #   46 gfBthWallSr in gfBath >|< gfBthWallSr in gfStorRoom
+   4   8   3   8   8  #   47 gfBthCeilSl3 in gfBath >|< gfBthCeilSl3 in 1fSleep3
    5   1   0   0   0  #   48 Wall-3 in gfStorRoom is External
-   5   2   3  10   8  #   49 Wall-4 in gfStorRoom >|< gfSrCeilBth in 1fBath
-   5   3   4   0   1  #   50 gfSrCeilBth in gfStorRoom >|< user def ground profile 1
-   5   4   3   2  14  #   51 gfSrFlr in gfStorRoom >|< gfLrDoorSr in gfLivRoom
-   5   5   3   2   9  #   52 gfLrDoorSr in gfStorRoom >|< gfLrWallSr in gfLivRoom
-   5   6   3   3  12  #   53 gfLrWallSr in gfStorRoom >|< gfStrWallSr in stairs
-   5   7   3   4   7  #   54 gfStrWallSr in gfStorRoom >|< gfBthWallSr in gfBath
-   5   8   3   9  11  #   55 gfBthWallSr in gfStorRoom >|< gfSrCeilEnt in 1fEntrance
-   5   9   0   0   0  #   56 gfSrCeilEnt in gfStorRoom is External
-   6   1   3   7   8  #   57 wall-1 in 1fSleep1 >|< 1fSl1WallSl2 in 1fSleep2
-   6   2   0   0   0  #   58 1fSl1WallSl2 in 1fSleep1 is External
-   6   3  -1   0   0  #   59 Wall-4 in 1fSleep1 not yet defined
-   6   4   3   1   3  #   60 1fSlpCeil in 1fSleep1 >|< gfSlpCeil in gfSleep
-   6   5   3   3   7  #   61 gfSlpCeil in 1fSleep1 >|< 1fStrWallSlp in stairs
-   6   6   3   2  15  #   62 1fStrWallSlp in 1fSleep1 >|< gfLrCeilSlp in gfLivRoom
-   6   7   0   0   0  #   63 gfLrCeilSlp in 1fSleep1 is External
-   6   8  -1   0   0  #   64 1fSlpWin in 1fSleep1 not yet defined
-   6   9   3   9  14  #   65 1fSl1WallEnt in 1fSleep1 >|< 1fSl1WallEnt in 1fEntrance
-   6   9   3   9  15  #   66 1fSl1WallEnt in 1fSleep1 >|< 1fSl1DoorEnt in 1fEntrance
-   6  10   0   0   0  #   67 1fSl1DoorEnt in 1fSleep1 is External
+   5   2   4   0   1  #   49 Wall-4 in gfStorRoom >|< user def ground profile 1
+   5   3   3   9   9  #   50 gfSrCeilBth in gfStorRoom >|< gfSrCeilBth in 1fBath
+   5   4   4   0   1  #   51 gfSrFlr in gfStorRoom >|< user def ground profile 1
+   5   5   3   2  14  #   52 gfLrDoorSr in gfStorRoom >|< gfLrDoorSr in gfLivRoom
+   5   6   3   2   9  #   53 gfLrWallSr in gfStorRoom >|< gfLrWallSr in gfLivRoom
+   5   7   3   3  12  #   54 gfStrWallSr in gfStorRoom >|< gfStrWallSr in stairs
+   5   8   3   4   7  #   55 gfBthWallSr in gfStorRoom >|< gfBthWallSr in gfBath
+   5   9   3  11  14  #   56 gfSrCeilEnt in gfStorRoom >|< gfSrCeilEnt in 1fEntrance
+   6   1   0   0   0  #   57 wall-1 in 1fSleep1 is External
+   6   2   3   7   8  #   58 1fSl1WallSl2 in 1fSleep1 >|< 1fSl1WallSl2 in 1fSleep2
+   6   3   0   0   0  #   59 Wall-4 in 1fSleep1 is External
+   6   4  -1   0   0  #   60 1fSlp1Ceil in 1fSleep1 not yet defined
+   6   5   3   1   3  #   61 gfSlpCeil in 1fSleep1 >|< gfSlpCeil in gfSleep
+   6   6   3   3   7  #   62 1fStrWallSlp in 1fSleep1 >|< 1fStrWallSlp in stairs
+   6   7   3   2  15  #   63 gfLrCeilSlp in 1fSleep1 >|< gfLrCeilSlp in gfLivRoom
+   6   8   0   0   0  #   64 1fSlpWin in 1fSleep1 is External
+   6   9  -1   0   0  #   65 1fSl1WallEnt in 1fSleep1 not yet defined
+   6   9   3  11   6  #   66 1fSl1WallEnt in 1fSleep1 >|< 1fSl1WallEnt in 1fEntrance
+   6  10   3  11   7  #   67 1fSl1DoorEnt in 1fSleep1 >|< 1fSl1DoorEnt in 1fEntrance
    7   1   0   0   0  #   68 Wall-1 in 1fSleep2 is External
-   7   2   3   9   5  #   69 Wall-2 in 1fSleep2 >|< 1fSl2WallEnt in 1fEntrance
-   7   3  -1   0   0  #   70 1fSl2WallEnt in 1fSleep2 not yet defined
+   7   2   0   0   0  #   69 Wall-2 in 1fSleep2 is External
+   7   3   3  11   5  #   70 1fSl2WallEnt in 1fSleep2 >|< 1fSl2WallEnt in 1fEntrance
    7   4  -1   0   0  #   71 1fSlp2Ceil in 1fSleep2 not yet defined
-   7   5   3   8   7  #   72 1fSl2Wallsl3 in 1fSleep2 >|< 1fSl2Wallsl3 in 1fSleep3
-   7   6   3   9   6  #   73 1fSlp2Win in 1fSleep2 >|< 1fSl2DoorEnt in 1fEntrance
-   7   7   3   6   2  #   74 1fSl2DoorEnt in 1fSleep2 >|< 1fSl1WallSl2 in 1fSleep1
-   7   8   3   2  16  #   75 1fSl1WallSl2 in 1fSleep2 >|< gfLrCeilSlp2 in gfLivRoom
-   7   9   0   0   0  #   76 gfLrCeilSlp2 in 1fSleep2 is External
+   7   5   3   8   6  #   72 1fSl2Wallsl3 in 1fSleep2 >|< 1fSl2Wallsl3 in 1fSleep3
+   7   6   0   0   0  #   73 1fSlp2Win in 1fSleep2 is External
+   7   7   3  11   4  #   74 1fSl2DoorEnt in 1fSleep2 >|< 1fSl2DoorEnt in 1fEntrance
+   7   8   3   6   2  #   75 1fSl1WallSl2 in 1fSleep2 >|< 1fSl1WallSl2 in 1fSleep1
+   7   9   3   2  16  #   76 gfLrCeilSlp2 in 1fSleep2 >|< gfLrCeilSlp2 in gfLivRoom
    8   1   0   0   0  #   77 Wall-2 in 1fSleep3 is External
-   8   2   0   0   0  #   78 Wall-3 in 1fSleep3 is External
-   8   3   3   9   7  #   79 1fSl3WallEnt in 1fSleep3 >|< 1fSl3WallEnt in 1fEntrance
+   8   2  -1   0   0  #   78 Wall-3 in 1fSleep3 not yet defined
+   8   3   3  11   3  #   79 1fSl3WallEnt in 1fSleep3 >|< 1fSl3WallEnt in 1fEntrance
    8   4  -1   0   0  #   80 1fSlp3Ceil in 1fSleep3 not yet defined
    8   5   3   2  17  #   81 gfLrCeilSlp3 in 1fSleep3 >|< gfLrCeilSlp3 in gfLivRoom
-   8   6   3   4   8  #   82 gfBthCeilSlp in 1fSleep3 >|< gfBthCeilSlp in gfBath
-   8   7   3   7   5  #   83 1fSl2Wallsl3 in 1fSleep3 >|< 1fSl2Wallsl3 in 1fSleep2
-   8   8   0   0   0  #   84 1fSlp3Win in 1fSleep3 is External
-   9   2   3  10   6  #   85 1fEntWal1Bth in 1fEntrance >|< 1fEntWal1Bth in 1fBath
-   9   3   3  10   5  #   86 1fEntWal2Bth in 1fEntrance >|< 1fEntWal2Bth in 1fBath
-   9   4  -1   0   0  #   87 1fEntCeil in 1fEntrance not yet defined
-   9   5   3   7   3  #   88 1fSl2WallEnt in 1fEntrance >|< 1fSl2WallEnt in 1fSleep2
-   9   6   3   7   7  #   89 1fSl2DoorEnt in 1fEntrance >|< 1fSl2DoorEnt in 1fSleep2
-   9   7   3   8   3  #   90 1fSl3WallEnt in 1fEntrance >|< 1fSl3WallEnt in 1fSleep3
-   9   8   3   3   3  #   91 strWall1f in 1fEntrance >|< strWall1f in stairs
-   9   9   3   2   5  #   92 gfLrCeil in 1fEntrance >|< gfLrCeil in gfLivRoom
-   9  10   3   4   3  #   93 gfBthCeilEnt in 1fEntrance >|< gfBthCeilEnt in gfBath
-   9  11   3   5   9  #   94 gfSrCeilEnt in 1fEntrance >|< gfSrCeilEnt in gfStorRoom
-   9  12   0   0   0  #   95 1fEntDoor in 1fEntrance is External
-   9  13   3  10   4  #   96 1fBthDoorEnt in 1fEntrance >|< 1fBthDoorEnt in 1fBath
-   9  14   3   6   9  #   97 1fSl1WallEnt in 1fEntrance >|< 1fSl1WallEnt in 1fSleep1
-   9  15   3   6  10  #   98 1fSl1DoorEnt in 1fEntrance >|< 1fSl1DoorEnt in 1fSleep1
-  10   1   0   0   0  #   99 Wall-3 in 1fBath is External
-  10   2   3  11   6  #  100 1fBthWallSr in 1fBath >|< 1fBthWallSr in 1fStorRoom
-  10   3  -1   0   0  #  101 1fBthCeil in 1fBath not yet defined
-  10   4   3   9  13  #  102 1fBthDoorEnt in 1fBath >|< 1fBthDoorEnt in 1fEntrance
-  10   5   3   9   3  #  103 1fEntWal2Bth in 1fBath >|< 1fEntWal2Bth in 1fEntrance
-  10   6   3   9   2  #  104 1fEntWal1Bth in 1fBath >|< 1fEntWal1Bth in 1fEntrance
-  10   7   3   3   9  #  105 1fStrWallBth in 1fBath >|< 1fStrWallBth in stairs
-  10   8   3   5   3  #  106 gfSrCeilBth in 1fBath >|< gfSrCeilBth in gfStorRoom
-  10   9   0   0   0  #  107 Wall-9 in 1fBath is External
-  11   1   0   0   0  #  108 Wall-1 in 1fStorRoom is External
-  11   2   0   0   0  #  109 Wall-3 in 1fStorRoom is External
-  11   3   0   0   0  #  110 Wall-4 in 1fStorRoom is External
-  11   4   0   0   0  #  111 Top-5 in 1fStorRoom is External
-  11   5   4   0   1  #  112 Base-6 in 1fStorRoom >|< user def ground profile 1
-  11   6   3  10   2  #  113 1fBthWallSr in 1fStorRoom >|< 1fBthWallSr in 1fBath
-  11   7   0   0   0  #  114 extSrDoor in 1fStorRoom is External
+   8   6   3   7   5  #   82 1fSl2Wallsl3 in 1fSleep3 >|< 1fSl2Wallsl3 in 1fSleep2
+   8   7   0   0   0  #   83 1fSlp3Win in 1fSleep3 is External
+   8   8   3   4   8  #   84 gfBthCeilSl3 in 1fSleep3 >|< gfBthCeilSl3 in gfBath
+   9   2   3   9   5  #   85 1fBthWallSr in 1fBath >|< 1fEntWal2Bth in 1fBath
+   9   3  -1   0   0  #   86 1fBthCeil in 1fBath not yet defined
+   9   4   3   7   3  #   87 1fBthDoorEnt in 1fBath >|< 1fSl2WallEnt in 1fSleep2
+   9   5   3   7   7  #   88 1fEntWal2Bth in 1fBath >|< 1fSl2DoorEnt in 1fSleep2
+   9   6   3   8   3  #   89 1fEntWal1Bth in 1fBath >|< 1fSl3WallEnt in 1fSleep3
+   9   7   3   3   3  #   90 1fStrWallBth in 1fBath >|< strWall1f in stairs
+   9   8   3   2   5  #   91 Wall-9 in 1fBath >|< gfLrCeil in gfLivRoom
+   9   9   3   4   3  #   92 gfSrCeilBth in 1fBath >|< gfBthCeilEnt in gfBath
+   9  10   3   5   9  #   93 gfBthCeilEnt in 1fBath >|< gfSrCeilEnt in gfStorRoom
+   9  11   0   0   0  #   94 gfSrCeilEnt in 1fBath is External
+   9  12   3   9   4  #   95 1fEntDoor in 1fBath >|< 1fBthDoorEnt in 1fBath
+   9  13   3   6   9  #   96 1fBthDoorEnt in 1fBath >|< 1fSl1WallEnt in 1fSleep1
+   9  14   3   6  10  #   97 1fSl1WallEnt in 1fBath >|< 1fSl1DoorEnt in 1fSleep1
+   9   1   0   0   0  #   98 Wall-3 in 1fBath is External
+   9   2   3  10   6  #   99 1fBthWallSr in 1fBath >|< 1fBthWallSr in 1fStorRoom
+   9   3  -1   0   0  #  100 1fBthCeil in 1fBath not yet defined
+   9   4   3  11   9  #  101 1fBthDoorEnt in 1fBath >|< 1fBthDoorEnt in 1fEntrance
+   9   5   3  11  10  #  102 1fEntWal2Bth in 1fBath >|< 1fEntWal2Bth in 1fEntrance
+   9   6   3  11  11  #  103 1fEntWal1Bth in 1fBath >|< 1fEntWal1Bth in 1fEntrance
+   9   7   3   3   9  #  104 1fStrWallBth in 1fBath >|< 1fStrWallBth in stairs
+   9   8   0   0   0  #  105 Wall-9 in 1fBath is External
+   9   9   3   5   3  #  106 gfSrCeilBth in 1fBath >|< gfSrCeilBth in gfStorRoom
+  10   1   0   0   0  #  107 Wall-1 in 1fStorRoom is External
+  10   2   0   0   0  #  108 Wall-3 in 1fStorRoom is External
+  10   3   0   0   0  #  109 Wall-4 in 1fStorRoom is External
+  10   4   0   0   0  #  110 Top-5 in 1fStorRoom is External
+  10   5   4   0   1  #  111 Base-6 in 1fStorRoom >|< user def ground profile 1
+  10   6   3   9   2  #  112 1fBthWallSr in 1fStorRoom >|< 1fBthWallSr in 1fBath
+  10   7   0   0   0  #  113 extSrDoor in 1fStorRoom is External
+  11   1   0   0   0  #  114 Wall-3 in 1fEntrance is External
+  11   2  -1   0   0  #  115 1fEntCeil in 1fEntrance not yet defined
+  11   3   3   8   3  #  116 1fSl3WallEnt in 1fEntrance >|< 1fSl3WallEnt in 1fSleep3
+  11   4   3   7   7  #  117 1fSl2DoorEnt in 1fEntrance >|< 1fSl2DoorEnt in 1fSleep2
+  11   5   3   7   3  #  118 1fSl2WallEnt in 1fEntrance >|< 1fSl2WallEnt in 1fSleep2
+  11   6   3   6   9  #  119 1fSl1WallEnt in 1fEntrance >|< 1fSl1WallEnt in 1fSleep1
+  11   7   3   6  10  #  120 1fSl1DoorEnt in 1fEntrance >|< 1fSl1DoorEnt in 1fSleep1
+  11   8   3   3   3  #  121 strWall1f in 1fEntrance >|< strWall1f in stairs
+  11   9   3   9   4  #  122 1fBthDoorEnt in 1fEntrance >|< 1fBthDoorEnt in 1fBath
+  11  10   3   9   5  #  123 1fEntWal2Bth in 1fEntrance >|< 1fEntWal2Bth in 1fBath
+  11  11   3   9   6  #  124 1fEntWal1Bth in 1fEntrance >|< 1fEntWal1Bth in 1fBath
+  11  12   3   2   5  #  125 gfLrCeil in 1fEntrance >|< gfLrCeil in gfLivRoom
+  11  13   3   4   3  #  126 gfBthCeilEnt in 1fEntrance >|< gfBthCeilEnt in gfBath
+  11  14   3   5   9  #  127 gfSrCeilEnt in 1fEntrance >|< gfSrCeilEnt in gfStorRoom
+  11  15   0   0   0  #  128 1fEntDoor in 1fEntrance is External

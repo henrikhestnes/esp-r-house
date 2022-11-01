@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,stairs # tag version, format, zone name
-*date Mon Oct 31 19:29:40 2022  # latest file modification 
+*date Tue Nov  1 14:17:52 2022  # latest file modification 
 Stairs describes all the stairs in the house, as an open hole
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,3.00000,0.00000  #   1
@@ -38,18 +38,18 @@ Stairs describes all the stairs in the house, as an open hole
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,strWallExt,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
-*surf,strFloor,FLOR,-,FLOOR,EXTGRND,floor_ground_floor,OPAQUE,GROUND,001,001  #   2 ||< user def grnd profile  1
-*surf,strWall1f,VERT,-,PARTN,-,fictious,SC_fictit,ANOTHER,09,008  #   3 ||< strWall1f:1fEntrance
+*surf,strWallExt,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< not yet defined
+*surf,strFloor,FLOR,-,FLOOR,EXTGRND,floor_ground_floor,OPAQUE,GROUND,0,001  #   2 ||< user def grnd profile  1
+*surf,strWall1f,VERT,-,PARTN,-,fictious,SC_fictit,ANOTHER,11,008  #   3 ||< strWall1f:1fEntrance
 *surf,strWall2f,VERT,-,PARTN,-,fictious,SC_fictit,UNKNOWN,00,000  #   4 ||< not yet defined
 *surf,strCeil,SLOP,-,ROOF,FLAT,ext_roof,OPAQUE,EXTERIOR,00,000  #   5 ||< external
-*surf,gfStrWallSlp,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,008,008  #   6 ||< gfStrWallSlp:gfSleep
-*surf,1fStrWallSlp,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,06,006  #   7 ||< gfSlpCeil:1fSleep1
+*surf,gfStrWallSlp,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,001,008  #   6 ||< gfStrWallSlp:gfSleep
+*surf,1fStrWallSlp,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #   7 ||< 1fStrWallSlp:1fSleep1
 *surf,2fStrWallKch,VERT,-,PARTN,-,int_wall,OPAQUE,UNKNOWN,00,000  #   8 ||< not yet defined
-*surf,1fStrWallBth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,10,007  #   9 ||< 1fStrWallBth:1fBath
-*surf,2fStrWallOfc,VERT,-,PARTN,-,int_wall,OPAQUE,UNKNOWN,00,000  #  10 ||< not yet defined
-*surf,gfLrWallStr,VERT,-,FICT,OPEN,fictious,OPAQUE,ANOTHER,007,000  #  11 ||< gfLrWallStr:gfLivRoom
-*surf,gfStrWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,007,007  #  12 ||< gfStrWallSr:gfStorRoom
+*surf,1fStrWallBth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,009,007  #   9 ||< 1fStrWallBth:1fBath
+*surf,2fStrWallOfc,VERT,-,PARTN,-,int_wall,OPAQUE,UNKNOWN,00,000  #  10 ||< gfStrWallSr:gfStorRoom
+*surf,gfLrWallStr,VERT,-,FICT,OPEN,fictious,SC_fictit,ANOTHER,002,007  #  11 ||< gfLrWallStr:gfLivRoom
+*surf,gfStrWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,005,007  #  12 ||< gfStrWallSr:gfStorRoom
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
