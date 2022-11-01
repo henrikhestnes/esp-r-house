@@ -13,7 +13,7 @@ Tags are:
 - *layer layer data... mat ref, thickness,mat name: mat description
 - *Text ... *End_text  markers for database documentation
 *End_text
-*date,Wed Oct 26 19:05:49 2022
+*date,Mon Oct 31 17:22:18 2022
 *Category,walls,opaque facade constructions,opaque facades representing different ages and performance (mostly UK based)
 *Category,partitions,internal partitions,partitions between zones (some have matching mirror versions)
 *Category,doors,inside and outside doors,doors of different ages types and performance characteristics
@@ -1734,7 +1734,7 @@ Tags are:
 *incat,project specific
 *type,OPAQ,OPAQUE,SYMMETRIC
 *layer,357,0.0120,plaster_wall : plaster_wall (derived from glasswool)
-*layer,356,0.0500,glasswool_glava : glasswool for isolation
+*layer,356,0.0250,glasswool_glava : glasswool for isolation
 *layer,357,0.0120,plaster_wall : plaster_wall (derived from glasswool)
 *end_item
 *item,ext_door,ext_door # tag name menu entry

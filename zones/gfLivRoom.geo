@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,gfLivRoom # tag version, format, zone name
-*date Fri Oct 28 18:28:51 2022  # latest file modification 
+*date Tue Nov  1 08:56:35 2022  # latest file modification 
 gfLivRoom describes the ground floor living room
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,3.00000,0.00000,0.00000  #   1
@@ -67,22 +67,22 @@ gfLivRoom describes the ground floor living room
 #  construction name, optical name
 #  boundary condition tag followed by two data items
 *surf,Wall-1,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
-*surf,Wall-2,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
-*surf,gfLrWall2Slp,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,007,007  #   3 ||< gfLrWallSlp2:gfSleep
-*surf,gfLrWallSlp,VERT,gfSlpWallLR,PARTN,-,int_wall,OPAQUE,ANOTHER,009,009  #   4 ||< gfLrWallSlp:gfSleep
-*surf,gfLrCeil,CEIL,-,PARTN,-,floor_divider,OPAQUE,UNKNOWN,00,000  #   5 ||< not yet defined
-*surf,gfLrFlr,FLOR,-,FLOOR,EXTGRND,floor_ground_floor,OPAQUE,GROUND,001,001  #   6 ||< user def grnd profile  1
-*surf,gfLrWallStr,VERT,-,FICT,OPEN,fictious,OPAQUE,ANOTHER,011,011  #   7 ||< gfLrWallStr:stairs
-*surf,gfLrWallBth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #   8 ||< gfLrWallBth:gfBath
-*surf,gfLrWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #   9 ||< gfLrWallSr:gfStorRoom
-*surf,gfSlpDoorLr,VERT,gfLrWallSlp,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,006,006  #  10 ||< gfSlpDoorLr:gfSleep
+*surf,Wall-2,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< gfLrWallSlp2:gfSleep
+*surf,gfLrWall2Slp,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,007,007  #   3 ||< gfLrWallSlp:gfSleep
+*surf,gfLrWallSlp,VERT,gfSlpWallLR,PARTN,-,int_wall,OPAQUE,ANOTHER,009,009  #   4 ||< gfLrCeil:1fEntrance
+*surf,gfLrCeil,CEIL,-,PARTN,-,floor_divider,OPAQUE,ANOTHER,09,009  #   5 ||< user def grnd profile  1
+*surf,gfLrFlr,FLOR,-,FLOOR,EXTGRND,floor_ground_floor,OPAQUE,GROUND,001,001  #   6 ||< gfLrWallStr:stairs
+*surf,gfLrWallStr,VERT,-,FICT,OPEN,fictious,OPAQUE,ANOTHER,011,011  #   7 ||< gfLrWallBth:gfBath
+*surf,gfLrWallBth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #   8 ||< gfLrWallSr:gfStorRoom
+*surf,gfLrWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #   9 ||< gfSlpDoorLr:gfSleep
+*surf,gfSlpDoorLr,VERT,gfLrWallSlp,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,006,006  #  10 ||< external
 *surf,gfLrWin,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,trip_gl_kai,EXTERIOR,00,000  #  11 ||< external
-*surf,gfLrDoorExt,VERT,Wall-1,DOOR,CLOSED,balcony_door,OPAQUE,EXTERIOR,00,000  #  12 ||< external
-*surf,gfLrDoorBth,VERT,gfLrWallBth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,005,005  #  13 ||< gfLrDoorBth:gfBath
-*surf,gfLrDoorSr,VERT,gfLrWallSr,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,005,005  #  14 ||< gfLrDoorSr:gfStorRoom
-*surf,gfLrCeilSlp,CEIL,-,PARTN,-,floor_divider,OPAQUE,ANOTHER,008,008  #  15 ||< gfLrCeilSlp:1fSleep1
-*surf,gfLrCeilSlp2,CEIL,-,PARTN,-,floor_divider,OPAQUE,ANOTHER,007,009  #  16 ||< gfLrCeilSlp2:1fSleep2
-*surf,gfLrCeilSlp3,CEIL,-,PARTN,-,floor_divider,OPAQUE,UNKNOWN,00,000  #  17 ||< not yet defined
+*surf,gfLrDoorExt,VERT,Wall-1,DOOR,CLOSED,balcony_door,OPAQUE,EXTERIOR,00,000  #  12 ||< gfLrDoorBth:gfBath
+*surf,gfLrDoorBth,VERT,gfLrWallBth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,005,005  #  13 ||< gfLrDoorSr:gfStorRoom
+*surf,gfLrDoorSr,VERT,gfLrWallSr,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,005,005  #  14 ||< gfLrCeilSlp:1fSleep1
+*surf,gfLrCeilSlp,CEIL,-,PARTN,-,floor_divider,OPAQUE,ANOTHER,06,007  #  15 ||< gfLrCeilSlp2:1fSleep2
+*surf,gfLrCeilSlp2,CEIL,-,PARTN,-,floor_divider,OPAQUE,ANOTHER,007,009  #  16 ||< not yet defined
+*surf,gfLrCeilSlp3,CEIL,-,PARTN,-,floor_divider,OPAQUE,ANOTHER,008,005  #  17 ||< gfLrCeilSlp3:1fSleep3
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

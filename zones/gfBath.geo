@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,gfBath # tag version, format, zone name
-*date Fri Oct 28 18:26:08 2022  # latest file modification 
+*date Tue Nov  1 08:56:56 2022  # latest file modification 
 gfBath describes the bathroom in the ground floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,4.43000,5.70000,0.00000  #   1
@@ -32,14 +32,14 @@ gfBath describes the bathroom in the ground floor
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,Wall-2,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,000,000  #   1 ||< external
-*surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,000,000  #   2 ||< external
-*surf,gfBthCeilEnt,CEIL,-,PARTN,-,floor_divider,OPAQUE,UNKNOWN,000,000  #   3 ||< not yet defined
-*surf,gfBthFlr,FLOR,-,FLOOR,EXTGRND,floor_ground_floor,OPAQUE,GROUND,001,001  #   4 ||< user def grnd profile  1
-*surf,gfLrDoorBth,VERT,gfLrWallBth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,013,013  #   5 ||< gfLrDoorBth:gfLivRoom
-*surf,gfLrWallBth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,008,008  #   6 ||< gfLrWallBth:gfLivRoom
-*surf,gfBthWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,008,008  #   7 ||< gfBthWallSr:gfStorRoom
-*surf,gfBthCeilSlp,CEIL,-,PARTN,-,floor_divider,OPAQUE,UNKNOWN,000,000  #   8 ||< not yet defined
+*surf,Wall-2,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
+*surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< gfBthCeilEnt:1fEntrance
+*surf,gfBthCeilEnt,CEIL,-,PARTN,-,floor_divider,OPAQUE,ANOTHER,09,010  #   3 ||< user def grnd profile  1
+*surf,gfBthFlr,FLOR,-,FLOOR,EXTGRND,int_wall,OPAQUE,GROUND,001,001  #   4 ||< gfLrDoorBth:gfLivRoom
+*surf,gfLrDoorBth,VERT,gfLrWallBth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,013,013  #   5 ||< gfLrWallBth:gfLivRoom
+*surf,gfLrWallBth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,008,008  #   6 ||< gfBthWallSr:gfStorRoom
+*surf,gfBthWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,UNKNOWN,00,000  #   7 ||< not yet defined
+*surf,gfBthCeilSlp,CEIL,-,PARTN,-,floor_divider,OPAQUE,ANOTHER,008,006  #   8 ||< gfBthCeilSlp:1fSleep3
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

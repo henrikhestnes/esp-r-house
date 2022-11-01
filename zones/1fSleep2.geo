@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,1fSleep2 # tag version, format, zone name
-*date Fri Oct 28 18:29:56 2022  # latest file modification 
+*date Tue Nov  1 08:58:14 2022  # latest file modification 
 1fSleep2 describes the biggest sleeping room in first floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,3.60000,0.00000,2.40000  #   1
@@ -37,15 +37,15 @@
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,Wall-1,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
-*surf,Wall-2,VERT,-,WALL,-,int_wall,OPAQUE,EXTERIOR,00,000  #   2 ||< external
-*surf,1fSl2WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,UNKNOWN,00,000  #   3 ||< not yet defined
+*surf,Wall-1,VERT,-,WALL,-,ext_wall_norway,OPAQUE,ANOTHER,002,000  #   1 ||< external
+*surf,Wall-2,VERT,-,WALL,-,int_wall,OPAQUE,ANOTHER,002,000  #   2 ||< 1fSl2WallEnt:1fEntrance
+*surf,1fSl2WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,09,005  #   3 ||< not yet defined
 *surf,1fSlp2Ceil,CEIL,-,PARTN,-,floor_divider,OPAQUE,UNKNOWN,00,000  #   4 ||< not yet defined
-*surf,1fSl2Wallsl3,VERT,-,PARTN,-,int_wall,OPAQUE,UNKNOWN,00,000  #   5 ||< not yet defined
-*surf,1fSlp2Win,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,trip_gl_kai,EXTERIOR,00,000  #   6 ||< external
-*surf,1fSl2DoorEnt,VERT,1fSl2WallEnt,DOOR,OPEN,int_doors,OPAQUE,UNKNOWN,00,000  #   7 ||< not yet defined
-*surf,1fSl1WallSl2,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,002  #   8 ||< 1fSl1WallSl2:1fSleep1
-*surf,gfLrCeilSlp2,FLOR,-,PARTN,-,NONSYMMETRIC,OPAQUE,ANOTHER,002,016  #   9 ||< gfLrCeilSlp2:gfLivRoom
+*surf,1fSl2Wallsl3,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,008,007  #   5 ||< 1fSl2Wallsl3:1fSleep3
+*surf,1fSlp2Win,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,trip_gl_kai,ANOTHER,002,000  #   6 ||< 1fSl2DoorEnt:1fEntrance
+*surf,1fSl2DoorEnt,VERT,1fSl2WallEnt,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,09,006  #   7 ||< 1fSl1WallSl2:1fSleep1
+*surf,1fSl1WallSl2,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,002,002  #   8 ||< gfLrCeilSlp2:gfLivRoom
+*surf,gfLrCeilSlp2,FLOR,-,PARTN,-,NONSYMMETRIC,OPAQUE,ANOTHER,002,016  #   9 ||< external
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
