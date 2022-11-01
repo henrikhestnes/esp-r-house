@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,gfBath # tag version, format, zone name
-*date Tue Nov  1 14:33:33 2022  # latest file modification 
+*date Tue Nov  1 14:55:04 2022  # latest file modification 
 gfBath describes the bathroom in the ground floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,4.43000,5.70000,0.00000  #   1
@@ -32,13 +32,13 @@ gfBath describes the bathroom in the ground floor
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,Wall-2,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< not yet defined
-*surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
-*surf,gfBthCeilEnt,CEIL,-,PARTN,-,floor_divider,OPAQUE,ANOTHER,011,013  #   3 ||< gfBthCeilEnt:1fEntrance
-*surf,gfBthFlr,FLOR,-,FLOOR,EXTGRND,balcony_door,OPAQUE,GROUND,0,001  #   4 ||< user def grnd profile  1
-*surf,gfLrDoorBth,VERT,gfLrWallBth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,002,013  #   5 ||< gfLrDoorBth:gfLivRoom
-*surf,gfLrWallBth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,002,008  #   6 ||< gfLrWallBth:gfLivRoom
-*surf,gfBthWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,005,008  #   7 ||< gfBthWallSr:gfStorRoom
+*surf,Wall-2,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,000,000  #   1 ||< external
+*surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,000,000  #   2 ||< external
+*surf,gfBthCeilEnt,CEIL,-,PARTN,-,floor_divider,OPAQUE,ANOTHER,013,013  #   3 ||< gfBthCeilEnt:1fEntrance
+*surf,gfBthFlr,FLOR,-,FLOOR,EXTGRND,balcony_door,OPAQUE,GROUND,001,001  #   4 ||< user def grnd profile  1
+*surf,gfLrDoorBth,VERT,gfLrWallBth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,013,013  #   5 ||< gfLrDoorBth:gfLivRoom
+*surf,gfLrWallBth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,008,008  #   6 ||< gfLrWallBth:gfLivRoom
+*surf,gfBthWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,008,008  #   7 ||< gfBthWallSr:gfStorRoom
 *surf,gfBthCeilSl3,CEIL,-,PARTN,-,floor_divider,OPAQUE,ANOTHER,008,008  #   8 ||< gfBthCeilSl3:1fSleep3
 # 
 *insol,3,0,0,0  # default insolation distribution
