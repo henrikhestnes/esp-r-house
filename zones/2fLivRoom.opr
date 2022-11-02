@@ -1,89 +1,38 @@
 *Operations 2.1                               # zone operation definiions for 2fLivRoom
-*date Tue Nov  1 17:25:03 2022                # latest file modification
+*date Wed Nov  2 19:05:02 2022                # latest file modification
 # infiltration and ventilation notes:
-Assumes 0.5 ach infiltration. No ventilation from other zones and no control imposed on air movement.
+Flow schedules imported. No other notes (yet).
 # infiltration and ventilation controls:
-   0      0.00      0.00      0.00            # control index (no control of air flow), low middle high setpoints
+   0      0.00      0.00    100.00            # control index (no control of air flow), low middle high setpoints
     1                                         # number of flow periods during weekdays
-   0, 24,    0.500    0.000    0     0.00     # start, stop, infil ach ( 0.0249m^3/s)
+   0, 24,    0.300    5.000    0    20.00     # start, stop, infil ach ( 0.0149m^3/s), vent ach ( 0.2489m^3/s), source, @C
     1                                         # number of flow periods during saturday
-   0, 24,    0.500    0.000    0     0.00     # start, stop, infil ach ( 0.0249m^3/s)
+   0, 24,    0.300    5.000    0    20.00     # start, stop, infil ach ( 0.0149m^3/s), vent ach ( 0.2489m^3/s), source, @C
     1                                         # number of flow periods during sunday
-   0, 24,    0.500    0.000    0     0.00     # start, stop, infil ach ( 0.0249m^3/s)
+   0, 24,    0.300    5.000    0    20.00     # start, stop, infil ach ( 0.0149m^3/s), vent ach ( 0.2489m^3/s), source, @C
     1                                         # number of flow periods during holiday
-   0, 24,    0.500    0.000    0     0.00     # start, stop, infil ach ( 0.0249m^3/s)
+   0, 24,    0.300    5.000    0    20.00     # start, stop, infil ach ( 0.0149m^3/s), vent ach ( 0.2489m^3/s), source, @C
 # casual gain type definitions:
 *casual
 # notes on casual gains:
-Kitchen/din/long up to 3 people with diversity breakfast or brunch ~30 minutes dinner 45min. A fewkettles during day, no weekday lunches. Dinner = cooking 2kg rice. Std Fridge, TV in evening.
+no casual gain notes (yet)
 # casual label     type-key-word   slot index & attributes
-*type Occupants    people             1   0   0
+*type 1PersInRoomr people             1   0   0
 *type Lights       lighting           2   0   0
 *type SmallPower   equipment          3   0   0
 *end_type 
 # casual gain schedules:
-    19   # number of casual gains in day type: weekdays    
+     1   # number of casual gains in day type: weekdays    
 # slot, period, sensible, latent, rad_frac, conv_frac
-   1,   0,   7,      0.0,      0.0,   0.60,   0.40
-   1,   7,   8,    150.0,    150.0,   0.60,   0.40
-   1,   8,  12,      0.0,      0.0,   0.60,   0.40
-   1,  12,  13,      0.0,      0.0,   0.60,   0.40
-   1,  13,  18,      0.0,      0.0,   0.60,   0.40
-   1,  18,  19,    260.0,    200.0,   0.60,   0.40
-   1,  19,  24,    220.0,    180.0,   0.60,   0.40
-  -2,   0,   7,      0.0,      0.0,   0.30,   0.70
-  -2,   7,   8,      8.0,      0.0,   0.30,   0.70
-  -2,   8,  18,      0.0,      0.0,   0.30,   0.70
-  -2,  18,  20,      8.0,      0.0,   0.30,   0.70
-  -2,  20,  24,      5.0,      0.0,   0.30,   0.70
-   3,   0,   7,     42.0,     20.0,   0.40,   0.60
-   3,   7,   8,    335.0,    300.0,   0.40,   0.60
-   3,   8,  12,    160.0,    160.0,   0.40,   0.60
-   3,  12,  13,     42.0,     30.0,   0.40,   0.60
-   3,  13,  18,     42.0,     30.0,   0.40,   0.60
-   3,  18,  19,    900.0,    800.0,   0.40,   0.60
-   3,  19,  24,     80.0,     30.0,   0.40,   0.60
-    19   # number of casual gains in day type: saturday    
+   1,   0,  24,     80.0,     0.0,   0.60,   0.40
+     1   # number of casual gains in day type: saturday    
 # slot, period, sensible, latent, rad_frac, conv_frac
-   1,   0,   8,      0.0,      0.0,   0.60,   0.40
-   1,   8,   9,    170.0,    150.0,   0.60,   0.40
-   1,   9,  12,      0.0,      0.0,   0.60,   0.40
-   1,  12,  13,     90.0,     45.0,   0.60,   0.40
-   1,  13,  18,      0.0,      0.0,   0.60,   0.40
-   1,  18,  19,    280.0,    240.0,   0.60,   0.40
-   1,  19,  24,    200.0,    180.0,   0.60,   0.40
-  -2,   0,   8,      0.0,      0.0,   0.30,   0.70
-  -2,   8,  10,      8.0,      0.0,   0.30,   0.70
-  -2,  10,  18,      0.0,      0.0,   0.30,   0.70
-  -2,  18,  20,      8.0,      0.0,   0.30,   0.70
-  -2,  20,  24,      6.0,      0.0,   0.30,   0.70
-   3,   0,   8,     40.0,     20.0,   0.40,   0.60
-   3,   8,   9,    305.0,    300.0,   0.40,   0.60
-   3,   9,  12,    160.0,    160.0,   0.40,   0.60
-   3,  12,  13,     70.0,     50.0,   0.40,   0.60
-   3,  13,  18,     42.0,     30.0,   0.40,   0.60
-   3,  18,  19,    800.0,    800.0,   0.40,   0.60
-   3,  19,  24,    100.0,     40.0,   0.40,   0.60
-    16   # number of casual gains in day type: sunday      
+   1,   0,  24,     80.0,      0.0,   0.60,   0.40
+     2   # number of casual gains in day type: sunday      
 # slot, period, sensible, latent, rad_frac, conv_frac
-   1,   0,   8,      0.0,      0.0,   0.60,   0.40
-   1,   8,  10,    180.0,    100.0,   0.60,   0.40
-   1,  10,  19,      0.0,      0.0,   0.60,   0.40
-   1,  19,  21,    225.0,    200.0,   0.60,   0.40
-   1,  21,  24,    150.0,    100.0,   0.60,   0.40
-  -2,   0,   8,      0.0,      0.0,   0.30,   0.70
-  -2,   8,  10,      8.0,      0.0,   0.30,   0.70
-  -2,  10,  19,      0.0,      0.0,   0.30,   0.70
-  -2,  19,  21,      8.0,      0.0,   0.30,   0.70
-  -2,  21,  24,      1.0,      0.0,   0.30,   0.70
-   3,   0,   9,     42.0,     20.0,   0.40,   0.60
-   3,   9,  10,    160.0,    160.0,   0.40,   0.60
-   3,  10,  11,    320.0,    300.0,   0.40,   0.60
-   3,  11,  18,     62.0,     20.0,   0.40,   0.60
-   3,  18,  19,    832.0,    800.0,   0.40,   0.60
-   3,  19,  24,    120.0,     80.0,   0.40,   0.60
-     3   # number of casual gains in day type: holiday     
-# slot, period, sensible, latent, rad_frac, conv_frac
+   1,   0,  24,     80.0,      0.0,   0.60,   0.40
    1,   0,  24,      0.0,      0.0,   0.60,   0.40
-  -2,   0,  24,      1.0,      0.0,   0.30,   0.70
-   3,   0,  24,     42.0,     30.0,   0.40,   0.60
+     2   # number of casual gains in day type: holiday     
+# slot, period, sensible, latent, rad_frac, conv_frac
+   1,   0,  24,     80.0,      0.0,   0.60,   0.40
+   1,   0,  24,      0.0,      0.0,   0.60,   0.40

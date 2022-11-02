@@ -1,5 +1,5 @@
 *Constructions 2.1                              # thermophysical properties of 1fEntrance
-*date Tue Nov  1 18:15:15 2022                  # latest file modification
+*date Wed Nov  2 19:01:48 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
      3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-3       ext_wall_norway

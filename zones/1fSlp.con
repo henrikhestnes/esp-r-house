@@ -1,5 +1,5 @@
 *Constructions 2.1                              # thermophysical properties of 1fSleep1
-*date Tue Nov  1 18:14:34 2022                  # latest file modification
+*date Wed Nov  2 19:01:46 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
      3     0   0.93   0.93   0.70   0.70   0    #   1  wall-1       ext_wall_norway
