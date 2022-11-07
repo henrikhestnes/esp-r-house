@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,1fSleep3 # tag version, format, zone name
-*date Tue Nov  1 17:49:16 2022  # latest file modification 
+*date Mon Nov  7 12:02:22 2022  # latest file modification 
 1fSleep3 describes the smallest sleeping room in 1 floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,6.30000,3.00000,2.40000  #   1
@@ -16,19 +16,15 @@
 *vertex,6.60000,8.10000,3.20000  #  12
 *vertex,6.60000,8.10000,4.50000  #  13
 *vertex,8.10000,8.10000,4.50000  #  14
-*vertex,8.10000,8.10000,3.20000  #  15
-*vertex,6.60000,8.10000,3.20000  #  16
-*vertex,6.60000,8.10000,4.50000  #  17
-*vertex,8.10000,8.10000,4.50000  #  18
 # 
 # tag, number of vertices followed by list of associated vert
 *edges,5,2,9,3,7,6  #   1
-*edges,10,3,4,8,17,16,15,18,17,8,7  #   2
+*edges,10,3,4,8,13,12,11,14,13,8,7  #   2
 *edges,5,4,10,1,5,8  #   3
 *edges,4,5,6,7,8  #   4
 *edges,4,2,1,10,9  #   5
 *edges,4,5,1,2,6  #   6
-*edges,4,15,16,17,18  #   7
+*edges,4,11,12,13,14  #   7
 *edges,4,9,10,4,3  #   8
 # 
 # surf attributes:
