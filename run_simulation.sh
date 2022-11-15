@@ -1,6 +1,6 @@
 #!/usr/bin/sh
 
-cur_path="$(pwd)"
+CUR_PATH=$(pwd)
 
 cd ~
 rm -rf /home/henrikhestnes/house/cfg/house.res
@@ -43,5 +43,3 @@ a
 XXX
 
 python3 ~/house/plot_temp.py
-
-cd cur_path
