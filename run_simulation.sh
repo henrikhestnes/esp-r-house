@@ -12,8 +12,8 @@ a
 /home/henrikhestnes/house/cfg/house.cfg
 c
 /home/henrikhestnes/house/cfg/house.res
-1 3
-7 3
+1 7
+31 7
 2
 4
 Y

@@ -1,5 +1,5 @@
 *Constructions 2.1                              # thermophysical properties of gfBath
-*date Mon Nov  7 12:12:18 2022                  # latest file modification
+*date Wed Nov 16 18:21:07 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
      3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-2       ext_wall_norway
