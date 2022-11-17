@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,2fOffice # tag version, format, zone name
-*date Thu Nov 17 15:02:21 2022  # latest file modification 
+*date Thu Nov 17 15:29:42 2022  # latest file modification 
 2fOffice describes the office in 2nd floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,5.70000,4.80000  #   1
@@ -45,7 +45,7 @@
 *surf,2fStrWallOfc,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,010  #   5 ||< 2fStrWallOfc:stairs
 *surf,2fLrWal1Of,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,012,003  #   6 ||< 2fLrWal1Of:2fLivRoom
 *surf,2fOfcWin,VERT,Wall-3,C-WINDOW,-,tripglz_1.08,trip_gl_kai,EXTERIOR,00,000  #   7 ||< external
-*surf,2fLrDoorOfc,VERT,2fLrWal2Of,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,012,019  #   8 ||< 2fLrDoorOfc:2fLivRoom
+*surf,2fLrDoorOfc,VERT,2fLrWal2Of,FICT,BIDIR,fictious,SC_fictit,ANOTHER,012,019  #   8 ||< 2fLrDoorOfc:2fLivRoom
 *surf,2fLrWal2Of,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,012,004  #   9 ||< 2fLrWal2Of:2fLivRoom
 # 
 *insol,3,0,0,0  # default insolation distribution

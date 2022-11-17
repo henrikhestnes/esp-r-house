@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,1fSleep3 # tag version, format, zone name
-*date Thu Nov 17 14:41:45 2022  # latest file modification 
+*date Thu Nov 17 15:28:39 2022  # latest file modification 
 1fSleep3 describes the smallest sleeping room in 1 floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,6.30000,3.00000,2.40000  #   1
@@ -45,7 +45,7 @@
 *surf,1fSl2Wallsl3,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,005,005  #   6 ||< 1fSl2Wallsl3:1fSleep2
 *surf,1fSlp3Win,VERT,Wall-3,C-WINDOW,-,tripglz_1.08,trip_gl_kai,EXTERIOR,00,000  #   7 ||< external
 *surf,gfBthCeilSl3,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,008,008  #   8 ||< gfBthCeilSl3:gfBath
-*surf,1fSl3DoorEnt,VERT,-,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,011,016  #   9 ||< 1fSl3DoorEnt:1fEntrance
+*surf,1fSl3DoorEnt,VERT,-,FICT,BIDIR,fictious,SC_fictit,ANOTHER,011,016  #   9 ||< 1fSl3DoorEnt:1fEntrance
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

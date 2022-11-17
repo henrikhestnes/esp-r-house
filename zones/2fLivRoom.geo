@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,2fLivRoom # tag version, format, zone name
-*date Thu Nov 17 15:00:26 2022  # latest file modification 
+*date Thu Nov 17 15:29:50 2022  # latest file modification 
 2fLivRoom describes the living room and kitchen of 2nd floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,0.00000,4.80000  #   1
@@ -94,7 +94,7 @@
 *surf,2fLrBalDoor,VERT,Wall-3,DOOR,CLOSED,balcony_door,OPAQUE,EXTERIOR,00,000  #  16 ||< external
 *surf,2fLrWin3,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,trip_gl_kai,EXTERIOR,00,000  #  17 ||< external
 *surf,2fKchWin,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,trip_gl_kai,EXTERIOR,00,000  #  18 ||< external
-*surf,2fLrDoorOfc,VERT,2fLrWal2Of,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,013,008  #  19 ||< 2fLrDoorOfc:2fOffice
+*surf,2fLrDoorOfc,VERT,2fLrWal2Of,FICT,BIDIR,fictious,SC_fictit,ANOTHER,013,008  #  19 ||< 2fLrDoorOfc:2fOffice
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

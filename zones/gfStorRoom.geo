@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,gfStorRoom # tag version, format, zone name
-*date Thu Nov 17 14:41:22 2022  # latest file modification 
+*date Thu Nov 17 15:22:27 2022  # latest file modification 
 gfStorRoom describes the storage room in the ground floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,5.70000,0.00000  #   1
@@ -39,11 +39,11 @@ gfStorRoom describes the storage room in the ground floor
 *surf,Wall-4,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
 *surf,gfSrCeilBth,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,009,009  #   3 ||< gfSrCeilBth:1fBath
 *surf,gfSrFlr,FLOR,-,FLOOR,EXTGRND,floor_ground_floor,OPAQUE,GROUND,0,001  #   4 ||< user def grnd profile  1
-*surf,gfLrDoorSr,VERT,gfLrWallSr,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,014,014  #   5 ||< gfLrDoorSr:gfLivRoom
+*surf,gfLrDoorSr,VERT,gfLrWallSr,FICT,BIDIR,fictious,SC_fictit,ANOTHER,014,014  #   5 ||< gfLrDoorSr:gfLivRoom
 *surf,gfLrWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,009,009  #   6 ||< gfLrWallSr:gfLivRoom
 *surf,gfStrWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,012,012  #   7 ||< gfStrWallSr:stairs
 *surf,gfBthWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,007,007  #   8 ||< gfBthWallSr:gfBath
-*surf,gfSrCeilEnt,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,11,012  #   9 ||< gfBthCeilEnt:1fEntrance
+*surf,gfSrCeilEnt,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,11,012  #   9 ||< gfSrCeilEnt:1fEntrance
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

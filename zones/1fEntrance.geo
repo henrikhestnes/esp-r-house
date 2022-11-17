@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,1fEntrance # tag version, format, zone name
-*date Thu Nov 17 14:44:29 2022  # latest file modification 
+*date Thu Nov 17 15:28:46 2022  # latest file modification 
 1fEntrance describes the 1st floor entrance
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,1.80000,3.00000,2.40000  #   1
@@ -66,11 +66,11 @@
 #  boundary condition tag followed by two data items
 *surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
 *surf,1fEntCeil,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,12,011  #   2 ||< 1fEntCeil:2fLivRoom
-*surf,1fSl2DoorEnt,VERT,1fSl2WallEnt,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,007,007  #   3 ||< 1fSl2DoorEnt:1fSleep2
+*surf,1fSl2DoorEnt,VERT,1fSl2WallEnt,FICT,BIDIR,fictious,SC_fictit,ANOTHER,007,007  #   3 ||< 1fSl2DoorEnt:1fSleep2
 *surf,1fSl2WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,003  #   4 ||< 1fSl2WallEnt:1fSleep2
 *surf,1fSl1WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,009,009  #   5 ||< 1fSl1WallEnt:1fSleep1
-*surf,1fSl1DoorEnt,VERT,-,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,010,010  #   6 ||< 1fSl1DoorEnt:1fSleep1
-*surf,1fBthDoorEnt,VERT,1fEntWal2Bth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,004,004  #   7 ||< 1fBthDoorEnt:1fBath
+*surf,1fSl1DoorEnt,VERT,-,FICT,BIDIR,fictious,SC_fictit,ANOTHER,010,010  #   6 ||< 1fSl1DoorEnt:1fSleep1
+*surf,1fBthDoorEnt,VERT,1fEntWal2Bth,FICT,BIDIR,fictious,SC_fictit,ANOTHER,004,004  #   7 ||< 1fBthDoorEnt:1fBath
 *surf,1fEntWal2Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,005,005  #   8 ||< 1fEntWal2Bth:1fBath
 *surf,1fEntWal1Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #   9 ||< 1fEntWal1Bth:1fBath
 *surf,gfLrCeil,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,005,005  #  10 ||< gfLrCeil:gfLivRoom
@@ -79,7 +79,7 @@
 *surf,1fEntDoor,VERT,Wall-3,DOOR,CLOSED,ext_door,OPAQUE,EXTERIOR,00,000  #  13 ||< external
 *surf,strWall1f,VERT,-,FICT,BIDIR,fictious,SC_fictit,ANOTHER,003,003  #  14 ||< strWall1f:stairs
 *surf,1fSl3WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,008,003  #  15 ||< 1fSl3WallEnt:1fSleep3
-*surf,1fSl3DoorEnt,VERT,1fSl3WallEnt,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,008,009  #  16 ||< 1fSl3DoorEnt:1fSleep3
+*surf,1fSl3DoorEnt,VERT,1fSl3WallEnt,FICT,BIDIR,fictious,SC_fictit,ANOTHER,008,009  #  16 ||< 1fSl3DoorEnt:1fSleep3
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

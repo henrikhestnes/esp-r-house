@@ -1,5 +1,5 @@
 *Constructions 2.1                              # thermophysical properties of gfLivRoom
-*date Thu Nov 17 15:02:40 2022                  # latest file modification
+*date Thu Nov 17 15:16:00 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
      3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-1       ext_wall_norway
@@ -11,11 +11,11 @@
      1     0   0.99   0.99   0.01   0.01   1    #   7  gfLrWallStr  fictious
      3     0   0.93   0.93   0.70   0.70   0    #   8  gfLrWallBth  int_wall
      3     0   0.93   0.93   0.70   0.70   0    #   9  gfLrWallSr   int_wall
-     1     0   0.90   0.90   0.65   0.65   0    #  10  gfSlpDoorLr  int_doors
+     1     0   0.99   0.99   0.01   0.01   1    #  10  gfSlpDoorLr  fictious
      5     2   0.83   0.83   0.05   0.05   2    #  11  gfLrWin      tripglz_1.08
      3     0   0.90   0.90   0.70   0.70   0    #  12  gfLrDoorExt  balcony_door
-     1     0   0.90   0.90   0.65   0.65   0    #  13  gfLrDoorBth  int_doors
-     1     0   0.90   0.90   0.65   0.65   0    #  14  gfLrDoorSr   int_doors
+     1     0   0.99   0.99   0.01   0.01   1    #  13  gfLrDoorBth  fictious
+     1     0   0.99   0.99   0.01   0.01   1    #  14  gfLrDoorSr   fictious
      3     0   0.93   0.90   0.70   0.65   0    #  15  gfLrCeilSlp  int_ceil
      3     0   0.93   0.90   0.70   0.65   0    #  16  gfLrCeilSlp2 int_ceil
      3     0   0.93   0.90   0.70   0.65   0    #  17  gfLrCeilSlp3 int_ceil
@@ -49,7 +49,7 @@
      0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #   9   1 plaster_wall
      0.0360      20.0    1030.0  0.0250   0   0.00 0.00000 0.00000  #       2 glasswool_glava
      0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plaster_wall
-     0.1900     700.0    2390.0  0.0200   0   0.00 0.00000 0.00000  #  10   1 oak
+    20.0000      10.0      10.0  0.0010   0   0.00 0.00000 0.00000  #  10   1 fict
      1.0500    2500.0     750.0  0.0060   0   0.00 0.00000 0.00000  #  11   1 clear float
      0.0000       0.0       0.0  0.0120   0   0.00 0.00000 0.00000  #       2 AIR
      1.0500    2500.0     750.0  0.0060   0   0.00 0.00000 0.00000  #       3 clear float
@@ -58,8 +58,8 @@
      0.1700    1000.0    1300.0  0.0200   0   0.00 0.00000 0.00000  #  12   1 HighDensityParticleBd
      0.0500      15.0    1000.0  0.0220   0   0.00 0.00000 0.00000  #       2 EPS k 0.05
      0.1700    1000.0    1300.0  0.0200   0   0.00 0.00000 0.00000  #       3 HighDensityParticleBd
-     0.1900     700.0    2390.0  0.0200   0   0.00 0.00000 0.00000  #  13   1 oak
-     0.1900     700.0    2390.0  0.0200   0   0.00 0.00000 0.00000  #  14   1 oak
+    20.0000      10.0      10.0  0.0010   0   0.00 0.00000 0.00000  #  13   1 fict
+    20.0000      10.0      10.0  0.0010   0   0.00 0.00000 0.00000  #  14   1 fict
      0.1700     740.0    2000.0  0.0120   0   0.00 0.00000 0.00000  #  15   1 parquet
      0.0360      20.0    1030.0  0.1000   0   0.00 0.00000 0.00000  #       2 glasswool_glava
      0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plaster_wall

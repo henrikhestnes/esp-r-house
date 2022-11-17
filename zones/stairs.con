@@ -1,18 +1,19 @@
-# thermophysical properties of stairs
-# no. of |no. of  |              surface|surface     |construction 
-# layers |air gaps|              index  |name        |name 
-     3     0                        #   1  strWallExt   ext_wall_norway
-     3     0                        #   2  strFloor     floor_ground_floor
-     1     0                        #   3  strWall1f    fictious
-     1     0                        #   4  strWall2f    fictious
-     3     0                        #   5  strCeil      ext_roof
-     3     0                        #   6  gfStrWallSlp int_wall
-     3     0                        #   7  1fStrWallSlp int_wall
-     3     0                        #   8  2fStrWallKch int_wall
-     3     0                        #   9  1fStrWallBth int_wall
-     3     0                        #  10  2fStrWallOfc int_wall
-     1     0                        #  11  gfLrWallStr  fictious
-     3     0                        #  12  gfStrWallSr  int_wall
+*Constructions 2.1                              # thermophysical properties of stairs
+*date Thu Nov 17 15:13:03 2022                  # latest file modification
+# layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
+#       |gaps|inside other|inside other|index| index  |name        |name 
+     3     0   0.93   0.93   0.70   0.70   0    #   1  strWallExt   ext_wall_norway
+     3     0   0.90   0.90   0.65   0.65   0    #   2  strFloor     floor_ground_floor
+     1     0   0.99   0.99   0.01   0.01   1    #   3  strWall1f    fictious
+     1     0   0.99   0.99   0.01   0.01   1    #   4  strWall2f    fictious
+     3     0   0.93   0.90   0.70   0.90   0    #   5  strCeil      ext_roof
+     3     0   0.93   0.93   0.70   0.70   0    #   6  gfStrWallSlp int_wall
+     3     0   0.93   0.93   0.70   0.70   0    #   7  1fStrWallSlp int_wall
+     3     0   0.93   0.93   0.70   0.70   0    #   8  2fStrWallKch int_wall
+     3     0   0.93   0.93   0.70   0.70   0    #   9  1fStrWallBth int_wall
+     3     0   0.93   0.93   0.70   0.70   0    #  10  2fStrWallOfc int_wall
+     1     0   0.99   0.99   0.01   0.01   1    #  11  gfLrWallStr  fictious
+     3     0   0.93   0.93   0.70   0.70   0    #  12  gfStrWallSr  int_wall
 # air gap layer positions and restances
 # layer thermophysical properties
 # conduc-  | density |specific | thick- |dpnd|ref.| temp. |moisture|surface|layer
@@ -47,11 +48,8 @@
      0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #  12   1 plaster_wall
      0.0360      20.0    1030.0  0.0250   0   0.00 0.00000 0.00000  #       2 glasswool_glava
      0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plaster_wall
-# for each surface: inside face emissivity
- 0.93,0.90,0.99,0.99,0.93,0.93,0.93,0.93,0.93,0.93,0.99,0.93
-# for each surface: outside face emissivity
- 0.93,0.90,0.99,0.99,0.90,0.93,0.93,0.93,0.93,0.93,0.99,0.93
-# for each surface: inside face solar absorptivity
- 0.70,0.65,0.010,0.010,0.70,0.70,0.70,0.70,0.70,0.70,0.010,0.70
-# for each surface: outside face solar absorptivity
- 0.70,0.65,0.010,0.010,0.90,0.70,0.70,0.70,0.70,0.70,0.010,0.70
+*tmc YES                                        # optical properties:
+   1  SC_fictit                                 # layers in tmc type 1
+  0.998  0.987  0.986  0.985  0.984  0.990      # transmission @ 5 angles & visible tr.
+  0.001  0.001  0.001  0.001  0.001             # for each layer absorption @ 5 angles
+   0                                            # no alternative optics
