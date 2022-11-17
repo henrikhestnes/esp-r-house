@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,1fBath # tag version, format, zone name
-*date Wed Nov  2 12:17:53 2022  # latest file modification 
+*date Thu Nov 17 14:41:22 2022  # latest file modification 
 1fBath describes the bath in 1floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,5.70000,2.40000  #   1
@@ -38,9 +38,9 @@
 *surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
 *surf,1fBthWallSr,VERT,-,PARTN,-,ext_wall_norway,OPAQUE,ANOTHER,006,006  #   2 ||< 1fBthWallSr:1fStorRoom
 *surf,1fBthCeil,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,13,004  #   3 ||< 1fBthCeil:2fOffice
-*surf,1fBthDoorEnt,VERT,1fEntWal2Bth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,11,008  #   4 ||< 1fBthDoorEnt:1fEntrance
-*surf,1fEntWal2Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,11,009  #   5 ||< 1fEntWal2Bth:1fEntrance
-*surf,1fEntWal1Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,11,010  #   6 ||< 1fEntWal1Bth:1fEntrance
+*surf,1fBthDoorEnt,VERT,1fEntWal2Bth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,11,007  #   4 ||< 1fSl1DoorEnt:1fEntrance
+*surf,1fEntWal2Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,11,008  #   5 ||< 1fBthDoorEnt:1fEntrance
+*surf,1fEntWal1Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,11,009  #   6 ||< 1fEntWal2Bth:1fEntrance
 *surf,1fStrWallBth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,009,009  #   7 ||< 1fStrWallBth:stairs
 *surf,Wall-9,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   8 ||< external
 *surf,gfSrCeilBth,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,003,003  #   9 ||< gfSrCeilBth:gfStorRoom

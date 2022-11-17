@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,1fSleep2 # tag version, format, zone name
-*date Tue Nov  1 17:47:00 2022  # latest file modification 
+*date Thu Nov 17 14:41:22 2022  # latest file modification 
 1fSleep2 describes the biggest sleeping room in first floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,3.60000,0.00000,2.40000  #   1
@@ -39,11 +39,11 @@
 #  boundary condition tag followed by two data items
 *surf,Wall-1,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
 *surf,Wall-2,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
-*surf,1fSl2WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,005,005  #   3 ||< 1fSl2WallEnt:1fEntrance
+*surf,1fSl2WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,11,004  #   3 ||< 1fSl2DoorEnt:1fEntrance
 *surf,1fSlp2Ceil,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,12,009  #   4 ||< 1fSlp2Ceil:2fLivRoom
 *surf,1fSl2Wallsl3,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #   5 ||< 1fSl2Wallsl3:1fSleep3
 *surf,1fSlp2Win,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,trip_gl_kai,EXTERIOR,00,000  #   6 ||< external
-*surf,1fSl2DoorEnt,VERT,1fSl2WallEnt,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,004,004  #   7 ||< 1fSl2DoorEnt:1fEntrance
+*surf,1fSl2DoorEnt,VERT,1fSl2WallEnt,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,11,003  #   7 ||< 1fSl3WallEnt:1fEntrance
 *surf,1fSl1WallSl2,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,002,002  #   8 ||< 1fSl1WallSl2:1fSleep1
 *surf,gfLrCeilSlp2,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,016,016  #   9 ||< gfLrCeilSlp2:gfLivRoom
 # 

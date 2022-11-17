@@ -1,25 +1,25 @@
-*Constructions 2.1                              # thermophysical properties of 2fLivRoom
-*date Thu Nov 17 11:13:41 2022                  # latest file modification
-# layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
-#       |gaps|inside other|inside other|index| index  |name        |name 
-     3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-2       ext_wall_norway
-     3     0   0.93   0.93   0.70   0.70   0    #   2  Wall-3       ext_wall_norway
-     3     0   0.93   0.93   0.70   0.70   0    #   3  2fLrWal1Of   int_wall
-     3     0   0.93   0.93   0.70   0.70   0    #   4  2fLrWal2Of   int_wall
-     3     0   0.90   0.90   0.70   0.70   0    #   5  Wall-8       ext_door
-     3     0   0.93   0.90   0.70   0.90   0    #   6  Top-9        ext_roof
-     3     0   0.93   0.93   0.70   0.70   0    #   7  Wall-1       ext_wall_norway
-     3     0   0.90   0.93   0.65   0.70   0    #   8  1fSlp1Ceil   int_floor
-     3     0   0.90   0.93   0.65   0.70   0    #   9  1fSlp2Ceil   int_floor
-     3     0   0.90   0.93   0.65   0.70   0    #  10  1fSlp3Ceil   int_floor
-     3     0   0.90   0.93   0.65   0.70   0    #  11  1fEntCeil    int_floor
-     3     0   0.93   0.93   0.70   0.70   0    #  12  2fStrWallKch int_wall
-     1     0   0.99   0.99   0.01   0.01   1    #  13  strWall2f    fictious
-     5     2   0.83   0.83   0.05   0.05   2    #  14  2fLrWin1     tripglz_1.08
-     5     2   0.83   0.83   0.05   0.05   2    #  15  2fLrWin2     tripglz_1.08
-     3     0   0.90   0.90   0.70   0.70   0    #  16  2fLrBalDoor  balcony_door
-     5     2   0.83   0.83   0.05   0.05   2    #  17  2fLrWin3     tripglz_1.08
-     5     2   0.83   0.83   0.05   0.05   2    #  18  2fKchWin     tripglz_1.08
+# thermophysical properties of 2fLivRoom
+# no. of |no. of  |              surface|surface     |construction 
+# layers |air gaps|              index  |name        |name 
+     3     0                        #   1  Wall-2       ext_wall_norway
+     3     0                        #   2  Wall-3       ext_wall_norway
+     3     0                        #   3  2fLrWal1Of   int_wall
+     3     0                        #   4  2fLrWal2Of   int_wall
+     3     0                        #   5  Wall-8       ext_door
+     3     0                        #   6  2fLrRoof     ext_roof
+     3     0                        #   7  Wall-1       ext_wall_norway
+     3     0                        #   8  1fSlp1Ceil   int_floor
+     3     0                        #   9  1fSlp2Ceil   int_floor
+     3     0                        #  10  1fSlp3Ceil   int_floor
+     3     0                        #  11  1fEntCeil    int_floor
+     3     0                        #  12  2fStrWallKch int_wall
+     1     0                        #  13  strWall2f    fictious
+     5     2                        #  14  2fLrWin1     tripglz_1.08
+     5     2                        #  15  2fLrWin2     tripglz_1.08
+     3     0                        #  16  2fLrBalDoor  balcony_door
+     5     2                        #  17  2fLrWin3     tripglz_1.08
+     5     2                        #  18  2fKchWin     tripglz_1.08
+     1     0                        #  19  2fLrDoorOfc  int_doors
 # air gap layer positions and restances
   2  0.367  4  0.371                            # for 2fLrWin1
   2  0.367  4  0.371                            # and for 2fLrWin2
@@ -88,16 +88,12 @@
      1.0500    2500.0     750.0  0.0060   0   0.00 0.00000 0.00000  #       3 clear float
      0.0000       0.0       0.0  0.0120   0   0.00 0.00000 0.00000  #       4 AIR
      1.0500    2500.0     750.0  0.0060   0   0.00 0.00000 0.00000  #       5 clear float
-*tmc YES                                        # optical properties:
-   1  SC_fictit                                 # layers in tmc type 1
-  0.998  0.987  0.986  0.985  0.984  0.990      # transmission @ 5 angles & visible tr.
-  0.001  0.001  0.001  0.001  0.001             # for each layer absorption @ 5 angles
-   0                                            # no alternative optics
-   5  trip_gl_kai                               # layers in tmc type 2
-  0.382  0.361  0.313  0.193  0.077  0.614      # transmission @ 5 angles & visible tr.
-  0.260  0.264  0.264  0.255  0.195             # for each layer absorption @ 5 angles
-  0.001  0.001  0.001  0.001  0.001
-  0.103  0.111  0.115  0.107  0.083
-  0.001  0.001  0.001  0.001  0.001
-  0.098  0.095  0.086  0.061  0.028
-   0                                            # no alternative optics
+     0.1900     700.0    2390.0  0.0200   0   0.00 0.00000 0.00000  #  19   1 oak
+# for each surface: inside face emissivity
+ 0.93,0.93,0.93,0.93,0.90,0.93,0.93,0.90,0.90,0.90,0.90,0.93,0.99,0.83,0.83,0.90,0.83,0.83,0.90
+# for each surface: outside face emissivity
+ 0.93,0.93,0.93,0.93,0.90,0.90,0.93,0.93,0.93,0.93,0.93,0.93,0.99,0.83,0.83,0.90,0.83,0.83,0.90
+# for each surface: inside face solar absorptivity
+ 0.70,0.70,0.70,0.70,0.70,0.70,0.70,0.65,0.65,0.65,0.65,0.70,0.010,0.050,0.050,0.70,0.050,0.050,0.65
+# for each surface: outside face solar absorptivity
+ 0.70,0.70,0.70,0.70,0.70,0.90,0.70,0.70,0.70,0.70,0.70,0.70,0.010,0.050,0.050,0.70,0.050,0.050,0.65

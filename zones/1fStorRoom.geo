@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,1fStorRoom # tag version, format, zone name
-*date Tue Nov  1 18:00:42 2022  # latest file modification 
+*date Thu Nov 17 14:50:02 2022  # latest file modification 
 1fStorRoom describes the external storage room
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,-3.30000,5.70000,2.40000  #   1

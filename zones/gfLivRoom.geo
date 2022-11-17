@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,gfLivRoom # tag version, format, zone name
-*date Tue Nov  1 18:10:48 2022  # latest file modification 
+*date Thu Nov 17 14:41:22 2022  # latest file modification 
 gfLivRoom describes the ground floor living room
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,3.00000,0.00000,0.00000  #   1
@@ -67,12 +67,12 @@ gfLivRoom describes the ground floor living room
 #  construction name, optical name
 #  boundary condition tag followed by two data items
 *surf,Wall-1,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
-*surf,Wall-2,VERT,-,WALL,-,balcony_door,OPAQUE,EXTERIOR,00,000  #   2 ||< external
+*surf,Wall-2,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
 *surf,gfLrWall2Slp,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,007,007  #   3 ||< gfLrWallSlp2:gfSleep
 *surf,gfLrWallSlp,VERT,gfSlpWallLR,PARTN,-,int_wall,OPAQUE,ANOTHER,009,009  #   4 ||< gfLrWallSlp:gfSleep
-*surf,gfLrCeil,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,11,011  #   5 ||< 1fEntWal1Bth:1fEntrance
+*surf,gfLrCeil,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,11,010  #   5 ||< 1fEntWal1Bth:1fEntrance
 *surf,gfLrFlr,FLOR,-,FLOOR,EXTGRND,floor_ground_floor,OPAQUE,GROUND,0,001  #   6 ||< user def grnd profile  1
-*surf,gfLrWallStr,VERT,-,FICT,OPEN,fictious,SC_fictit,ANOTHER,011,011  #   7 ||< gfLrWallStr:stairs
+*surf,gfLrWallStr,VERT,-,FICT,BIDIR,fictious,SC_fictit,ANOTHER,011,011  #   7 ||< gfLrWallStr:stairs
 *surf,gfLrWallBth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #   8 ||< gfLrWallBth:gfBath
 *surf,gfLrWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #   9 ||< gfLrWallSr:gfStorRoom
 *surf,gfSlpDoorLr,VERT,gfLrWallSlp,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,006,006  #  10 ||< gfSlpDoorLr:gfSleep

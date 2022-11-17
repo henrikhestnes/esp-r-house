@@ -1,14 +1,13 @@
-*Constructions 2.1                              # thermophysical properties of 1fStorRoom
-*date Thu Nov 17 11:13:40 2022                  # latest file modification
-# layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
-#       |gaps|inside other|inside other|index| index  |name        |name 
-     3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-1       ext_wall_norway
-     3     0   0.93   0.93   0.70   0.70   0    #   2  Wall-3       ext_wall_norway
-     3     0   0.93   0.93   0.70   0.70   0    #   3  Wall-4       ext_wall_norway
-     3     0   0.93   0.90   0.70   0.90   0    #   4  Top-5        ext_roof
-     3     0   0.90   0.90   0.65   0.65   0    #   5  Base-6       floor_ground_floor
-     3     0   0.93   0.93   0.70   0.70   0    #   6  1fBthWallSr  inv_ext_wall_norway
-     3     0   0.90   0.90   0.70   0.70   0    #   7  extSrDoor    ext_door
+# thermophysical properties of 1fStorRoom
+# no. of |no. of  |              surface|surface     |construction 
+# layers |air gaps|              index  |name        |name 
+     3     0                        #   1  Wall-1       ext_wall_norway
+     3     0                        #   2  Wall-3       ext_wall_norway
+     3     0                        #   3  Wall-4       ext_wall_norway
+     3     0                        #   4  Top-5        ext_roof
+     3     0                        #   5  Base-6       floor_ground_floor
+     3     0                        #   6  1fBthWallSr  inv_ext_wall_norway
+     3     0                        #   7  extSrDoor    ext_door
 # air gap layer positions and restances
 # layer thermophysical properties
 # conduc-  | density |specific | thick- |dpnd|ref.| temp. |moisture|surface|layer
@@ -34,4 +33,11 @@
      0.1700    1000.0    1300.0  0.0250   0   0.00 0.00000 0.00000  #   7   1 HighDensityParticleBd
      0.0400      15.0    1000.0  0.0250   0   0.00 0.00000 0.00000  #       2 EPS k 0.04
      0.1700    1000.0    1300.0  0.0250   0   0.00 0.00000 0.00000  #       3 HighDensityParticleBd
-*tmc NONE                                       # all surfaces are opaque
+# for each surface: inside face emissivity
+ 0.93,0.93,0.93,0.93,0.90,0.93,0.90
+# for each surface: outside face emissivity
+ 0.93,0.93,0.93,0.90,0.90,0.93,0.90
+# for each surface: inside face solar absorptivity
+ 0.70,0.70,0.70,0.70,0.65,0.70,0.70
+# for each surface: outside face solar absorptivity
+ 0.70,0.70,0.70,0.90,0.65,0.70,0.70

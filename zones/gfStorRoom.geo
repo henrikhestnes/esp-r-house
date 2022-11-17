@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,gfStorRoom # tag version, format, zone name
-*date Tue Nov  1 18:10:48 2022  # latest file modification 
+*date Thu Nov 17 14:41:22 2022  # latest file modification 
 gfStorRoom describes the storage room in the ground floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,5.70000,0.00000  #   1
@@ -43,7 +43,7 @@ gfStorRoom describes the storage room in the ground floor
 *surf,gfLrWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,009,009  #   6 ||< gfLrWallSr:gfLivRoom
 *surf,gfStrWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,012,012  #   7 ||< gfStrWallSr:stairs
 *surf,gfBthWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,007,007  #   8 ||< gfBthWallSr:gfBath
-*surf,gfSrCeilEnt,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,11,013  #   9 ||< gfBthCeilEnt:1fEntrance
+*surf,gfSrCeilEnt,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,11,012  #   9 ||< gfBthCeilEnt:1fEntrance
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
