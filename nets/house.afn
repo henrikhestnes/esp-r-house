@@ -1,0 +1,87 @@
+   18   23   15    0.000    (nodes, components, connections, wind reduction)
+ Node         Fld. Type   Height    Temperature    Data_1       Data_2
+ gfSleep         1    0   1.2000       20.000       1.0000       21.600    
+ gfLivRoom       1    0   1.2000       20.000       1.0000       81.650    
+ stairs          1    0   3.7580       20.000       1.0000       35.761    
+ gfBath          1    0   1.2000       20.000       1.0000       22.868    
+ gfStorRoom      1    0   1.2000       20.000       1.0000       25.517    
+ 1fSleep1        1    0   3.6000       20.000       1.0000       25.920    
+ 1fSleep2        1    0   3.6000       20.000       1.0000       34.561    
+ 1fSleep3        1    0   3.6000       20.000       1.0000       25.705    
+ 1fBath          1    0   3.6000       20.000       1.0000       19.584    
+ 1fStorRoom      1    0   3.6000       20.000       1.0000       13.464    
+ 1fEntrance      1    0   3.6000       20.000       1.0000       45.865    
+ 2fLivRoom       1    0   6.7410       20.000       1.0000       179.22    
+ 2fOffice        1    0   6.3000       20.000       1.0000       22.030    
+ ambient         1    3   1.0000       0.0000       1.0000       180.00    
+ BD-Cr02:012     1    3   1.0500       0.0000       1.0000       180.00    
+ BD-Cr10:007     1    3   3.4500       0.0000       1.0000       360.00    
+ BD-Cr11:013     1    3   3.2400       0.0000       1.0000       0.0000    
+ BD-Cr12:016     1    3   5.8500       0.0000       1.0000       0.0000    
+ Component    Type C+ L+ Description
+ DoOpz01:006    40  3  0 Common orifice flow component m = rho.f(Cd,A,rho,dP)        
+   1.00000000       1.88999999      0.600000024    
+ OrCrz01:006   120  3  0 Specific air flow crack             m = rho.f(W,L,dP)       
+   1.00000000       2.00000009E-03   6.00000000    
+ FiBiz02:007   130  5  0 Specific air flow door              m = rho.f(W,H,dP)       
+   1.00000000       2.00000000       2.40000010       1.20000005      0.500000000    
+ DoCrz02:012   120  3  0 Specific air flow crack             m = rho.f(W,L,dP)       
+   1.00000000       2.00000009E-03   6.19999981    
+ DoOpz02:013    40  3  0 Common orifice flow component m = rho.f(Cd,A,rho,dP)        
+   1.00000000       1.88999939      0.600000024    
+ OrCrz02:013   120  3  0 Specific air flow crack             m = rho.f(W,L,dP)       
+   1.00000000       2.00000009E-03   6.00000000    
+ DoOpz02:014    40  3  0 Common orifice flow component m = rho.f(Cd,A,rho,dP)        
+   1.00000000       1.88999987      0.600000024    
+ OrCrz02:014   120  3  0 Specific air flow crack             m = rho.f(W,L,dP)       
+   1.00000000       2.00000009E-03   6.00000000    
+ FiBiz03:003   130  5  0 Specific air flow door              m = rho.f(W,H,dP)       
+   1.00000000       2.00000000       2.40000010       1.35813999      0.500000000    
+ FiBiz03:004   130  5  0 Specific air flow door              m = rho.f(W,H,dP)       
+   1.00000000       2.00000000       2.71627998       1.04186010      0.500000000    
+ DoOpz06:010    40  3  0 Common orifice flow component m = rho.f(Cd,A,rho,dP)        
+   1.00000000       1.88999939      0.600000024    
+ OrCrz06:010   120  3  0 Specific air flow crack             m = rho.f(W,L,dP)       
+   1.00000000       2.00000009E-03   6.00000000    
+ DoOpz07:007    40  3  0 Common orifice flow component m = rho.f(Cd,A,rho,dP)        
+   1.00000000       1.88999891      0.600000024    
+ OrCrz07:007   120  3  0 Specific air flow crack             m = rho.f(W,L,dP)       
+   1.00000000       2.00000009E-03   6.00000000    
+ DoOpz08:009    40  3  0 Common orifice flow component m = rho.f(Cd,A,rho,dP)        
+   1.00000000       1.88999844      0.600000024    
+ OrCrz08:009   120  3  0 Specific air flow crack             m = rho.f(W,L,dP)       
+   1.00000000       2.00000009E-03   6.00000000    
+ DoOpz09:004    40  3  0 Common orifice flow component m = rho.f(Cd,A,rho,dP)        
+   1.00000000       1.88999987      0.600000024    
+ OrCrz09:004   120  3  0 Specific air flow crack             m = rho.f(W,L,dP)       
+   1.00000000       2.00000009E-03   6.00000000    
+ DoCrz10:007   120  3  0 Specific air flow crack             m = rho.f(W,L,dP)       
+   1.00000000       2.00000009E-03   6.19999981    
+ DoCrz11:013   120  3  0 Specific air flow crack             m = rho.f(W,L,dP)       
+   1.00000000       2.00000009E-03   6.19999981    
+ DoCrz12:016   120  3  0 Specific air flow crack             m = rho.f(W,L,dP)       
+   1.00000000       2.00000009E-03   6.19999981    
+ DoOpz12:019    40  3  0 Common orifice flow component m = rho.f(Cd,A,rho,dP)        
+   1.00000000       1.88999987      0.600000024    
+ OrCrz12:019   120  3  0 Specific air flow crack             m = rho.f(W,L,dP)       
+   1.00000000       2.00000009E-03   6.00000000    
+ +Node         dHght   -Node         dHght   via Component
+ gfSleep      -0.150   gfLivRoom    -0.150   DoOpz01:006                             
+ gfLivRoom     0.000   stairs       -2.558   FiBiz02:007                             
+ BD-Cr02:012   0.000   gfLivRoom    -0.150   DoCrz02:012                             
+ gfLivRoom    -0.150   gfBath       -0.150   DoOpz02:013                             
+ gfLivRoom    -0.150   gfStorRoom   -0.150   DoOpz02:014                             
+ stairs       -0.158   1fEntrance    0.000   FiBiz03:003                             
+ stairs        2.400   2fLivRoom    -0.582   FiBiz03:004                             
+ 1fSleep1     -0.360   1fEntrance   -0.360   DoOpz06:010                             
+ 1fSleep2     -0.150   1fEntrance   -0.150   DoOpz07:007                             
+ 1fSleep3     -0.150   1fEntrance   -0.150   DoOpz08:009                             
+ 1fBath       -0.150   1fEntrance   -0.150   DoOpz09:004                             
+ BD-Cr10:007   0.000   1fStorRoom   -0.150   DoCrz10:007                             
+ BD-Cr11:013   0.000   1fEntrance   -0.360   DoCrz11:013                             
+ BD-Cr12:016   0.000   2fLivRoom    -0.891   DoCrz12:016                             
+ 2fLivRoom    -0.891   2fOffice     -0.450   DoOpz12:019                             
+*IPSMOD 1  # stack calc
+*MFBSNC 0  # timing
+*MSLVTP 2  # flow solution
+*MFTRAC 0  # trace level
