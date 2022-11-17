@@ -1,0 +1,117 @@
+*Flow_network 1.0
+*Date,Wed Nov 16 18:32:16 2022
+*Doc,sirFlow
+*Domain,Flow,2  # domain for this network
+*windpressure,0.000  # wind speed reduction
+# tag name fluid type assoc zone & surface
+# position & data
+*node,gfSleep,1,0,gfSleep,-   # internal unknown pressure
+1.500,1.500,1.200,20.0000,1.0000,21.6004  # position temp data
+*node,gfLivRoom,1,0,gfLivRoom,-   # internal unknown pressure
+5.100,2.850,1.200,20.0000,1.0000,81.6496  # position temp data
+*node,stairs,1,0,stairs,-   # internal unknown pressure
+0.900,4.350,3.758,20.0000,1.0000,35.7613  # position temp data
+*node,gfBath,1,0,gfBath,-   # internal unknown pressure
+6.415,6.900,1.200,20.0000,1.0000,22.8677  # position temp data
+*node,gfStorRoom,1,0,gfStorRoom,-   # internal unknown pressure
+2.215,6.900,1.200,20.0000,1.0000,25.5173  # position temp data
+*node,1fSleep1,1,0,1fSleep1,-   # internal unknown pressure
+1.800,1.500,3.600,20.0000,1.0000,25.9205  # position temp data
+*node,1fSleep2,1,0,1fSleep2,-   # internal unknown pressure
+6.000,1.500,3.600,20.0000,1.0000,34.5607  # position temp data
+*node,1fSleep3,1,0,1fSleep3,-   # internal unknown pressure
+7.350,5.550,3.600,20.0000,1.0000,25.7045  # position temp data
+*node,1fBath,1,0,1fBath,-   # internal unknown pressure
+1.700,6.900,3.600,20.0000,1.0000,19.5844  # position temp data
+*node,1fStorRoom,1,0,1fStorRoom,-   # internal unknown pressure
+-1.650,6.550,3.600,20.0000,1.0000,13.4643  # position temp data
+*node,1fEntrance,1,0,1fEntrance,-   # internal unknown pressure
+4.050,5.550,3.600,20.0000,1.0000,45.8649  # position temp data
+*node,2fLivRoom,1,0,2fLivRoom,-   # internal unknown pressure
+4.200,4.050,6.741,20.0000,1.0000,179.2221  # position temp data
+*node,2fOffice,1,0,2fOffice,-   # internal unknown pressure
+1.700,6.900,6.300,20.0000,1.0000,22.0304  # position temp data
+*node,ambient,1,3,-,-   # boundary wind pressure
+-1.000,-1.000,1.000,0.0000,1.0000,180.0000  # position temp data
+*node,BD-Cr02:012,1,3,gfLivRoom,gfLrDoorExt   # boundary wind pressure
+5.200,-0.900,1.050,0.0000,1.0000,180.0000  # position temp data
+*node,BD-Cr10:007,1,3,1fStorRoom,extSrDoor   # boundary wind pressure
+-1.300,8.300,3.450,0.0000,1.0000,359.9999  # position temp data
+*node,BD-Cr11:014,1,3,1fEntrance,1fEntDoor   # boundary wind pressure
+4.766,9.000,3.240,0.0000,1.0000,0.0000  # position temp data
+*node,BD-Cr12:016,1,3,2fLivRoom,2fLrBalDoor   # boundary wind pressure
+4.900,9.000,5.850,0.0000,1.0000,0.0000  # position temp data
+# tag name assoc zone & surface type C+ L+
+# start&end positions  description
+# data
+*cmp,DoOpz01:006,gfSleep,gfSlpDoorLr, 40,3,0
+0,3.000,1.850,1.050,Common orifice flow component m = rho.f(Cd,A,rho,dP)        
+1.00000000,1.88999975,0.600000024  # Fluid opening area (m^2) discharge factor (-)
+*cmp,OrCrz01:006,gfSleep,gfSlpDoorLr,120,3,0
+0,3.000,1.850,0.000,Specific air flow crack             m = rho.f(W,L,dP)       
+1.00000000,2.00000009E-03,6.00000000  # Fluid crack width(m) crack length(m)
+*cmp,FiOpz02:007,gfLivRoom,gfLrWallStr, 40,3,0
+0,1.800,4.350,1.200,Common orifice flow component m = rho.f(Cd,A,rho,dP)        
+1.00000000,1.62000004E-02,0.500000000  # Fluid opening area (m^2) discharge factor (-)
+*cmp,OrCrz02:007,gfLivRoom,gfLrWallStr,120,3,0
+0,1.800,4.350,0.000,Specific air flow crack             m = rho.f(W,L,dP)       
+1.00000000,2.00000009E-03,10.1999998  # Fluid crack width(m) crack length(m)
+*cmp,DoCrz02:012,gfLivRoom,gfLrDoorExt,120,3,0
+0,5.200,0.000,1.050,Specific air flow crack             m = rho.f(W,L,dP)       
+1.00000000,2.00000009E-03,6.19999981  # Fluid crack width(m) crack length(m)
+*cmp,DoOpz02:013,gfLivRoom,gfLrDoorBth, 40,3,0
+0,5.850,5.700,1.050,Common orifice flow component m = rho.f(Cd,A,rho,dP)        
+1.00000000,1.88999939,0.600000024  # Fluid opening area (m^2) discharge factor (-)
+*cmp,OrCrz02:013,gfLivRoom,gfLrDoorBth,120,3,0
+0,5.850,5.700,0.000,Specific air flow crack             m = rho.f(W,L,dP)       
+1.00000000,2.00000009E-03,6.00000000  # Fluid crack width(m) crack length(m)
+*cmp,DoOpz02:014,gfLivRoom,gfLrDoorSr, 40,3,0
+0,2.780,5.700,1.050,Common orifice flow component m = rho.f(Cd,A,rho,dP)        
+1.00000000,1.88999987,0.600000024  # Fluid opening area (m^2) discharge factor (-)
+*cmp,OrCrz02:014,gfLivRoom,gfLrDoorSr,120,3,0
+0,2.780,5.700,0.000,Specific air flow crack             m = rho.f(W,L,dP)       
+1.00000000,2.00000009E-03,6.00000000  # Fluid crack width(m) crack length(m)
+*cmp,DoOpz06:010,1fSleep1,1fSl1DoorEnt, 40,3,0
+0,2.960,3.000,3.240,Common orifice flow component m = rho.f(Cd,A,rho,dP)        
+1.00000000,1.88999939,0.600000024  # Fluid opening area (m^2) discharge factor (-)
+*cmp,OrCrz06:010,1fSleep1,1fSl1DoorEnt,120,3,0
+0,2.960,3.000,2.400,Specific air flow crack             m = rho.f(W,L,dP)       
+1.00000000,2.00000009E-03,6.00000000  # Fluid crack width(m) crack length(m)
+*cmp,DoOpz07:007,1fSleep2,1fSl2DoorEnt, 40,3,0
+0,5.650,3.000,3.450,Common orifice flow component m = rho.f(Cd,A,rho,dP)        
+1.00000000,1.88999891,0.600000024  # Fluid opening area (m^2) discharge factor (-)
+*cmp,OrCrz07:007,1fSleep2,1fSl2DoorEnt,120,3,0
+0,5.650,3.000,2.400,Specific air flow crack             m = rho.f(W,L,dP)       
+1.00000000,2.00000009E-03,6.00000000  # Fluid crack width(m) crack length(m)
+*cmp,DoOpz09:004,1fBath,1fBthDoorEnt, 40,3,0
+0,2.450,5.700,3.450,Common orifice flow component m = rho.f(Cd,A,rho,dP)        
+1.00000000,1.88999987,0.600000024  # Fluid opening area (m^2) discharge factor (-)
+*cmp,OrCrz09:004,1fBath,1fBthDoorEnt,120,3,0
+0,2.450,5.700,2.400,Specific air flow crack             m = rho.f(W,L,dP)       
+1.00000000,2.00000009E-03,6.00000000  # Fluid crack width(m) crack length(m)
+*cmp,DoCrz10:007,1fStorRoom,extSrDoor,120,3,0
+0,-1.300,7.400,3.450,Specific air flow crack             m = rho.f(W,L,dP)       
+1.00000000,2.00000009E-03,6.19999981  # Fluid crack width(m) crack length(m)
+*cmp,DoCrz11:014,1fEntrance,1fEntDoor,120,3,0
+0,4.766,8.100,3.240,Specific air flow crack             m = rho.f(W,L,dP)       
+1.00000000,2.00000009E-03,6.19999981  # Fluid crack width(m) crack length(m)
+*cmp,DoCrz12:016,2fLivRoom,2fLrBalDoor,120,3,0
+0,4.900,8.100,5.850,Specific air flow crack             m = rho.f(W,L,dP)       
+1.00000000,2.00000009E-03,6.19999981  # Fluid crack width(m) crack length(m)
+# connection +node deltaZ  -node deltaZ via component
+*cnn,gfSleep, -0.150,gfLivRoom, -0.150,DoOpz01:006
+*cnn,gfLivRoom,  0.000,stairs, -2.558,FiOpz02:007
+*cnn,BD-Cr02:012,  0.000,gfLivRoom, -0.150,DoCrz02:012
+*cnn,gfLivRoom, -0.150,gfBath, -0.150,DoOpz02:013
+*cnn,gfLivRoom, -0.150,gfStorRoom, -0.150,DoOpz02:014
+*cnn,1fSleep1, -0.360,1fEntrance, -0.360,DoOpz06:010
+*cnn,1fSleep2, -0.150,1fEntrance, -0.150,DoOpz07:007
+*cnn,1fBath, -0.150,1fEntrance, -0.150,DoOpz09:004
+*cnn,BD-Cr10:007,  0.000,1fStorRoom, -0.150,DoCrz10:007
+*cnn,BD-Cr11:014,  0.000,1fEntrance, -0.360,DoCrz11:014
+*cnn,BD-Cr12:016,  0.000,2fLivRoom, -0.891,DoCrz12:016
+*IPSMOD 1  # stack calc
+*MFBSNC 0  # timing
+*MSLVTP 2  # flow solution
+*MFTRAC 0  # trace level
+*End_network
