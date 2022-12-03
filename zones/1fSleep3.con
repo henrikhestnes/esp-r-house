@@ -1,5 +1,5 @@
 *Constructions 2.1                              # thermophysical properties of 1fSleep3
-*date Sat Dec  3 15:33:46 2022                  # latest file modification
+*date Sat Dec  3 18:26:24 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
      3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-2       ext_wall_norway
@@ -8,11 +8,10 @@
      3     0   0.93   0.93   0.70   0.70   0    #   4  1fSlp3Ceil   int_ceil
      3     0   0.93   0.93   0.70   0.70   0    #   5  gfLrCeilSlp3 int_floor
      3     0   0.93   0.93   0.70   0.70   0    #   6  1fSl2Wallsl3 int_wall
-     5     2   0.99   0.99   0.01   0.01   1    #   7  1fSlp3Win    tripglz_1.08
+     5     0   0.99   0.99   0.01   0.01   1    #   7  1fSlp3Win    tripglz_1.08
      3     0   0.93   0.93   0.70   0.70   0    #   8  gfBthCeilSl3 int_floor
      1     0   0.93   0.93   0.70   0.70   0    #   9  1fSl3DoorEnt int_doors
 # air gap layer positions and restances
-  2  0.540  4  0.540                            # for 1fSlp3Win
 # layer thermophysical properties
 # conduc-  | density |specific | thick- |dpnd|ref.| temp. |moisture|surface|layer
 # tivity   |         |heat     |ness(m) |type|temp|factor | factor |       |  
@@ -35,9 +34,9 @@
      0.0360      20.0    1030.0  0.0250   0   0.00 0.00000 0.00000  #       2 glasswool_glava
      0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plasterboard
      1.1200    2230.0     830.0  0.0060   0   0.00 0.00000 0.00000  #   7   1 float_glass
-     0.0000       0.0       0.0  0.0120   0   0.00 0.00000 0.00000  #       2 AIR
+     0.0160       1.8     524.9  0.0090   0   0.00 0.00000 0.00000  #       2 argon
      1.1200    2230.0     830.0  0.0060   0   0.00 0.00000 0.00000  #       3 float_glass
-     0.0000       0.0       0.0  0.0120   0   0.00 0.00000 0.00000  #       4 AIR
+     0.0160       1.8     524.9  0.0090   0   0.00 0.00000 0.00000  #       4 argon
      1.1200    2230.0     830.0  0.0060   0   0.00 0.00000 0.00000  #       5 float_glass
      0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #   8   1 plasterboard
      0.0360      20.0    1030.0  0.1500   0   0.00 0.00000 0.00000  #       2 glasswool_glava

@@ -13,7 +13,7 @@ Tags are:
 - *layer layer data... mat ref, thickness,mat name: mat description
 - *Text ... *End_text  markers for database documentation
 *End_text
-*date,Sat Dec  3 15:33:39 2022
+*date,Sat Dec  3 18:26:16 2022
 *Category,walls,opaque facade constructions,opaque facades representing different ages and performance (mostly UK based)
 *Category,partitions,internal partitions,partitions between zones (some have matching mirror versions)
 *Category,doors,inside and outside doors,doors of different ages types and performance characteristics
@@ -517,9 +517,9 @@ Tags are:
 *incat,project specific
 *type,TRAN,trip_gl_kai,SYMMETRIC
 *layer,364,0.0060,float_glass : float_glass (derived from fictious)
-*layer,0,0.0120,gap  0.54 0.54 0.54
+*layer,346,0.0090,argon : argon for use with CCHT testing
 *layer,364,0.0060,float_glass : float_glass (derived from fictious)
-*layer,0,0.0120,gap  0.54 0.54 0.54
+*layer,346,0.0090,argon : argon for use with CCHT testing
 *layer,364,0.0060,float_glass : float_glass (derived from fictious)
 *end_item
 *item,tripglz_089,tripple glazing with 0.89 Uvalue # tag name menu entry

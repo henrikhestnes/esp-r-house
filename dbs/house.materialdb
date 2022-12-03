@@ -606,7 +606,7 @@ Category (16) Non-homogeneous layers combine two existing materials properties t
 *item,stud_acoustic_batt,337,16,stud_acoustic_batt derived from fir & Mineral wool batt ( 0.070 0.930) for use in partition walls
 0.0470,52.580,1120.400,0.900,0.900,0.697,0.697,28.740,25.0,-
 # class index |nb items|description (32 char)
-*class,17,17,GAPS
+*class,17,16,GAPS
 Category (17) holds the implied air material (legacy index of zero), several gaps with default air gap resistances and air expressed as k value for a thickness to use in non-homogeneous layers.
 *item,air gap,  0,17,Air layer with default properties assumed for legacy treatment of air (index zero).
 0.0000,0.000,0.000,0.990,0.990,0.990,0.990,1.000,25.0,-
@@ -622,8 +622,6 @@ Category (17) holds the implied air material (legacy index of zero), several gap
 2.3360,1.670,519.000,0.990,0.990,0.990,0.990,1.000,16.0,g
 *item,water,344,17,water at approx. 20 dec C
 0.5980,1000.000,4182.000,0.990,0.990,0.990,0.990,1.000,100.0,o
-*item,argon,346,17,argon for use with CCHT testing
-0.0160,1.780,524.920,0.900,0.990,0.650,0.990,30.000,30.0,o
 *item,air (k) 50mm HF,347,17,air (k) 50mm gap horizontal flow from PHPP E=0.9
 0.2700,1.204,1006.000,0.900,0.900,0.990,0.990,1.000,50.0,-
 *item,air (k) 50mm upwards,348,17,air (k) 50mm upwards heat flow via PHPP method E=0.9
@@ -643,7 +641,7 @@ Category (17) holds the implied air material (legacy index of zero), several gap
 *item,air (k) 50mm foil,355,17,air (k) 50mm one side foil horizontal heat flow PHPP method
 0.1000,1.204,1006.000,0.150,0.150,0.990,0.990,1.000,25.0,-
 # class index |nb items|description (32 char)
-*class,18,10,Project specific
+*class,18,11,Project specific
 Category (18) holds non-standard materials associated with a project so that these can be isolated prior to acceptance as a standard material.
 *item,Spruce,345,18,Spruce for wall clothing
 0.1200,470.000,1900.000,0.930,0.930,0.700,0.700,12.000,19.0,-
@@ -665,4 +663,6 @@ Category (18) holds non-standard materials associated with a project so that the
 20.0000,10.000,10.000,0.990,0.990,0.010,0.010,19200.000,12.0,t,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
 *item,float_glass,364,18,float_glass (derived from fictious)
 1.1200,2230.000,830.000,0.990,0.990,0.010,0.010,19200.000,12.0,t,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
+*item,argon,365,18,argon (derived from float_glass)
+0.0180,1.780,520.000,0.990,0.990,0.010,0.010,19200.000,12.0,t,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
 *end
