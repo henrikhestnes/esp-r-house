@@ -13,7 +13,7 @@ Tags are:
 - *layer layer data... mat ref, thickness,mat name: mat description
 - *Text ... *End_text  markers for database documentation
 *End_text
-*date,Sat Dec  3 18:26:16 2022
+*date,Sat Dec  3 19:00:14 2022
 *Category,walls,opaque facade constructions,opaque facades representing different ages and performance (mostly UK based)
 *Category,partitions,internal partitions,partitions between zones (some have matching mirror versions)
 *Category,doors,inside and outside doors,doors of different ages types and performance characteristics
@@ -516,11 +516,11 @@ Tags are:
 *itemdoc,tripple glazing 6mm clear float glass with 12mm air gaps and lowe coatings to reach U=1.08. A good commercial grade.
 *incat,project specific
 *type,TRAN,trip_gl_kai,SYMMETRIC
-*layer,364,0.0060,float_glass : float_glass (derived from fictious)
-*layer,346,0.0090,argon : argon for use with CCHT testing
-*layer,364,0.0060,float_glass : float_glass (derived from fictious)
-*layer,346,0.0090,argon : argon for use with CCHT testing
-*layer,364,0.0060,float_glass : float_glass (derived from fictious)
+*layer,364,0.0040,float_glass : float_glass (derived from fictious)
+*layer,365,0.0100,argon : argon (derived from float_glass)
+*layer,364,0.0040,float_glass : float_glass (derived from fictious)
+*layer,365,0.0100,argon : argon (derived from float_glass)
+*layer,364,0.0040,float_glass : float_glass (derived from fictious)
 *end_item
 *item,tripglz_089,tripple glazing with 0.89 Uvalue # tag name menu entry
 *itemdoc,tripple glazing 6mm clear float glass with 12mm argon and lowe coatings to reach U=0.89. Suitable for PassiveHouse.
