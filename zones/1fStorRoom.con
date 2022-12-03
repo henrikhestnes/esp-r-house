@@ -1,37 +1,37 @@
 *Constructions 2.1                              # thermophysical properties of 1fStorRoom
-*date Fri Nov 18 12:06:35 2022                  # latest file modification
+*date Sat Dec  3 15:33:46 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
      3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-1       ext_wall_norway
      3     0   0.93   0.93   0.70   0.70   0    #   2  Wall-3       ext_wall_norway
      3     0   0.93   0.93   0.70   0.70   0    #   3  Wall-4       ext_wall_norway
      3     0   0.93   0.90   0.70   0.90   0    #   4  Top-5        ext_roof
-     3     0   0.90   0.90   0.65   0.65   0    #   5  Base-6       floor_ground_floor
+     3     0   0.93   0.93   0.70   0.70   0    #   5  Base-6       floor_ground_floor
      3     0   0.93   0.93   0.70   0.70   0    #   6  1fBthWallSr  inv_ext_wall_norway
-     3     0   0.90   0.90   0.70   0.70   0    #   7  extSrDoor    ext_door
+     3     0   0.93   0.93   0.70   0.70   0    #   7  extSrDoor    ext_door
 # air gap layer positions and restances
 # layer thermophysical properties
 # conduc-  | density |specific | thick- |dpnd|ref.| temp. |moisture|surface|layer
 # tivity   |         |heat     |ness(m) |type|temp|factor | factor |       |  
      0.1200     470.0    1900.0  0.0190   0   0.00 0.00000 0.00000  #   1   1 Spruce
-     0.0360      20.0    1030.0  0.1500   0   0.00 0.00000 0.00000  #       2 glasswool_glava
-     0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plaster_wall
+     0.0360      20.0    1030.0  0.1900   0   0.00 0.00000 0.00000  #       2 glasswool_glava
+     0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plasterboard
      0.1200     470.0    1900.0  0.0190   0   0.00 0.00000 0.00000  #   2   1 Spruce
-     0.0360      20.0    1030.0  0.1500   0   0.00 0.00000 0.00000  #       2 glasswool_glava
-     0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plaster_wall
+     0.0360      20.0    1030.0  0.1900   0   0.00 0.00000 0.00000  #       2 glasswool_glava
+     0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plasterboard
      0.1200     470.0    1900.0  0.0190   0   0.00 0.00000 0.00000  #   3   1 Spruce
-     0.0360      20.0    1030.0  0.1500   0   0.00 0.00000 0.00000  #       2 glasswool_glava
-     0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plaster_wall
+     0.0360      20.0    1030.0  0.1900   0   0.00 0.00000 0.00000  #       2 glasswool_glava
+     0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plasterboard
      0.1900     960.0     837.0  0.0060   0   0.00 0.00000 0.00000  #   4   1 roofing felt
-     0.0360      20.0    1030.0  0.1910   0   0.00 0.00000 0.00000  #       2 glasswool_glava
-     0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plaster_wall
-     0.1700     740.0    2000.0  0.0120   0   0.00 0.00000 0.00000  #   5   1 parquet
-     0.0360      20.0    1030.0  0.1750   0   0.00 0.00000 0.00000  #       2 glasswool_glava
-     0.1800     730.0    1000.0  0.1000   0   0.00 0.00000 0.00000  #       3 thermalite_aircrete_HS_7
-     0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #   6   1 plaster_wall
-     0.0360      20.0    1030.0  0.1500   0   0.00 0.00000 0.00000  #       2 glasswool_glava
+     0.0360      20.0    1030.0  0.2750   0   0.00 0.00000 0.00000  #       2 glasswool_glava
+     0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plasterboard
+     1.4000    2100.0     840.0  0.1000   0   0.00 0.00000 0.00000  #   5   1 concrete
+     0.0360      20.0    1030.0  0.3600   0   0.00 0.00000 0.00000  #       2 glasswool_glava
+     0.1760     693.0    1358.0  0.0120   0   0.00 0.00000 0.00000  #       3 beech_parquet
+     0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #   6   1 plasterboard
+     0.0360      20.0    1030.0  0.1900   0   0.00 0.00000 0.00000  #       2 glasswool_glava
      0.1200     470.0    1900.0  0.0190   0   0.00 0.00000 0.00000  #       3 Spruce
-     0.1700    1000.0    1300.0  0.0250   0   0.00 0.00000 0.00000  #   7   1 HighDensityParticleBd
-     0.0500      15.0    1000.0  0.0185   0   0.00 0.00000 0.00000  #       2 EPS k 0.05
-     0.1700    1000.0    1300.0  0.0250   0   0.00 0.00000 0.00000  #       3 HighDensityParticleBd
+     0.1500    1010.0    1380.0  0.0250   0   0.00 0.00000 0.00000  #   7   1 hardboard
+     0.0340      15.0    1300.0  0.0260   0   0.00 0.00000 0.00000  #       2 EPS
+     0.1500    1010.0    1380.0  0.0250   0   0.00 0.00000 0.00000  #       3 hardboard
 *tmc NONE                                       # all surfaces are opaque

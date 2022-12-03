@@ -13,7 +13,7 @@ Tags are:
 - *layer layer data... mat ref, thickness,mat name: mat description
 - *Text ... *End_text  markers for database documentation
 *End_text
-*date,Sat Dec  3 13:02:28 2022
+*date,Sat Dec  3 15:33:39 2022
 *Category,walls,opaque facade constructions,opaque facades representing different ages and performance (mostly UK based)
 *Category,partitions,internal partitions,partitions between zones (some have matching mirror versions)
 *Category,doors,inside and outside doors,doors of different ages types and performance characteristics
@@ -1723,11 +1723,11 @@ Tags are:
 *layer,356,0.1900,glasswool_glava : glasswool for isolation
 *layer,357,0.0120,plaster_wall : plaster_wall (derived from glasswool)
 *end_item
-*item,fictious,fictious # tag name menu entry
+*item,fictitious,fictious # tag name menu entry
 *itemdoc,no documentation yet for fictious in own_constructions
 *incat,project specific
 *type,TRAN,SC_fictit,SYMMETRIC
-*layer,363,0.0000,fictious : fictious (derived from roofing_felt)
+*layer,363,0.0010,fictious : fictious (derived from roofing_felt)
 *end_item
 *item,int_wall,int_wall # tag name menu entry
 *itemdoc,no documentation yet for int_wall in project specific

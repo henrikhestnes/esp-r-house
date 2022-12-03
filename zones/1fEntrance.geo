@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,1fEntrance # tag version, format, zone name
-*date Thu Nov 17 14:44:29 2022  # latest file modification 
+*date Sat Dec  3 15:33:28 2022  # latest file modification 
 1fEntrance describes the 1st floor entrance
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,1.80000,3.00000,2.40000  #   1
@@ -77,7 +77,7 @@
 *surf,gfBthCeilEnt,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,003,003  #  11 ||< gfBthCeilEnt:gfBath
 *surf,gfSrCeilEnt,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,009,009  #  12 ||< gfSrCeilEnt:gfStorRoom
 *surf,1fEntDoor,VERT,Wall-3,DOOR,CLOSED,ext_door,OPAQUE,EXTERIOR,00,000  #  13 ||< external
-*surf,strWall1f,VERT,-,FICT,BIDIR,fictious,SC_fictit,ANOTHER,003,003  #  14 ||< strWall1f:stairs
+*surf,strWall1f,VERT,-,FICT,BIDIR,fictitious,TRAN,ANOTHER,003,003  #  14 ||< strWall1f:stairs
 *surf,1fSl3WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,008,003  #  15 ||< 1fSl3WallEnt:1fSleep3
 *surf,1fSl3DoorEnt,VERT,1fSl3WallEnt,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,008,009  #  16 ||< 1fSl3DoorEnt:1fSleep3
 # 
