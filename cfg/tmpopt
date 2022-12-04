@@ -445,7 +445,7 @@ nor_trip_glz  :norwegian tripple glazing
 # def lyr, tmc lyr, vis trn, sol refl, sol absor, U val
   1   5  0.720  0.470  0.110  5.400
 # direct trn @ 5 angles, total heat gain @ 5 angles
-  0.037 0.037 0.037 0.037 0.037 0.200 0.200 0.200 0.200 0.200
+  0.013 0.013 0.013 0.013 0.013 0.200 0.200 0.200 0.200 0.200
 # refr index, absorption @ 5 angles for each tmc layer
   1.520 0.020 0.020 0.020 0.020 0.020
   1.000 0.000 0.000 0.000 0.000 0.000
