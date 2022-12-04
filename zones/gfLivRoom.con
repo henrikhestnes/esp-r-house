@@ -1,5 +1,5 @@
 *Constructions 2.1                              # thermophysical properties of gfLivRoom
-*date Sun Dec  4 12:23:11 2022                  # latest file modification
+*date Sun Dec  4 12:46:36 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
      3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-1       ext_wall_norway
@@ -74,7 +74,7 @@
   0.001  0.001  0.001  0.001  0.001             # for each layer absorption @ 5 angles
    0                                            # no alternative optics
    5  nor_trip_glz                              # layers in tmc type 2
-  0.037  0.037  0.037  0.037  0.037  0.720      # transmission @ 5 angles & visible tr.
+  0.013  0.013  0.013  0.013  0.013  0.720      # transmission @ 5 angles & visible tr.
   0.020  0.020  0.020  0.020  0.020             # for each layer absorption @ 5 angles
   0.000  0.000  0.000  0.000  0.000
   0.020  0.020  0.020  0.020  0.020
