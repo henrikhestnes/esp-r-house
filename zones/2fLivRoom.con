@@ -1,5 +1,5 @@
 *Constructions 2.1                              # thermophysical properties of 2fLivRoom
-*date Sat Dec  3 19:00:22 2022                  # latest file modification
+*date Sun Dec  4 11:35:41 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
      3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-2       ext_wall_norway
@@ -15,11 +15,11 @@
      3     0   0.93   0.93   0.70   0.70   0    #  11  1fEntCeil    int_floor
      3     0   0.93   0.93   0.70   0.70   0    #  12  2fStrWallKch int_wall
      1     0   0.99   0.99   0.01   0.01   1    #  13  strWall2f    fictitious
-     5     0   0.99   0.99   0.01   0.01   2    #  14  2fLrWin1     tripglz_1.08
-     5     0   0.99   0.99   0.01   0.01   2    #  15  2fLrWin2     tripglz_1.08
+     5     0   0.04   0.04   0.01   0.01   2    #  14  2fLrWin1     tripglz_1.08
+     5     0   0.04   0.04   0.01   0.01   2    #  15  2fLrWin2     tripglz_1.08
      3     0   0.93   0.93   0.70   0.70   0    #  16  2fLrBalDoor  ext_door
-     5     0   0.99   0.99   0.01   0.01   2    #  17  2fLrWin3     tripglz_1.08
-     5     0   0.99   0.99   0.01   0.01   2    #  18  2fKchWin     tripglz_1.08
+     5     0   0.04   0.04   0.01   0.01   2    #  17  2fLrWin3     tripglz_1.08
+     5     0   0.04   0.04   0.01   0.01   2    #  18  2fKchWin     tripglz_1.08
      1     0   0.93   0.93   0.70   0.70   0    #  19  2fLrDoorOfc  int_doors
 # air gap layer positions and restances
 # layer thermophysical properties

@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,1fSleep1 # tag version, format, zone name
-*date Thu Nov 17 14:41:22 2022  # latest file modification 
+*date Sun Dec  4 10:16:29 2022  # latest file modification 
 1fSlp describes the first floor sleeping room
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,0.00000,2.40000  #   1
@@ -47,9 +47,9 @@
 *surf,gfSlpCeil,FLOR,Base-6,PARTN,-,int_floor,OPAQUE,ANOTHER,003,003  #   5 ||< gfSlpCeil:gfSleep
 *surf,1fStrWallSlp,VERT,Wall-3,PARTN,-,int_wall,OPAQUE,ANOTHER,007,007  #   6 ||< 1fStrWallSlp:stairs
 *surf,gfLrCeilSlp,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,015,015  #   7 ||< gfLrCeilSlp:gfLivRoom
-*surf,1fSlpWin,VERT,wall-1,C-WINDOW,-,tripglz_1.08,trip_gl_kai,EXTERIOR,00,000  #   8 ||< external
-*surf,1fSl1WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,11,005  #   9 ||< 1fSl2WallEnt:1fEntrance
-*surf,1fSl1DoorEnt,VERT,1fSl1WallEnt,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,11,006  #  10 ||< 1fSl1WallEnt:1fEntrance
+*surf,1fSlpWin,VERT,wall-1,C-WINDOW,-,tripglz_1.08,TRAN,EXTERIOR,00,000  #   8 ||< external
+*surf,1fSl1WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,11,005  #   9 ||< 1fSl1WallEnt:1fEntrance
+*surf,1fSl1DoorEnt,VERT,1fSl1WallEnt,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,11,006  #  10 ||< 1fSl1DoorEnt:1fEntrance
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

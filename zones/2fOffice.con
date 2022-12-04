@@ -1,5 +1,5 @@
 *Constructions 2.1                              # thermophysical properties of 2fOffice
-*date Sat Dec  3 19:00:22 2022                  # latest file modification
+*date Sun Dec  4 11:35:41 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
      3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-3       ext_wall_norway
@@ -8,7 +8,7 @@
      3     0   0.93   0.93   0.70   0.70   0    #   4  1fBthCeil    int_floor
      3     0   0.93   0.93   0.70   0.70   0    #   5  2fStrWallOfc int_wall
      3     0   0.93   0.93   0.70   0.70   0    #   6  2fLrWal1Of   int_wall
-     5     0   0.99   0.99   0.01   0.01   1    #   7  2fOfcWin     tripglz_1.08
+     5     0   0.04   0.04   0.01   0.01   1    #   7  2fOfcWin     tripglz_1.08
      1     0   0.93   0.93   0.70   0.70   0    #   8  2fLrDoorOfc  int_doors
      3     0   0.93   0.93   0.70   0.70   0    #   9  2fLrWal2Of   int_wall
 # air gap layer positions and restances

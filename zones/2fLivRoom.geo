@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,2fLivRoom # tag version, format, zone name
-*date Sat Dec  3 15:33:28 2022  # latest file modification 
+*date Sun Dec  4 10:16:29 2022  # latest file modification 
 2fLivRoom describes the living room and kitchen of 2nd floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,0.00000,4.80000  #   1
@@ -88,12 +88,12 @@
 *surf,1fSlp3Ceil,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,008,004  #  10 ||< 1fSlp3Ceil:1fSleep3
 *surf,1fEntCeil,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,011,002  #  11 ||< 1fEntCeil:1fEntrance
 *surf,2fStrWallKch,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,008  #  12 ||< 2fStrWallKch:stairs
-*surf,strWall2f,VERT,-,FICT,BIDIR,fictitious,TRAN,ANOTHER,003,004  #  13 ||< strWall2f:stairs
-*surf,2fLrWin1,VERT,Wall-3,C-WINDOW,-,tripglz_1.08,trip_gl_kai,EXTERIOR,00,000  #  14 ||< external
-*surf,2fLrWin2,VERT,Wall-3,C-WINDOW,-,tripglz_1.08,trip_gl_kai,EXTERIOR,00,000  #  15 ||< external
+*surf,strWall2f,VERT,-,FICT,BIDIR,fictitious,SC_fictit,ANOTHER,003,004  #  13 ||< strWall2f:stairs
+*surf,2fLrWin1,VERT,Wall-3,C-WINDOW,-,tripglz_1.08,TRAN,EXTERIOR,00,000  #  14 ||< external
+*surf,2fLrWin2,VERT,Wall-3,C-WINDOW,-,tripglz_1.08,TRAN,EXTERIOR,00,000  #  15 ||< external
 *surf,2fLrBalDoor,VERT,Wall-3,DOOR,CLOSED,ext_door,OPAQUE,EXTERIOR,00,000  #  16 ||< external
-*surf,2fLrWin3,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,trip_gl_kai,EXTERIOR,00,000  #  17 ||< external
-*surf,2fKchWin,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,trip_gl_kai,EXTERIOR,00,000  #  18 ||< external
+*surf,2fLrWin3,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,TRAN,EXTERIOR,00,000  #  17 ||< external
+*surf,2fKchWin,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,TRAN,EXTERIOR,00,000  #  18 ||< external
 *surf,2fLrDoorOfc,VERT,2fLrWal2Of,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,013,008  #  19 ||< 2fLrDoorOfc:2fOffice
 # 
 *insol,3,0,0,0  # default insolation distribution

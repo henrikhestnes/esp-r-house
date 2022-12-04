@@ -441,11 +441,11 @@ ccht-win      :data from Kamel's spreadsheet
   1.000 0.001 0.001 0.001 0.001 0.001
   1.520 0.135 0.137 0.130 0.109 0.064
 # 12 char id |  description       | thick | blind
-UNKNOWN       :UNKNOWN
+test          :UNKNOWN
 # def lyr, tmc lyr, vis trn, sol refl, sol absor, U val
   1   5  0.890  0.070  0.110  5.400
 # direct trn @ 5 angles, total heat gain @ 5 angles
-  0.100 0.100 0.100 0.100 0.100 0.200 0.200 0.200 0.200 0.200
+  0.001 0.001 0.001 0.001 0.001 0.200 0.200 0.200 0.200 0.200
 # refr index, absorption @ 5 angles for each tmc layer
   1.520 0.100 0.100 0.100 0.100 0.100
   1.000 0.001 0.001 0.001 0.001 0.001

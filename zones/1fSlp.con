@@ -1,5 +1,5 @@
 *Constructions 2.1                              # thermophysical properties of 1fSleep1
-*date Sat Dec  3 19:00:22 2022                  # latest file modification
+*date Sun Dec  4 11:35:41 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
      3     0   0.93   0.93   0.70   0.70   0    #   1  wall-1       ext_wall_norway
@@ -9,7 +9,7 @@
      3     0   0.93   0.93   0.70   0.70   0    #   5  gfSlpCeil    int_floor
      3     0   0.93   0.93   0.70   0.70   0    #   6  1fStrWallSlp int_wall
      3     0   0.93   0.93   0.70   0.70   0    #   7  gfLrCeilSlp  int_floor
-     5     0   0.99   0.99   0.01   0.01   1    #   8  1fSlpWin     tripglz_1.08
+     5     0   0.04   0.04   0.01   0.01   1    #   8  1fSlpWin     tripglz_1.08
      3     0   0.93   0.93   0.70   0.70   0    #   9  1fSl1WallEnt int_wall
      1     0   0.93   0.93   0.70   0.70   0    #  10  1fSl1DoorEnt int_doors
 # air gap layer positions and restances

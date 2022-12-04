@@ -1,5 +1,5 @@
 *Constructions 2.1                              # thermophysical properties of 1fStorRoom
-*date Sat Dec  3 19:00:22 2022                  # latest file modification
+*date Sun Dec  4 11:35:41 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
      3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-1       ext_wall_norway
