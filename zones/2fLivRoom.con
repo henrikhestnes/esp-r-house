@@ -1,5 +1,5 @@
 *Constructions 2.1                              # thermophysical properties of 2fLivRoom
-*date Sun Dec  4 11:35:41 2022                  # latest file modification
+*date Sun Dec  4 12:23:11 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
      3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-2       ext_wall_norway
@@ -26,10 +26,10 @@
 # conduc-  | density |specific | thick- |dpnd|ref.| temp. |moisture|surface|layer
 # tivity   |         |heat     |ness(m) |type|temp|factor | factor |       |  
      0.1200     470.0    1900.0  0.0190   0   0.00 0.00000 0.00000  #   1   1 Spruce
-     0.0360      20.0    1030.0  0.1900   0   0.00 0.00000 0.00000  #       2 glasswool_glava
+     0.0360      20.0    1030.0  0.3000   0   0.00 0.00000 0.00000  #       2 glasswool_glava
      0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plasterboard
      0.1200     470.0    1900.0  0.0190   0   0.00 0.00000 0.00000  #   2   1 Spruce
-     0.0360      20.0    1030.0  0.1900   0   0.00 0.00000 0.00000  #       2 glasswool_glava
+     0.0360      20.0    1030.0  0.3000   0   0.00 0.00000 0.00000  #       2 glasswool_glava
      0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plasterboard
      0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #   3   1 plasterboard
      0.0360      20.0    1030.0  0.0250   0   0.00 0.00000 0.00000  #       2 glasswool_glava
@@ -38,13 +38,13 @@
      0.0360      20.0    1030.0  0.0250   0   0.00 0.00000 0.00000  #       2 glasswool_glava
      0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plasterboard
      0.1200     470.0    1900.0  0.0190   0   0.00 0.00000 0.00000  #   5   1 Spruce
-     0.0360      20.0    1030.0  0.1900   0   0.00 0.00000 0.00000  #       2 glasswool_glava
+     0.0360      20.0    1030.0  0.3000   0   0.00 0.00000 0.00000  #       2 glasswool_glava
      0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plasterboard
      0.1900     960.0     837.0  0.0060   0   0.00 0.00000 0.00000  #   6   1 roofing felt
      0.0360      20.0    1030.0  0.2750   0   0.00 0.00000 0.00000  #       2 glasswool_glava
      0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plasterboard
      0.1200     470.0    1900.0  0.0190   0   0.00 0.00000 0.00000  #   7   1 Spruce
-     0.0360      20.0    1030.0  0.1900   0   0.00 0.00000 0.00000  #       2 glasswool_glava
+     0.0360      20.0    1030.0  0.3000   0   0.00 0.00000 0.00000  #       2 glasswool_glava
      0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plasterboard
      0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #   8   1 plasterboard
      0.0360      20.0    1030.0  0.1500   0   0.00 0.00000 0.00000  #       2 glasswool_glava
@@ -73,7 +73,7 @@
      0.0180       1.8     520.0  0.0100   0   0.00 0.00000 0.00000  #       4 argon
      1.1200    2230.0     830.0  0.0040   0   0.00 0.00000 0.00000  #       5 float_glass
      0.1500    1010.0    1380.0  0.0250   0   0.00 0.00000 0.00000  #  16   1 hardboard
-     0.0340      15.0    1300.0  0.0260   0   0.00 0.00000 0.00000  #       2 EPS
+     0.0340      15.0    1300.0  0.0400   0   0.00 0.00000 0.00000  #       2 EPS
      0.1500    1010.0    1380.0  0.0250   0   0.00 0.00000 0.00000  #       3 hardboard
      1.1200    2230.0     830.0  0.0040   0   0.00 0.00000 0.00000  #  17   1 float_glass
      0.0180       1.8     520.0  0.0100   0   0.00 0.00000 0.00000  #       2 argon
@@ -91,11 +91,11 @@
   0.998  0.987  0.986  0.985  0.984  0.990      # transmission @ 5 angles & visible tr.
   0.001  0.001  0.001  0.001  0.001             # for each layer absorption @ 5 angles
    0                                            # no alternative optics
-   5  trip_gl_kai                               # layers in tmc type 2
-  0.382  0.361  0.313  0.193  0.077  0.614      # transmission @ 5 angles & visible tr.
-  0.260  0.264  0.264  0.255  0.195             # for each layer absorption @ 5 angles
-  0.001  0.001  0.001  0.001  0.001
-  0.103  0.111  0.115  0.107  0.083
-  0.001  0.001  0.001  0.001  0.001
-  0.098  0.095  0.086  0.061  0.028
+   5  nor_trip_glz                              # layers in tmc type 2
+  0.037  0.037  0.037  0.037  0.037  0.720      # transmission @ 5 angles & visible tr.
+  0.020  0.020  0.020  0.020  0.020             # for each layer absorption @ 5 angles
+  0.000  0.000  0.000  0.000  0.000
+  0.020  0.020  0.020  0.020  0.020
+  0.000  0.000  0.000  0.000  0.000
+  0.020  0.020  0.020  0.020  0.020
    0                                            # no alternative optics

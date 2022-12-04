@@ -1,17 +1,17 @@
 *Operations 2.1                               # zone operation definiions for 2fLivRoom
-*date Sun Dec  4 10:12:38 2022                # latest file modification
+*date Sun Dec  4 12:41:08 2022                # latest file modification
 # infiltration and ventilation notes:
 no infiltration or venitlation notes (yet)
 # infiltration and ventilation controls:
    0      0.00      0.00    100.00            # control index (no control of air flow), low middle high setpoints
     1                                         # number of flow periods during weekdays
-   0, 24,    0.201    0.000    0     0.00     # start, stop, infil ach ( 0.0100m^3/s)
+   0, 24,    0.000    0.000    0     0.00     # start, stop, infil ach ( 0.0000m^3/s)
     1                                         # number of flow periods during saturday
-   0, 24,    0.201    0.000    0     0.00     # start, stop, infil ach ( 0.0100m^3/s)
+   0, 24,    0.000    0.000    0     0.00     # start, stop, infil ach ( 0.0000m^3/s)
     1                                         # number of flow periods during sunday
-   0, 24,    0.201    0.000    0     0.00     # start, stop, infil ach ( 0.0100m^3/s)
+   0, 24,    0.000    0.000    0     0.00     # start, stop, infil ach ( 0.0000m^3/s)
     1                                         # number of flow periods during holiday
-   0, 24,    0.201    0.000   13     0.00     # start stop infil ach ( 0.0100m^3/s) vent ach ( 0.0000m^3/s) from 2fOffice
+   0, 24,    0.000    0.000   13     0.00     # start stop infil ach ( 0.0000m^3/s) vent ach ( 0.0000m^3/s) from 2fOffice
 # casual gain type definitions:
 *casual
 # notes on casual gains:
