@@ -1,23 +1,23 @@
 *Geometry 1.1,GEN,1fBath # tag version, format, zone name
-*date Thu Nov 17 14:41:22 2022  # latest file modification 
+*date Tue Dec  6 20:59:41 2022  # latest file modification 
 1fBath describes the bath in 1floor
 # tag, X co-ord, Y co-ord, Z co-ord
-*vertex,0.00000,5.70000,2.40000  #   1
-*vertex,3.40000,5.70000,2.40000  #   2
-*vertex,3.40000,8.10000,2.40000  #   3
-*vertex,0.00000,8.10000,2.40000  #   4
-*vertex,0.00000,5.70000,4.80000  #   5
-*vertex,3.40000,5.70000,4.80000  #   6
-*vertex,3.40000,8.10000,4.80000  #   7
-*vertex,0.00000,8.10000,4.80000  #   8
-*vertex,2.90000,5.70000,2.40000  #   9
-*vertex,2.00000,5.70000,2.40000  #  10
-*vertex,2.00000,5.70000,4.50000  #  11
-*vertex,2.90000,5.70000,4.50000  #  12
-*vertex,1.80000,5.70000,2.40000  #  13
-*vertex,1.80000,5.70000,4.80000  #  14
-*vertex,0.00000,7.40000,2.40000  #  15
-*vertex,0.00000,7.40000,4.80000  #  16
+*vertex,8.40000,2.40000,2.40000  #   1
+*vertex,5.00000,2.40000,2.40000  #   2
+*vertex,5.00000,0.00000,2.40000  #   3
+*vertex,8.40000,0.00000,2.40000  #   4
+*vertex,8.40000,2.40000,4.80000  #   5
+*vertex,5.00000,2.40000,4.80000  #   6
+*vertex,5.00000,0.00000,4.80000  #   7
+*vertex,8.40000,0.00000,4.80000  #   8
+*vertex,5.50000,2.40000,2.40000  #   9
+*vertex,6.40000,2.40000,2.40000  #  10
+*vertex,6.40000,2.40000,4.50000  #  11
+*vertex,5.50000,2.40000,4.50000  #  12
+*vertex,6.60000,2.40000,2.40000  #  13
+*vertex,6.60000,2.40000,4.80000  #  14
+*vertex,8.40000,0.70000,2.40000  #  15
+*vertex,8.40000,0.70000,4.80000  #  16
 # 
 # tag, number of vertices followed by list of associated vert
 *edges,4,3,4,8,7  #   1
@@ -38,9 +38,9 @@
 *surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
 *surf,1fBthWallSr,VERT,-,PARTN,-,ext_wall_norway,OPAQUE,ANOTHER,006,006  #   2 ||< 1fBthWallSr:1fStorRoom
 *surf,1fBthCeil,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,13,004  #   3 ||< 1fBthCeil:2fOffice
-*surf,1fBthDoorEnt,VERT,1fEntWal2Bth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,11,007  #   4 ||< 1fSl1DoorEnt:1fEntrance
-*surf,1fEntWal2Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,11,008  #   5 ||< 1fBthDoorEnt:1fEntrance
-*surf,1fEntWal1Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,11,009  #   6 ||< 1fEntWal2Bth:1fEntrance
+*surf,1fBthDoorEnt,VERT,1fEntWal2Bth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,11,007  #   4 ||< 1fBthDoorEnt:1fEntrance
+*surf,1fEntWal2Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,11,008  #   5 ||< 1fEntWal2Bth:1fEntrance
+*surf,1fEntWal1Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,11,009  #   6 ||< 1fEntWal1Bth:1fEntrance
 *surf,1fStrWallBth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,009,009  #   7 ||< 1fStrWallBth:stairs
 *surf,Wall-9,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   8 ||< external
 *surf,gfSrCeilBth,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,003,003  #   9 ||< gfSrCeilBth:gfStorRoom

@@ -1,5 +1,5 @@
 *Constructions 2.1                              # thermophysical properties of 1fEntrance
-*date Tue Dec  6 17:56:14 2022                  # latest file modification
+*date Tue Dec  6 20:58:51 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
      3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-3       ext_wall_norway
@@ -23,7 +23,7 @@
 # conduc-  | density |specific | thick- |dpnd|ref.| temp. |moisture|surface|layer
 # tivity   |         |heat     |ness(m) |type|temp|factor | factor |       |  
      0.1200     470.0    1900.0  0.0190   0   0.00 0.00000 0.00000  #   1   1 Spruce
-     0.0360      20.0    1030.0  0.3000   0   0.00 0.00000 0.00000  #       2 glasswool_glava
+     0.0360      20.0    1030.0  0.1900   0   0.00 0.00000 0.00000  #       2 glasswool_glava
      0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plasterboard
      0.1760     693.0    1358.0  0.0120   0   0.00 0.00000 0.00000  #   2   1 beech_parquet
      0.0360      20.0    1030.0  0.1500   0   0.00 0.00000 0.00000  #       2 glasswool_glava
@@ -53,7 +53,7 @@
      0.0360      20.0    1030.0  0.1500   0   0.00 0.00000 0.00000  #       2 glasswool_glava
      0.1760     693.0    1358.0  0.0120   0   0.00 0.00000 0.00000  #       3 beech_parquet
      0.1500    1010.0    1380.0  0.0250   0   0.00 0.00000 0.00000  #  13   1 hardboard
-     0.0340      15.0    1300.0  0.0400   0   0.00 0.00000 0.00000  #       2 EPS
+     0.0340      15.0    1300.0  0.0260   0   0.00 0.00000 0.00000  #       2 EPS
      0.1500    1010.0    1380.0  0.0250   0   0.00 0.00000 0.00000  #       3 hardboard
     20.0000      10.0      10.0  0.0010   0   0.00 0.00000 0.00000  #  14   1 fictious
      0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #  15   1 plasterboard

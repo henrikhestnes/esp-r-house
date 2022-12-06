@@ -1,45 +1,45 @@
 *Geometry 1.1,GEN,1fEntrance # tag version, format, zone name
-*date Sat Dec  3 15:33:28 2022  # latest file modification 
+*date Tue Dec  6 20:59:41 2022  # latest file modification 
 1fEntrance describes the 1st floor entrance
 # tag, X co-ord, Y co-ord, Z co-ord
-*vertex,1.80000,3.00000,2.40000  #   1
-*vertex,6.30000,3.00000,2.40000  #   2
-*vertex,6.30000,8.10000,2.40000  #   3
-*vertex,3.40000,8.10000,2.40000  #   4
-*vertex,3.40000,5.70000,2.40000  #   5
-*vertex,1.80000,5.70000,2.40000  #   6
-*vertex,1.80000,3.00000,4.80000  #   7
-*vertex,6.30000,3.00000,4.80000  #   8
-*vertex,6.30000,8.10000,4.80000  #   9
-*vertex,3.40000,8.10000,4.80000  #  10
-*vertex,3.40000,5.70000,4.80000  #  11
-*vertex,1.80000,5.70000,4.80000  #  12
-*vertex,6.30000,5.70000,2.40000  #  13
-*vertex,6.10000,3.00000,2.40000  #  14
-*vertex,5.20000,3.00000,2.40000  #  15
-*vertex,5.20000,3.00000,4.50000  #  16
-*vertex,6.10000,3.00000,4.50000  #  17
-*vertex,3.60000,3.00000,2.40000  #  18
-*vertex,3.60000,3.00000,4.80000  #  19
-*vertex,3.40000,3.00000,2.40000  #  20
-*vertex,3.40000,3.00000,4.50000  #  21
-*vertex,2.50000,3.00000,4.50000  #  22
-*vertex,2.50000,3.00000,2.40000  #  23
-*vertex,3.00000,3.00000,2.40000  #  24
-*vertex,2.00000,5.70000,2.40000  #  25
-*vertex,2.90000,5.70000,2.40000  #  26
-*vertex,2.90000,5.70000,4.50000  #  27
-*vertex,2.00000,5.70000,4.50000  #  28
-*vertex,4.43000,5.70000,2.40000  #  29
-*vertex,4.43000,8.10000,2.40000  #  30
-*vertex,5.35000,8.10000,2.40000  #  31
-*vertex,4.35000,8.10000,2.40000  #  32
-*vertex,4.35000,8.10000,4.50000  #  33
-*vertex,5.35000,8.10000,4.50000  #  34
-*vertex,6.30000,5.10000,2.40000  #  35
-*vertex,6.30000,5.10000,4.50000  #  36
-*vertex,6.30000,4.20000,4.50000  #  37
-*vertex,6.30000,4.20000,2.40000  #  38
+*vertex,6.60000,5.10000,2.40000  #   1
+*vertex,2.10000,5.10000,2.40000  #   2
+*vertex,2.10000,0.00000,2.40000  #   3
+*vertex,5.00000,0.00000,2.40000  #   4
+*vertex,5.00000,2.40000,2.40000  #   5
+*vertex,6.60000,2.40000,2.40000  #   6
+*vertex,6.60000,5.10000,4.80000  #   7
+*vertex,2.10000,5.10000,4.80000  #   8
+*vertex,2.10000,0.00000,4.80000  #   9
+*vertex,5.00000,0.00000,4.80000  #  10
+*vertex,5.00000,2.40000,4.80000  #  11
+*vertex,6.60000,2.40000,4.80000  #  12
+*vertex,2.10000,2.40000,2.40000  #  13
+*vertex,2.30000,5.10000,2.40000  #  14
+*vertex,3.20000,5.10000,2.40000  #  15
+*vertex,3.20000,5.10000,4.50000  #  16
+*vertex,2.30000,5.10000,4.50000  #  17
+*vertex,4.80000,5.10000,2.40000  #  18
+*vertex,4.80000,5.10000,4.80000  #  19
+*vertex,5.00000,5.10000,2.40000  #  20
+*vertex,5.00000,5.10000,4.50000  #  21
+*vertex,5.90000,5.10000,4.50000  #  22
+*vertex,5.90000,5.10000,2.40000  #  23
+*vertex,5.40000,5.10000,2.40000  #  24
+*vertex,6.40000,2.40000,2.40000  #  25
+*vertex,5.50000,2.40000,2.40000  #  26
+*vertex,5.50000,2.40000,4.50000  #  27
+*vertex,6.40000,2.40000,4.50000  #  28
+*vertex,3.97000,2.40000,2.40000  #  29
+*vertex,3.97000,0.00000,2.40000  #  30
+*vertex,3.05000,0.00000,2.40000  #  31
+*vertex,4.05000,0.00000,2.40000  #  32
+*vertex,4.05000,0.00000,4.50000  #  33
+*vertex,3.05000,0.00000,4.50000  #  34
+*vertex,2.10000,3.00000,2.40000  #  35
+*vertex,2.10000,3.00000,4.50000  #  36
+*vertex,2.10000,3.90000,4.50000  #  37
+*vertex,2.10000,3.90000,2.40000  #  38
 # 
 # tag, number of vertices followed by list of associated vert
 *edges,8,3,31,34,33,32,4,10,9  #   1
@@ -77,7 +77,7 @@
 *surf,gfBthCeilEnt,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,003,003  #  11 ||< gfBthCeilEnt:gfBath
 *surf,gfSrCeilEnt,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,009,009  #  12 ||< gfSrCeilEnt:gfStorRoom
 *surf,1fEntDoor,VERT,Wall-3,DOOR,CLOSED,ext_door,OPAQUE,EXTERIOR,00,000  #  13 ||< external
-*surf,strWall1f,VERT,-,FICT,BIDIR,fictitious,TRAN,ANOTHER,003,003  #  14 ||< strWall1f:stairs
+*surf,strWall1f,VERT,-,FICT,BIDIR,fictitious,SC_fictit,ANOTHER,003,003  #  14 ||< strWall1f:stairs
 *surf,1fSl3WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,008,003  #  15 ||< 1fSl3WallEnt:1fSleep3
 *surf,1fSl3DoorEnt,VERT,1fSl3WallEnt,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,008,009  #  16 ||< 1fSl3DoorEnt:1fSleep3
 # 

@@ -1,25 +1,25 @@
 *Geometry 1.1,GEN,gfSleep # tag version, format, zone name
-*date Sun Dec  4 12:05:48 2022  # latest file modification 
+*date Tue Dec  6 20:59:41 2022  # latest file modification 
 gfSleep describes the Ground Floor sleeping room
 # tag, X co-ord, Y co-ord, Z co-ord
-*vertex,0.00000,0.00000,0.00000  #   1
-*vertex,3.00000,0.00000,0.00000  #   2
-*vertex,3.00000,3.00000,0.00000  #   3
-*vertex,0.00000,3.00000,0.00000  #   4
-*vertex,0.00000,0.00000,2.40000  #   5
-*vertex,3.00000,0.00000,2.40000  #   6
-*vertex,3.00000,3.00000,2.40000  #   7
-*vertex,0.00000,3.00000,2.40000  #   8
-*vertex,0.50000,0.00000,0.80000  #   9
-*vertex,2.50000,0.00000,0.80000  #  10
-*vertex,2.50000,0.00000,2.10000  #  11
-*vertex,0.50000,0.00000,2.10000  #  12
-*vertex,3.00000,1.40000,0.00000  #  13
-*vertex,3.00000,2.30000,0.00000  #  14
-*vertex,3.00000,2.30000,2.10000  #  15
-*vertex,3.00000,1.40000,2.10000  #  16
-*vertex,1.80000,3.00000,0.00000  #  17
-*vertex,1.80000,3.00000,2.40000  #  18
+*vertex,8.40000,8.10000,0.00000  #   1
+*vertex,5.40000,8.10000,0.00000  #   2
+*vertex,5.40000,5.10000,0.00000  #   3
+*vertex,8.40000,5.10000,0.00000  #   4
+*vertex,8.40000,8.10000,2.40000  #   5
+*vertex,5.40000,8.10000,2.40000  #   6
+*vertex,5.40000,5.10000,2.40000  #   7
+*vertex,8.40000,5.10000,2.40000  #   8
+*vertex,7.90000,8.10000,0.80000  #   9
+*vertex,5.90000,8.10000,0.80000  #  10
+*vertex,5.90000,8.10000,2.10000  #  11
+*vertex,7.90000,8.10000,2.10000  #  12
+*vertex,5.40000,6.70000,0.00000  #  13
+*vertex,5.40000,5.80000,0.00000  #  14
+*vertex,5.40000,5.80000,2.10000  #  15
+*vertex,5.40000,6.70000,2.10000  #  16
+*vertex,6.60000,5.10000,0.00000  #  17
+*vertex,6.60000,5.10000,2.40000  #  18
 # 
 # tag, number of vertices followed by list of associated vert
 *edges,10,1,2,6,11,10,9,12,11,6,5  #   1
@@ -41,7 +41,7 @@ gfSleep describes the Ground Floor sleeping room
 *surf,Wall-4,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
 *surf,gfSlpCeil,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,005,005  #   3 ||< gfSlpCeil:1fSleep1
 *surf,gfSlpFlr,FLOR,-,FLOOR,EXTGRND,floor_ground_floor,OPAQUE,GROUND,0,001  #   4 ||< user def grnd profile  1
-*surf,gfSlpWin,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,TRAN,EXTERIOR,00,000  #   5 ||< external
+*surf,gfSlpWin,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #   5 ||< external
 *surf,gfSlpDoorLr,VERT,gfLrWallSlp,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,010,010  #   6 ||< gfSlpDoorLr:gfLivRoom
 *surf,gfLrWallSlp2,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,003  #   7 ||< gfLrWall2Slp:gfLivRoom
 *surf,gfStrWallSlp,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #   8 ||< gfStrWallSlp:stairs

@@ -1,54 +1,54 @@
 *Geometry 1.1,GEN,2fLivRoom # tag version, format, zone name
-*date Sun Dec  4 12:05:48 2022  # latest file modification 
+*date Tue Dec  6 20:59:41 2022  # latest file modification 
 2fLivRoom describes the living room and kitchen of 2nd floor
 # tag, X co-ord, Y co-ord, Z co-ord
-*vertex,0.00000,0.00000,4.80000  #   1
-*vertex,8.40000,0.00000,4.80000  #   2
-*vertex,8.40000,8.10000,4.80000  #   3
-*vertex,3.40000,8.10000,4.80000  #   4
-*vertex,3.40000,5.70000,4.80000  #   5
-*vertex,1.80000,5.70000,4.80000  #   6
-*vertex,1.80000,3.00000,4.80000  #   7
-*vertex,0.00000,3.00000,4.80000  #   8
-*vertex,0.00000,0.00000,7.20000  #   9
-*vertex,8.40000,0.00000,8.68115  #  10
-*vertex,8.40000,8.10000,8.68115  #  11
-*vertex,3.40000,8.10000,7.79951  #  12
-*vertex,3.40000,5.70000,7.79951  #  13
-*vertex,1.80000,5.70000,7.51628  #  14
-*vertex,1.80000,3.00000,7.51628  #  15
-*vertex,0.00000,3.00000,7.20000  #  16
-*vertex,1.80000,0.00000,7.51628  #  17
-*vertex,3.40000,0.00000,7.79951  #  18
-*vertex,3.60000,0.00000,4.80000  #  19
-*vertex,3.60000,3.00000,4.80000  #  20
-*vertex,8.40000,3.00000,4.80000  #  21
-*vertex,6.30000,3.00000,4.80000  #  22
-*vertex,6.30000,8.10000,4.80000  #  23
-*vertex,8.20000,8.10000,4.80000  #  24
-*vertex,7.40000,8.10000,4.80000  #  25
-*vertex,7.40000,8.10000,7.80000  #  26
-*vertex,8.20000,8.10000,7.80000  #  27
-*vertex,7.30000,8.10000,4.80000  #  28
-*vertex,6.50000,8.10000,4.80000  #  29
-*vertex,6.50000,8.10000,7.80000  #  30
-*vertex,7.30000,8.10000,7.80000  #  31
-*vertex,5.40000,8.10000,4.80000  #  32
-*vertex,4.40000,8.10000,4.80000  #  33
-*vertex,4.40000,8.10000,6.90000  #  34
-*vertex,5.40000,8.10000,6.90000  #  35
-*vertex,5.10000,0.00000,4.80000  #  36
-*vertex,8.10000,0.00000,4.80000  #  37
-*vertex,8.10000,0.00000,6.90000  #  38
-*vertex,5.10000,0.00000,6.90000  #  39
-*vertex,0.20000,0.00000,5.70000  #  40
-*vertex,3.20000,0.00000,5.70000  #  41
-*vertex,3.20000,0.00000,6.60000  #  42
-*vertex,0.20000,0.00000,6.60000  #  43
-*vertex,2.90000,5.70000,4.80000  #  44
-*vertex,2.00000,5.70000,4.80000  #  45
-*vertex,2.00000,5.70000,6.90000  #  46
-*vertex,2.90000,5.70000,6.90000  #  47
+*vertex,8.40000,8.10000,4.80000  #   1
+*vertex,-0.00000,8.10000,4.80000  #   2
+*vertex,0.00000,-0.00000,4.80000  #   3
+*vertex,5.00000,0.00000,4.80000  #   4
+*vertex,5.00000,2.40000,4.80000  #   5
+*vertex,6.60000,2.40000,4.80000  #   6
+*vertex,6.60000,5.10000,4.80000  #   7
+*vertex,8.40000,5.10000,4.80000  #   8
+*vertex,8.40000,8.10000,7.20000  #   9
+*vertex,-0.00000,8.10000,8.68115  #  10
+*vertex,0.00000,-0.00000,8.68115  #  11
+*vertex,5.00000,0.00000,7.79951  #  12
+*vertex,5.00000,2.40000,7.79951  #  13
+*vertex,6.60000,2.40000,7.51628  #  14
+*vertex,6.60000,5.10000,7.51628  #  15
+*vertex,8.40000,5.10000,7.20000  #  16
+*vertex,6.60000,8.10000,7.51628  #  17
+*vertex,5.00000,8.10000,7.79951  #  18
+*vertex,4.80000,8.10000,4.80000  #  19
+*vertex,4.80000,5.10000,4.80000  #  20
+*vertex,0.00000,5.10000,4.80000  #  21
+*vertex,2.10000,5.10000,4.80000  #  22
+*vertex,2.10000,0.00000,4.80000  #  23
+*vertex,0.20000,-0.00000,4.80000  #  24
+*vertex,1.00000,-0.00000,4.80000  #  25
+*vertex,1.00000,-0.00000,7.80000  #  26
+*vertex,0.20000,-0.00000,7.80000  #  27
+*vertex,1.10000,-0.00000,4.80000  #  28
+*vertex,1.90000,0.00000,4.80000  #  29
+*vertex,1.90000,0.00000,7.80000  #  30
+*vertex,1.10000,-0.00000,7.80000  #  31
+*vertex,3.00000,0.00000,4.80000  #  32
+*vertex,4.00000,0.00000,4.80000  #  33
+*vertex,4.00000,0.00000,6.90000  #  34
+*vertex,3.00000,0.00000,6.90000  #  35
+*vertex,3.30000,8.10000,4.80000  #  36
+*vertex,0.30000,8.10000,4.80000  #  37
+*vertex,0.30000,8.10000,6.90000  #  38
+*vertex,3.30000,8.10000,6.90000  #  39
+*vertex,8.20000,8.10000,5.70000  #  40
+*vertex,5.20000,8.10000,5.70000  #  41
+*vertex,5.20000,8.10000,6.60000  #  42
+*vertex,8.20000,8.10000,6.60000  #  43
+*vertex,5.50000,2.40000,4.80000  #  44
+*vertex,6.40000,2.40000,4.80000  #  45
+*vertex,6.40000,2.40000,6.90000  #  46
+*vertex,5.50000,2.40000,6.90000  #  47
 # 
 # tag, number of vertices followed by list of associated vert
 *edges,5,2,21,3,11,10  #   1
@@ -89,11 +89,11 @@
 *surf,1fEntCeil,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,011,002  #  11 ||< 1fEntCeil:1fEntrance
 *surf,2fStrWallKch,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,008  #  12 ||< 2fStrWallKch:stairs
 *surf,strWall2f,VERT,-,FICT,BIDIR,fictitious,SC_fictit,ANOTHER,003,004  #  13 ||< strWall2f:stairs
-*surf,2fLrWin1,VERT,Wall-3,C-WINDOW,-,tripglz_1.08,TRAN,EXTERIOR,00,000  #  14 ||< external
-*surf,2fLrWin2,VERT,Wall-3,C-WINDOW,-,tripglz_1.08,TRAN,EXTERIOR,00,000  #  15 ||< external
+*surf,2fLrWin1,VERT,Wall-3,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #  14 ||< external
+*surf,2fLrWin2,VERT,Wall-3,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #  15 ||< external
 *surf,2fLrBalDoor,VERT,Wall-3,DOOR,CLOSED,ext_door,OPAQUE,EXTERIOR,00,000  #  16 ||< external
-*surf,2fLrWin3,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,TRAN,EXTERIOR,00,000  #  17 ||< external
-*surf,2fKchWin,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,TRAN,EXTERIOR,00,000  #  18 ||< external
+*surf,2fLrWin3,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #  17 ||< external
+*surf,2fKchWin,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #  18 ||< external
 *surf,2fLrDoorOfc,VERT,2fLrWal2Of,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,013,008  #  19 ||< 2fLrDoorOfc:2fOffice
 # 
 *insol,3,0,0,0  # default insolation distribution

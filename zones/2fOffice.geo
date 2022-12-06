@@ -1,26 +1,26 @@
 *Geometry 1.1,GEN,2fOffice # tag version, format, zone name
-*date Sun Dec  4 12:05:48 2022  # latest file modification 
+*date Tue Dec  6 20:59:41 2022  # latest file modification 
 2fOffice describes the office in 2nd floor
 # tag, X co-ord, Y co-ord, Z co-ord
-*vertex,0.00000,5.70000,4.80000  #   1
-*vertex,3.40000,5.70000,4.80000  #   2
-*vertex,3.40000,8.10000,4.80000  #   3
-*vertex,0.00000,8.10000,4.80000  #   4
-*vertex,0.00000,5.70000,7.20000  #   5
-*vertex,3.40000,5.70000,7.79951  #   6
-*vertex,3.40000,8.10000,7.79951  #   7
-*vertex,0.00000,8.10000,7.20000  #   8
-*vertex,1.80000,5.70000,7.51628  #   9
-*vertex,1.80000,5.70000,4.80000  #  10
-*vertex,0.00000,7.40000,4.80000  #  11
-*vertex,2.70000,8.10000,5.60000  #  12
-*vertex,0.70000,8.10000,5.60000  #  13
-*vertex,0.70000,8.10000,6.90000  #  14
-*vertex,2.70000,8.10000,6.90000  #  15
-*vertex,2.90000,5.70000,4.80000  #  16
-*vertex,2.00000,5.70000,4.80000  #  17
-*vertex,2.00000,5.70000,6.90000  #  18
-*vertex,2.90000,5.70000,6.90000  #  19
+*vertex,8.40000,2.40000,4.80000  #   1
+*vertex,5.00000,2.40000,4.80000  #   2
+*vertex,5.00000,0.00000,4.80000  #   3
+*vertex,8.40000,0.00000,4.80000  #   4
+*vertex,8.40000,2.40000,7.20000  #   5
+*vertex,5.00000,2.40000,7.79951  #   6
+*vertex,5.00000,0.00000,7.79951  #   7
+*vertex,8.40000,0.00000,7.20000  #   8
+*vertex,6.60000,2.40000,7.51628  #   9
+*vertex,6.60000,2.40000,4.80000  #  10
+*vertex,8.40000,0.70000,4.80000  #  11
+*vertex,5.70000,0.00000,5.60000  #  12
+*vertex,7.70000,0.00000,5.60000  #  13
+*vertex,7.70000,0.00000,6.90000  #  14
+*vertex,5.70000,0.00000,6.90000  #  15
+*vertex,5.50000,2.40000,4.80000  #  16
+*vertex,6.40000,2.40000,4.80000  #  17
+*vertex,6.40000,2.40000,6.90000  #  18
+*vertex,5.50000,2.40000,6.90000  #  19
 # 
 # tag, number of vertices followed by list of associated vert
 *edges,10,3,4,8,14,13,12,15,14,8,7  #   1
@@ -44,7 +44,7 @@
 *surf,1fBthCeil,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,009,003  #   4 ||< 1fBthCeil:1fBath
 *surf,2fStrWallOfc,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,010  #   5 ||< 2fStrWallOfc:stairs
 *surf,2fLrWal1Of,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,012,003  #   6 ||< 2fLrWal1Of:2fLivRoom
-*surf,2fOfcWin,VERT,Wall-3,C-WINDOW,-,tripglz_1.08,TRAN,EXTERIOR,00,000  #   7 ||< external
+*surf,2fOfcWin,VERT,Wall-3,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #   7 ||< external
 *surf,2fLrDoorOfc,VERT,2fLrWal2Of,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,012,019  #   8 ||< 2fLrDoorOfc:2fLivRoom
 *surf,2fLrWal2Of,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,012,004  #   9 ||< 2fLrWal2Of:2fLivRoom
 # 

@@ -1,46 +1,46 @@
 *Geometry 1.1,GEN,gfLivRoom # tag version, format, zone name
-*date Sun Dec  4 12:05:48 2022  # latest file modification 
+*date Tue Dec  6 20:59:41 2022  # latest file modification 
 gfLivRoom describes the ground floor living room
 # tag, X co-ord, Y co-ord, Z co-ord
-*vertex,3.00000,0.00000,0.00000  #   1
-*vertex,8.40000,0.00000,0.00000  #   2
-*vertex,8.40000,5.70000,0.00000  #   3
-*vertex,1.80000,5.70000,0.00000  #   4
-*vertex,1.80000,3.00000,0.00000  #   5
-*vertex,3.00000,3.00000,0.00000  #   6
-*vertex,3.00000,0.00000,2.40000  #   7
-*vertex,8.40000,0.00000,2.40000  #   8
-*vertex,8.40000,5.70000,2.40000  #   9
-*vertex,1.80000,5.70000,2.40000  #  10
-*vertex,1.80000,3.00000,2.40000  #  11
-*vertex,3.00000,3.00000,2.40000  #  12
-*vertex,4.43000,5.70000,2.40000  #  13
-*vertex,4.43000,5.70000,0.00000  #  14
-*vertex,3.00000,1.40000,0.00000  #  15
-*vertex,3.00000,2.30000,0.00000  #  16
-*vertex,3.00000,2.30000,2.10000  #  17
-*vertex,3.00000,1.40000,2.10000  #  18
-*vertex,5.80000,0.00000,0.10000  #  19
-*vertex,7.70000,0.00000,0.10000  #  20
-*vertex,7.70000,0.00000,2.10000  #  21
-*vertex,5.80000,0.00000,2.10000  #  22
-*vertex,4.70000,0.00000,0.00000  #  23
-*vertex,5.70000,0.00000,0.00000  #  24
-*vertex,5.70000,0.00000,2.10000  #  25
-*vertex,4.70000,0.00000,2.10000  #  26
-*vertex,6.30000,5.70000,0.00000  #  27
-*vertex,5.40000,5.70000,0.00000  #  28
-*vertex,5.40000,5.70000,2.10000  #  29
-*vertex,6.30000,5.70000,2.10000  #  30
-*vertex,3.23000,5.70000,0.00000  #  31
-*vertex,2.33000,5.70000,0.00000  #  32
-*vertex,2.33000,5.70000,2.10000  #  33
-*vertex,3.23000,5.70000,2.10000  #  34
-*vertex,3.60000,3.00000,2.40000  #  35
-*vertex,3.60000,0.00000,2.40000  #  36
-*vertex,8.40000,3.00000,2.40000  #  37
-*vertex,6.30000,3.00000,2.40000  #  38
-*vertex,6.30000,5.70000,2.40000  #  39
+*vertex,5.40000,8.10000,0.00000  #   1
+*vertex,-0.00000,8.10000,0.00000  #   2
+*vertex,0.00000,2.40000,0.00000  #   3
+*vertex,6.60000,2.40000,0.00000  #   4
+*vertex,6.60000,5.10000,0.00000  #   5
+*vertex,5.40000,5.10000,0.00000  #   6
+*vertex,5.40000,8.10000,2.40000  #   7
+*vertex,-0.00000,8.10000,2.40000  #   8
+*vertex,0.00000,2.40000,2.40000  #   9
+*vertex,6.60000,2.40000,2.40000  #  10
+*vertex,6.60000,5.10000,2.40000  #  11
+*vertex,5.40000,5.10000,2.40000  #  12
+*vertex,3.97000,2.40000,2.40000  #  13
+*vertex,3.97000,2.40000,0.00000  #  14
+*vertex,5.40000,6.70000,0.00000  #  15
+*vertex,5.40000,5.80000,0.00000  #  16
+*vertex,5.40000,5.80000,2.10000  #  17
+*vertex,5.40000,6.70000,2.10000  #  18
+*vertex,2.60000,8.10000,0.10000  #  19
+*vertex,0.70000,8.10000,0.10000  #  20
+*vertex,0.70000,8.10000,2.10000  #  21
+*vertex,2.60000,8.10000,2.10000  #  22
+*vertex,3.70000,8.10000,0.00000  #  23
+*vertex,2.70000,8.10000,0.00000  #  24
+*vertex,2.70000,8.10000,2.10000  #  25
+*vertex,3.70000,8.10000,2.10000  #  26
+*vertex,2.10000,2.40000,0.00000  #  27
+*vertex,3.00000,2.40000,0.00000  #  28
+*vertex,3.00000,2.40000,2.10000  #  29
+*vertex,2.10000,2.40000,2.10000  #  30
+*vertex,5.17000,2.40000,0.00000  #  31
+*vertex,6.07000,2.40000,0.00000  #  32
+*vertex,6.07000,2.40000,2.10000  #  33
+*vertex,5.17000,2.40000,2.10000  #  34
+*vertex,4.80000,5.10000,2.40000  #  35
+*vertex,4.80000,8.10000,2.40000  #  36
+*vertex,0.00000,5.10000,2.40000  #  37
+*vertex,2.10000,5.10000,2.40000  #  38
+*vertex,2.10000,2.40000,2.40000  #  39
 # 
 # tag, number of vertices followed by list of associated vert
 *edges,15,1,23,26,25,24,2,20,19,22,21,20,2,8,36,7  #   1
@@ -76,7 +76,7 @@ gfLivRoom describes the ground floor living room
 *surf,gfLrWallBth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #   8 ||< gfLrWallBth:gfBath
 *surf,gfLrWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #   9 ||< gfLrWallSr:gfStorRoom
 *surf,gfSlpDoorLr,VERT,gfLrWallSlp,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,006,006  #  10 ||< gfSlpDoorLr:gfSleep
-*surf,gfLrWin,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,TRAN,EXTERIOR,00,000  #  11 ||< external
+*surf,gfLrWin,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #  11 ||< external
 *surf,gfLrDoorExt,VERT,Wall-1,DOOR,CLOSED,ext_door,OPAQUE,EXTERIOR,00,000  #  12 ||< external
 *surf,gfLrDoorBth,VERT,gfLrWallBth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,005,005  #  13 ||< gfLrDoorBth:gfBath
 *surf,gfLrDoorSr,VERT,gfLrWallSr,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,005,005  #  14 ||< gfLrDoorSr:gfStorRoom

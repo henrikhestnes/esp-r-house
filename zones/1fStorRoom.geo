@@ -1,19 +1,19 @@
 *Geometry 1.1,GEN,1fStorRoom # tag version, format, zone name
-*date Thu Nov 17 14:50:02 2022  # latest file modification 
+*date Tue Dec  6 20:59:41 2022  # latest file modification 
 1fStorRoom describes the external storage room
 # tag, X co-ord, Y co-ord, Z co-ord
-*vertex,-3.30000,5.70000,2.40000  #   1
-*vertex,0.00000,5.70000,2.40000  #   2
-*vertex,0.00000,7.40000,2.40000  #   3
-*vertex,-3.30000,7.40000,2.40000  #   4
-*vertex,-3.30000,5.70000,4.80000  #   5
-*vertex,0.00000,5.70000,4.80000  #   6
-*vertex,0.00000,7.40000,4.80000  #   7
-*vertex,-3.30000,7.40000,4.80000  #   8
-*vertex,-0.80000,7.40000,2.40000  #   9
-*vertex,-1.80000,7.40000,2.40000  #  10
-*vertex,-1.80000,7.40000,4.50000  #  11
-*vertex,-0.80000,7.40000,4.50000  #  12
+*vertex,11.70000,2.40000,2.40000  #   1
+*vertex,8.40000,2.40000,2.40000  #   2
+*vertex,8.40000,0.70000,2.40000  #   3
+*vertex,11.70000,0.70000,2.40000  #   4
+*vertex,11.70000,2.40000,4.80000  #   5
+*vertex,8.40000,2.40000,4.80000  #   6
+*vertex,8.40000,0.70000,4.80000  #   7
+*vertex,11.70000,0.70000,4.80000  #   8
+*vertex,9.20000,0.70000,2.40000  #   9
+*vertex,10.20000,0.70000,2.40000  #  10
+*vertex,10.20000,0.70000,4.50000  #  11
+*vertex,9.20000,0.70000,4.50000  #  12
 # 
 # tag, number of vertices followed by list of associated vert
 *edges,4,1,2,6,5  #   1

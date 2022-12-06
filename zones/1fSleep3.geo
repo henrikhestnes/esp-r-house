@@ -1,25 +1,25 @@
 *Geometry 1.1,GEN,1fSleep3 # tag version, format, zone name
-*date Sun Dec  4 12:05:48 2022  # latest file modification 
+*date Tue Dec  6 20:59:41 2022  # latest file modification 
 1fSleep3 describes the smallest sleeping room in 1 floor
 # tag, X co-ord, Y co-ord, Z co-ord
-*vertex,6.30000,3.00000,2.40000  #   1
-*vertex,8.40000,3.00000,2.40000  #   2
-*vertex,8.40000,8.10000,2.40000  #   3
-*vertex,6.30000,8.10000,2.40000  #   4
-*vertex,6.30000,3.00000,4.80000  #   5
-*vertex,8.40000,3.00000,4.80000  #   6
-*vertex,8.40000,8.10000,4.80000  #   7
-*vertex,6.30000,8.10000,4.80000  #   8
-*vertex,8.40000,5.70000,2.40000  #   9
-*vertex,6.30000,5.70000,2.40000  #  10
-*vertex,8.10000,8.10000,3.20000  #  11
-*vertex,6.60000,8.10000,3.20000  #  12
-*vertex,6.60000,8.10000,4.50000  #  13
-*vertex,8.10000,8.10000,4.50000  #  14
-*vertex,6.30000,5.10000,2.40000  #  15
-*vertex,6.30000,4.20000,2.40000  #  16
-*vertex,6.30000,4.20000,4.50000  #  17
-*vertex,6.30000,5.10000,4.50000  #  18
+*vertex,2.10000,5.10000,2.40000  #   1
+*vertex,0.00000,5.10000,2.40000  #   2
+*vertex,0.00000,-0.00000,2.40000  #   3
+*vertex,2.10000,0.00000,2.40000  #   4
+*vertex,2.10000,5.10000,4.80000  #   5
+*vertex,0.00000,5.10000,4.80000  #   6
+*vertex,0.00000,-0.00000,4.80000  #   7
+*vertex,2.10000,0.00000,4.80000  #   8
+*vertex,0.00000,2.40000,2.40000  #   9
+*vertex,2.10000,2.40000,2.40000  #  10
+*vertex,0.30000,-0.00000,3.20000  #  11
+*vertex,1.80000,0.00000,3.20000  #  12
+*vertex,1.80000,0.00000,4.50000  #  13
+*vertex,0.30000,-0.00000,4.50000  #  14
+*vertex,2.10000,3.00000,2.40000  #  15
+*vertex,2.10000,3.90000,2.40000  #  16
+*vertex,2.10000,3.90000,4.50000  #  17
+*vertex,2.10000,3.00000,4.50000  #  18
 # 
 # tag, number of vertices followed by list of associated vert
 *edges,5,2,9,3,7,6  #   1
@@ -43,7 +43,7 @@
 *surf,1fSlp3Ceil,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,12,010  #   4 ||< 1fSlp3Ceil:2fLivRoom
 *surf,gfLrCeilSlp3,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,017,017  #   5 ||< gfLrCeilSlp3:gfLivRoom
 *surf,1fSl2Wallsl3,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,005,005  #   6 ||< 1fSl2Wallsl3:1fSleep2
-*surf,1fSlp3Win,VERT,Wall-3,C-WINDOW,-,tripglz_1.08,TRAN,EXTERIOR,00,000  #   7 ||< external
+*surf,1fSlp3Win,VERT,Wall-3,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #   7 ||< external
 *surf,gfBthCeilSl3,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,008,008  #   8 ||< gfBthCeilSl3:gfBath
 *surf,1fSl3DoorEnt,VERT,-,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,011,016  #   9 ||< 1fSl3DoorEnt:1fEntrance
 # 

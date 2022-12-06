@@ -1,21 +1,21 @@
 *Geometry 1.1,GEN,gfBath # tag version, format, zone name
-*date Sat Dec  3 15:13:26 2022  # latest file modification 
+*date Tue Dec  6 20:59:41 2022  # latest file modification 
 gfBath describes the bathroom in the ground floor
 # tag, X co-ord, Y co-ord, Z co-ord
-*vertex,4.43000,5.70000,0.00000  #   1
-*vertex,8.40000,5.70000,0.00000  #   2
-*vertex,8.40000,8.10000,0.00000  #   3
-*vertex,4.43000,8.10000,0.00000  #   4
-*vertex,4.43000,5.70000,2.40000  #   5
-*vertex,8.40000,5.70000,2.40000  #   6
-*vertex,8.40000,8.10000,2.40000  #   7
-*vertex,4.43000,8.10000,2.40000  #   8
-*vertex,6.30000,5.70000,0.00000  #   9
-*vertex,5.40000,5.70000,0.00000  #  10
-*vertex,5.40000,5.70000,2.10000  #  11
-*vertex,6.30000,5.70000,2.10000  #  12
-*vertex,6.30000,5.70000,2.40000  #  13
-*vertex,6.30000,8.10000,2.40000  #  14
+*vertex,3.97000,2.40000,0.00000  #   1
+*vertex,0.00000,2.40000,0.00000  #   2
+*vertex,0.00000,-0.00000,0.00000  #   3
+*vertex,3.97000,0.00000,0.00000  #   4
+*vertex,3.97000,2.40000,2.40000  #   5
+*vertex,0.00000,2.40000,2.40000  #   6
+*vertex,0.00000,-0.00000,2.40000  #   7
+*vertex,3.97000,0.00000,2.40000  #   8
+*vertex,2.10000,2.40000,0.00000  #   9
+*vertex,3.00000,2.40000,0.00000  #  10
+*vertex,3.00000,2.40000,2.10000  #  11
+*vertex,2.10000,2.40000,2.10000  #  12
+*vertex,2.10000,2.40000,2.40000  #  13
+*vertex,2.10000,0.00000,2.40000  #  14
 # 
 # tag, number of vertices followed by list of associated vert
 *edges,4,2,3,7,6  #   1

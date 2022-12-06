@@ -13,7 +13,7 @@ Tags are:
 - *layer layer data... mat ref, thickness,mat name: mat description
 - *Text ... *End_text  markers for database documentation
 *End_text
-*date,Tue Dec  6 17:56:00 2022
+*date,Tue Dec  6 20:58:44 2022
 *Category,walls,opaque facade constructions,opaque facades representing different ages and performance (mostly UK based)
 *Category,partitions,internal partitions,partitions between zones (some have matching mirror versions)
 *Category,doors,inside and outside doors,doors of different ages types and performance characteristics
@@ -515,11 +515,11 @@ Tags are:
 *item,tripglz_1.08,tripple glazing with 1.08 Uvalue # tag name menu entry
 *itemdoc,tripple glazing 6mm clear float glass with 12mm air gaps and lowe coatings to reach U=1.08. A good commercial grade.
 *incat,project specific
-*type,TRAN,nor_trip_glz,SYMMETRIC
+*type,TRAN,nor_trip_glz,NONSYMMETRIC
+*layer,364,0.0060,float_glass : float_glass (derived from fictious)
+*layer,365,0.0160,argon : argon (derived from float_glass)
 *layer,364,0.0040,float_glass : float_glass (derived from fictious)
-*layer,365,0.0100,argon : argon (derived from float_glass)
-*layer,364,0.0040,float_glass : float_glass (derived from fictious)
-*layer,365,0.0100,argon : argon (derived from float_glass)
+*layer,365,0.0160,argon : argon (derived from float_glass)
 *layer,364,0.0040,float_glass : float_glass (derived from fictious)
 *end_item
 *item,tripglz_089,tripple glazing with 0.89 Uvalue # tag name menu entry
@@ -1720,7 +1720,7 @@ Tags are:
 *incat,project specific
 *type,OPAQ,OPAQUE,inv_ext_wall_norway
 *layer,345,0.0190,Spruce : Spruce for wall clothing
-*layer,356,0.3000,glasswool_glava : glasswool for isolation
+*layer,356,0.1900,glasswool_glava : glasswool for isolation
 *layer,357,0.0120,plaster_wall : plaster_wall (derived from glasswool)
 *end_item
 *item,fictitious,fictious # tag name menu entry
@@ -1742,7 +1742,7 @@ Tags are:
 *incat,project specific
 *type,OPAQ,OPAQUE,SYMMETRIC
 *layer,359,0.0250,hardboard : hardboard (derived from beech_parquet)
-*layer,360,0.0400,EPS : EPS (derived from hardboard)
+*layer,360,0.0260,EPS : EPS (derived from hardboard)
 *layer,359,0.0250,hardboard : hardboard (derived from beech_parquet)
 *end_item
 *item,floor_ground_floor,floor_ground_floor # tag name menu entry
@@ -1782,7 +1782,7 @@ Tags are:
 *incat,project specific
 *type,OPAQ,OPAQUE,ext_wall_norway
 *layer,357,0.0120,plaster_wall : plaster_wall (derived from glasswool)
-*layer,356,0.3000,glasswool_glava : glasswool for isolation
+*layer,356,0.1900,glasswool_glava : glasswool for isolation
 *layer,345,0.0190,Spruce : Spruce for wall clothing
 *end_item
 *db_end
