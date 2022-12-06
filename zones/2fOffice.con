@@ -1,5 +1,5 @@
 *Constructions 2.1                              # thermophysical properties of 2fOffice
-*date Sun Dec  4 12:46:36 2022                  # latest file modification
+*date Tue Dec  6 17:56:15 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
      3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-3       ext_wall_norway
@@ -44,10 +44,10 @@
      0.2200     900.0     800.0  0.0120   0   0.00 0.00000 0.00000  #       3 plasterboard
 *tmc YES                                        # optical properties:
    5  nor_trip_glz                              # layers in tmc type 1
-  0.013  0.013  0.013  0.013  0.013  0.720      # transmission @ 5 angles & visible tr.
-  0.020  0.020  0.020  0.020  0.020             # for each layer absorption @ 5 angles
+  0.111  0.101  0.085  0.048  0.018  0.720      # transmission @ 5 angles & visible tr.
+  0.507  0.511  0.501  0.463  0.338             # for each layer absorption @ 5 angles
   0.000  0.000  0.000  0.000  0.000
-  0.020  0.020  0.020  0.020  0.020
+  0.009  0.009  0.009  0.009  0.007
   0.000  0.000  0.000  0.000  0.000
-  0.020  0.020  0.020  0.020  0.020
+  0.012  0.015  0.016  0.017  0.010
    0                                            # no alternative optics

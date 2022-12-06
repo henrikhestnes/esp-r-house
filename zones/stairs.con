@@ -1,5 +1,5 @@
 *Constructions 2.1                              # thermophysical properties of stairs
-*date Sun Dec  4 12:46:36 2022                  # latest file modification
+*date Tue Dec  6 17:56:12 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
      3     0   0.93   0.93   0.70   0.70   0    #   1  strWallExt   ext_wall_norway
