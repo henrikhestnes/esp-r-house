@@ -4,15 +4,14 @@
 no infiltration or venitlation notes (yet)
 # infiltration and ventilation controls:
    0      0.00      0.00    100.00            # control index (no control of air flow), low middle high setpoints
-    2                                         # number of flow periods during weekdays
-   0,  7,    1.458    0.000    0     0.00     # start, stop, infil ach ( 0.0140m^3/s)
-  23, 24,    1.458    0.000    0     0.00     # start, stop, infil ach ( 0.0140m^3/s)
+    1                                         # number of flow periods during weekdays
+   0, 24,    1.458    0.000    0     0.00     # start, stop, infil ach ( 0.0140m^3/s)
     1                                         # number of flow periods during saturday
-   0, 10,    1.458    0.000    0     0.00     # start, stop, infil ach ( 0.0140m^3/s)
+   0, 24,    1.458    0.000    0     0.00     # start, stop, infil ach ( 0.0140m^3/s)
     1                                         # number of flow periods during sunday
-   0, 10,    1.458    0.000    0     0.00     # start, stop, infil ach ( 0.0140m^3/s)
+   0, 24,    1.458    0.000    0     0.00     # start, stop, infil ach ( 0.0140m^3/s)
     1                                         # number of flow periods during holiday
-   0, 10,    1.458    0.000    0     0.00     # start, stop, infil ach ( 0.0140m^3/s)
+   0, 24,    1.458    0.000    0     0.00     # start, stop, infil ach ( 0.0140m^3/s)
 # casual gain type definitions:
 *casual
 # notes on casual gains:

@@ -4,15 +4,14 @@
 Flow schedules imported. No other notes (yet).
 # infiltration and ventilation controls:
    0      0.00      0.00    100.00            # control index (no control of air flow), low middle high setpoints
-    2                                         # number of flow periods during weekdays
-   0,  7,    1.000    0.000    2     0.00     # start stop infil ach ( 0.0072m^3/s) vent ach ( 0.0000m^3/s) from gfLivRoom
-  23, 24,    1.000    0.000    0     0.00     # start, stop, infil ach ( 0.0072m^3/s)
+    1                                         # number of flow periods during weekdays
+   0, 24,    1.000    0.000    2     0.00     # start stop infil ach ( 0.0072m^3/s) vent ach ( 0.0000m^3/s) from gfLivRoom
     1                                         # number of flow periods during saturday
-   0, 10,    1.000    0.000    2     0.00     # start stop infil ach ( 0.0072m^3/s) vent ach ( 0.0000m^3/s) from gfLivRoom
+   0, 24,    1.000    0.000    2     0.00     # start stop infil ach ( 0.0072m^3/s) vent ach ( 0.0000m^3/s) from gfLivRoom
     1                                         # number of flow periods during sunday
-   0, 10,    1.000    0.000    2     0.00     # start stop infil ach ( 0.0072m^3/s) vent ach ( 0.0000m^3/s) from gfLivRoom
+   0, 24,    1.000    0.000    2     0.00     # start stop infil ach ( 0.0072m^3/s) vent ach ( 0.0000m^3/s) from gfLivRoom
     1                                         # number of flow periods during holiday
-   0, 10,    1.000    0.000    2     0.00     # start stop infil ach ( 0.0072m^3/s) vent ach ( 0.0000m^3/s) from gfLivRoom
+   0, 24,    1.000    0.000    2     0.00     # start stop infil ach ( 0.0072m^3/s) vent ach ( 0.0000m^3/s) from gfLivRoom
 # casual gain type definitions:
 *casual
 # notes on casual gains:
