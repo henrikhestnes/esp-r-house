@@ -14,7 +14,7 @@ c
 /home/henrikhestnes/house/cfg/house.res
 1 7
 31 7
-2
+5
 4
 Y
 s
@@ -31,7 +31,7 @@ c
 >
 a
 /home/henrikhestnes/house/cfg/house.csv
-Simulation result for March
+Simulation result for July
 g
 a
 a

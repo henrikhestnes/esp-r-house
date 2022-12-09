@@ -1,5 +1,5 @@
 *Constructions 2.1                              # thermophysical properties of gfLivRoom
-*date Tue Dec  6 20:58:51 2022                  # latest file modification
+*date Thu Dec  8 15:27:35 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
      3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-1       ext_wall_norway

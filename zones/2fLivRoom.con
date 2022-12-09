@@ -1,25 +1,25 @@
 *Constructions 2.1                              # thermophysical properties of 2fLivRoom
-*date Tue Dec  6 20:58:51 2022                  # latest file modification
+*date Thu Dec  8 15:29:59 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
-     3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-2       ext_wall_norway
-     3     0   0.93   0.93   0.70   0.70   0    #   2  Wall-3       ext_wall_norway
+     3     0   0.93   0.93   0.70   0.70   0    #   1  westWall     ext_wall_norway
+     3     0   0.93   0.93   0.70   0.70   0    #   2  southWall    ext_wall_norway
      3     0   0.93   0.93   0.70   0.70   0    #   3  2fLrWal1Of   int_wall
      3     0   0.93   0.93   0.70   0.70   0    #   4  2fLrWal2Of   int_wall
-     3     0   0.93   0.93   0.70   0.70   0    #   5  Wall-8       ext_wall_norway
+     3     0   0.93   0.93   0.70   0.70   0    #   5  eastWall     ext_wall_norway
      3     0   0.93   0.90   0.70   0.90   0    #   6  2fLrRoof     ext_roof
-     3     0   0.93   0.93   0.70   0.70   0    #   7  Wall-1       ext_wall_norway
+     3     0   0.93   0.93   0.70   0.70   0    #   7  northWall    ext_wall_norway
      3     0   0.93   0.93   0.70   0.70   0    #   8  1fSlp1Ceil   int_floor
      3     0   0.93   0.93   0.70   0.70   0    #   9  1fSlp2Ceil   int_floor
      3     0   0.93   0.93   0.70   0.70   0    #  10  1fSlp3Ceil   int_floor
      3     0   0.93   0.93   0.70   0.70   0    #  11  1fEntCeil    int_floor
-     3     0   0.93   0.93   0.70   0.70   0    #  12  2fStrWallKch int_wall
-     1     0   0.99   0.99   0.01   0.01   1    #  13  strWall2f    fictitious
-     5     0   0.04   0.04   0.01   0.01   2    #  14  2fLrWin1     tripglz_1.08
-     5     0   0.04   0.04   0.01   0.01   2    #  15  2fLrWin2     tripglz_1.08
+     3     0   0.93   0.93   0.70   0.70   0    #  12  2fStrWallLR  int_wall
+     1     0   0.99   0.99   0.01   0.01   1    #  13  strWall2fFic fictitious
+     5     0   0.04   0.04   0.01   0.01   2    #  14  2fLrWinSou1  tripglz_1.08
+     5     0   0.04   0.04   0.01   0.01   2    #  15  2fLrWinSou2  tripglz_1.08
      3     0   0.93   0.93   0.70   0.70   0    #  16  2fLrBalDoor  ext_door
-     5     0   0.04   0.04   0.01   0.01   2    #  17  2fLrWin3     tripglz_1.08
-     5     0   0.04   0.04   0.01   0.01   2    #  18  2fKchWin     tripglz_1.08
+     5     0   0.04   0.04   0.01   0.01   2    #  17  2fLrWinNor1  tripglz_1.08
+     5     0   0.04   0.04   0.01   0.01   2    #  18  2fLrWinNor2  tripglz_1.08
      1     0   0.93   0.93   0.70   0.70   0    #  19  2fLrDoorOfc  int_doors
 # air gap layer positions and restances
 # layer thermophysical properties

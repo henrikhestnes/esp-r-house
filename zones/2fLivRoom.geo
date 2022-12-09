@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,2fLivRoom # tag version, format, zone name
-*date Tue Dec  6 20:59:41 2022  # latest file modification 
+*date Thu Dec  8 15:29:54 2022  # latest file modification 
 2fLivRoom describes the living room and kitchen of 2nd floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,8.40000,8.10000,4.80000  #   1
@@ -76,24 +76,24 @@
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,Wall-2,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
-*surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
+*surf,westWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
+*surf,southWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
 *surf,2fLrWal1Of,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,013,006  #   3 ||< 2fLrWal1Of:2fOffice
 *surf,2fLrWal2Of,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,013,009  #   4 ||< 2fLrWal2Of:2fOffice
-*surf,Wall-8,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   5 ||< external
+*surf,eastWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   5 ||< external
 *surf,2fLrRoof,SLOP,-,ROOF,FLAT,ext_roof,OPAQUE,EXTERIOR,00,000  #   6 ||< external
-*surf,Wall-1,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   7 ||< external
+*surf,northWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   7 ||< external
 *surf,1fSlp1Ceil,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,006,004  #   8 ||< 1fSlp1Ceil:1fSleep1
 *surf,1fSlp2Ceil,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,007,004  #   9 ||< 1fSlp2Ceil:1fSleep2
 *surf,1fSlp3Ceil,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,008,004  #  10 ||< 1fSlp3Ceil:1fSleep3
 *surf,1fEntCeil,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,011,002  #  11 ||< 1fEntCeil:1fEntrance
-*surf,2fStrWallKch,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,008  #  12 ||< 2fStrWallKch:stairs
-*surf,strWall2f,VERT,-,FICT,BIDIR,fictitious,SC_fictit,ANOTHER,003,004  #  13 ||< strWall2f:stairs
-*surf,2fLrWin1,VERT,Wall-3,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #  14 ||< external
-*surf,2fLrWin2,VERT,Wall-3,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #  15 ||< external
-*surf,2fLrBalDoor,VERT,Wall-3,DOOR,CLOSED,ext_door,OPAQUE,EXTERIOR,00,000  #  16 ||< external
-*surf,2fLrWin3,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #  17 ||< external
-*surf,2fKchWin,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #  18 ||< external
+*surf,2fStrWallLR,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,008  #  12 ||< 2fStrWallKch:stairs
+*surf,strWall2fFic,VERT,-,FICT,BIDIR,fictitious,SC_fictit,ANOTHER,003,004  #  13 ||< strWall2f:stairs
+*surf,2fLrWinSou1,VERT,southWall,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #  14 ||< external
+*surf,2fLrWinSou2,VERT,southWall,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #  15 ||< external
+*surf,2fLrBalDoor,VERT,southWall,DOOR,CLOSED,ext_door,OPAQUE,EXTERIOR,00,000  #  16 ||< external
+*surf,2fLrWinNor1,VERT,northWall,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #  17 ||< external
+*surf,2fLrWinNor2,VERT,northWall,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #  18 ||< external
 *surf,2fLrDoorOfc,VERT,2fLrWal2Of,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,013,008  #  19 ||< 2fLrDoorOfc:2fOffice
 # 
 *insol,3,0,0,0  # default insolation distribution

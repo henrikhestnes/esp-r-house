@@ -1,5 +1,5 @@
 *connections for house
-*Date Tue Dec  6 20:59:51 2022
+*Date Thu Dec  8 15:30:09 2022
     143  # number of connections
    1   1   0   0   0  #    1 Wall-1 in gfSleep is External
    1   2   0   0   0  #    2 Wall-4 in gfSleep is External
@@ -30,11 +30,11 @@
    3   1   0   0   0  #   27 strWallExt in stairs is External
    3   2   4   0   1  #   28 strFloor in stairs >|< user def ground profile 1
    3   3   3  11  14  #   29 strWall1f in stairs >|< strWall1f in 1fEntrance
-   3   4   3  12  13  #   30 strWall2f in stairs >|< strWall2f in 2fLivRoom
+   3   4   3  12  13  #   30 strWall2f in stairs >|< strWall2fFic in 2fLivRoom
    3   5   0   0   0  #   31 strCeil in stairs is External
    3   6   3   1   8  #   32 gfStrWallSlp in stairs >|< gfStrWallSlp in gfSleep
    3   7   3   6   6  #   33 1fStrWallSlp in stairs >|< 1fStrWallSlp in 1fSleep1
-   3   8   3  12  12  #   34 2fStrWallKch in stairs >|< 2fStrWallKch in 2fLivRoom
+   3   8   3  12  12  #   34 2fStrWallKch in stairs >|< 2fStrWallLR in 2fLivRoom
    3   9   3   9   7  #   35 1fStrWallBth in stairs >|< 1fStrWallBth in 1fBath
    3  10   3  13   5  #   36 2fStrWallOfc in stairs >|< 2fStrWallOfc in 2fOffice
    3  11   3   2   7  #   37 gfLrWallStr in stairs >|< gfLrWallStr in gfLivRoom
@@ -116,24 +116,24 @@
   11  14   3   3   3  #  113 strWall1f in 1fEntrance >|< strWall1f in stairs
   11  15   3   8   3  #  114 1fSl3WallEnt in 1fEntrance >|< 1fSl3WallEnt in 1fSleep3
   11  16   3   8   9  #  115 1fSl3DoorEnt in 1fEntrance >|< 1fSl3DoorEnt in 1fSleep3
-  12   1   0   0   0  #  116 Wall-2 in 2fLivRoom is External
-  12   2   0   0   0  #  117 Wall-3 in 2fLivRoom is External
+  12   1   0   0   0  #  116 westWall in 2fLivRoom is External
+  12   2   0   0   0  #  117 southWall in 2fLivRoom is External
   12   3   3  13   6  #  118 2fLrWal1Of in 2fLivRoom >|< 2fLrWal1Of in 2fOffice
   12   4   3  13   9  #  119 2fLrWal2Of in 2fLivRoom >|< 2fLrWal2Of in 2fOffice
-  12   5   0   0   0  #  120 Wall-8 in 2fLivRoom is External
+  12   5   0   0   0  #  120 eastWall in 2fLivRoom is External
   12   6   0   0   0  #  121 2fLrRoof in 2fLivRoom is External
-  12   7   0   0   0  #  122 Wall-1 in 2fLivRoom is External
+  12   7   0   0   0  #  122 northWall in 2fLivRoom is External
   12   8   3   6   4  #  123 1fSlp1Ceil in 2fLivRoom >|< 1fSlp1Ceil in 1fSleep1
   12   9   3   7   4  #  124 1fSlp2Ceil in 2fLivRoom >|< 1fSlp2Ceil in 1fSleep2
   12  10   3   8   4  #  125 1fSlp3Ceil in 2fLivRoom >|< 1fSlp3Ceil in 1fSleep3
   12  11   3  11   2  #  126 1fEntCeil in 2fLivRoom >|< 1fEntCeil in 1fEntrance
-  12  12   3   3   8  #  127 2fStrWallKch in 2fLivRoom >|< 2fStrWallKch in stairs
-  12  13   3   3   4  #  128 strWall2f in 2fLivRoom >|< strWall2f in stairs
-  12  14   0   0   0  #  129 2fLrWin1 in 2fLivRoom is External
-  12  15   0   0   0  #  130 2fLrWin2 in 2fLivRoom is External
+  12  12   3   3   8  #  127 2fStrWallLR in 2fLivRoom >|< 2fStrWallKch in stairs
+  12  13   3   3   4  #  128 strWall2fFic in 2fLivRoom >|< strWall2f in stairs
+  12  14   0   0   0  #  129 2fLrWinSou1 in 2fLivRoom is External
+  12  15   0   0   0  #  130 2fLrWinSou2 in 2fLivRoom is External
   12  16   0   0   0  #  131 2fLrBalDoor in 2fLivRoom is External
-  12  17   0   0   0  #  132 2fLrWin3 in 2fLivRoom is External
-  12  18   0   0   0  #  133 2fKchWin in 2fLivRoom is External
+  12  17   0   0   0  #  132 2fLrWinNor1 in 2fLivRoom is External
+  12  18   0   0   0  #  133 2fLrWinNor2 in 2fLivRoom is External
   12  19   3  13   8  #  134 2fLrDoorOfc in 2fLivRoom >|< 2fLrDoorOfc in 2fOffice
   13   1   0   0   0  #  135 Wall-3 in 2fOffice is External
   13   2   0   0   0  #  136 Wall-4 in 2fOffice is External

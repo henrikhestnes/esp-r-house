@@ -1,17 +1,17 @@
 *Operations 2.1                               # zone operation definiions for 1fBath
-*date Sun Dec  4 12:39:17 2022                # latest file modification
+*date Thu Dec  8 13:25:43 2022                # latest file modification
 # infiltration and ventilation notes:
 Flow schedules imported. No other notes (yet).
 # infiltration and ventilation controls:
    0      0.00      0.00    100.00            # control index (no control of air flow), low middle high setpoints
     1                                         # number of flow periods during weekdays
-   0, 24,    0.239    0.000    0     0.00     # start, stop, infil ach ( 0.0013m^3/s)
+   0, 24,    0.000    0.496    0    18.00     # start, stop, infil ach ( 0.0000m^3/s), vent ach ( 0.0027m^3/s), source, @C
     1                                         # number of flow periods during saturday
-   0, 24,    0.239    0.000    0     0.00     # start, stop, infil ach ( 0.0013m^3/s)
+   0, 24,    0.000    0.496    0    18.00     # start, stop, infil ach ( 0.0000m^3/s), vent ach ( 0.0027m^3/s), source, @C
     1                                         # number of flow periods during sunday
-   0, 24,    0.239    0.000    0     0.00     # start, stop, infil ach ( 0.0013m^3/s)
+   0, 24,    0.000    0.496    0    18.00     # start, stop, infil ach ( 0.0000m^3/s), vent ach ( 0.0027m^3/s), source, @C
     1                                         # number of flow periods during holiday
-   0, 24,    0.239    0.000    0     0.00     # start, stop, infil ach ( 0.0013m^3/s)
+   0, 24,    0.000    0.496    0    18.00     # start, stop, infil ach ( 0.0000m^3/s), vent ach ( 0.0027m^3/s), source, @C
 # casual gain type definitions:
 *casual
 # notes on casual gains:
