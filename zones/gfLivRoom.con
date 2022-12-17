@@ -1,22 +1,22 @@
 *Constructions 2.1                              # thermophysical properties of gfLivRoom
-*date Thu Dec  8 15:27:35 2022                  # latest file modification
+*date Sat Dec 17 12:51:21 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
-     3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-1       ext_wall_norway
-     3     0   0.93   0.93   0.70   0.70   0    #   2  Wall-2       ext_wall_norway
+     3     0   0.93   0.93   0.70   0.70   0    #   1  northWall    ext_wall_norway
+     3     0   0.93   0.93   0.70   0.70   0    #   2  westWall     ext_wall_norway
      3     0   0.93   0.93   0.70   0.70   0    #   3  gfLrWall2Slp int_wall
-     3     0   0.93   0.93   0.70   0.70   0    #   4  gfLrWallSlp  int_wall
+     3     0   0.93   0.93   0.70   0.70   0    #   4  gfLrWall1Slp int_wall
      3     0   0.93   0.93   0.70   0.70   0    #   5  gfLrCeil     int_ceil
-     3     0   0.93   0.93   0.70   0.70   0    #   6  gfLrFlr      floor_ground_floor
-     1     0   0.99   0.99   0.01   0.01   1    #   7  gfLrWallStr  fictitious
+     3     0   0.93   0.93   0.70   0.70   0    #   6  gfLrFloor    floor_ground_floor
+     1     0   0.99   0.99   0.01   0.01   1    #   7  gfLrFictStr  fictitious
      3     0   0.93   0.93   0.70   0.70   0    #   8  gfLrWallBth  int_wall
      3     0   0.93   0.93   0.70   0.70   0    #   9  gfLrWallSr   int_wall
-     1     0   0.93   0.93   0.70   0.70   0    #  10  gfSlpDoorLr  int_doors
+     1     0   0.93   0.93   0.70   0.70   0    #  10  gfLrDoorSlp  int_doors
      5     0   0.04   0.04   0.01   0.01   2    #  11  gfLrWin      tripglz_1.08
      3     0   0.93   0.93   0.70   0.70   0    #  12  gfLrDoorExt  ext_door
      1     0   0.93   0.93   0.70   0.70   0    #  13  gfLrDoorBth  int_doors
      1     0   0.93   0.93   0.70   0.70   0    #  14  gfLrDoorSr   int_doors
-     3     0   0.93   0.93   0.70   0.70   0    #  15  gfLrCeilSlp  int_ceil
+     3     0   0.93   0.93   0.70   0.70   0    #  15  gfLrCeilSlp1 int_ceil
      3     0   0.93   0.93   0.70   0.70   0    #  16  gfLrCeilSlp2 int_ceil
      3     0   0.93   0.93   0.70   0.70   0    #  17  gfLrCeilSlp3 int_ceil
 # air gap layer positions and restances

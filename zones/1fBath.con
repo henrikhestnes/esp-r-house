@@ -1,16 +1,16 @@
 *Constructions 2.1                              # thermophysical properties of 1fBath
-*date Thu Dec  8 10:23:13 2022                  # latest file modification
+*date Sat Dec 17 12:51:22 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
-     3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-3       ext_wall_norway
+     3     0   0.93   0.93   0.70   0.70   0    #   1  southWall    ext_wall_norway
      3     0   0.93   0.93   0.70   0.70   0    #   2  1fBthWallSr  ext_wall_norway
      3     0   0.93   0.93   0.70   0.70   0    #   3  1fBthCeil    int_ceil
      1     0   0.93   0.93   0.70   0.70   0    #   4  1fBthDoorEnt int_doors
-     3     0   0.93   0.93   0.70   0.70   0    #   5  1fEntWal2Bth int_wall
-     3     0   0.93   0.93   0.70   0.70   0    #   6  1fEntWal1Bth int_wall
-     3     0   0.93   0.93   0.70   0.70   0    #   7  1fStrWallBth int_wall
-     3     0   0.93   0.93   0.70   0.70   0    #   8  Wall-9       ext_wall_norway
-     3     0   0.93   0.93   0.70   0.70   0    #   9  gfSrCeilBth  int_floor
+     3     0   0.93   0.93   0.70   0.70   0    #   5  1fBthWal2Ent int_wall
+     3     0   0.93   0.93   0.70   0.70   0    #   6  1fBthWal1Ent int_wall
+     3     0   0.93   0.93   0.70   0.70   0    #   7  1fBthWallStr int_wall
+     3     0   0.93   0.93   0.70   0.70   0    #   8  eastWall     ext_wall_norway
+     3     0   0.93   0.93   0.70   0.70   0    #   9  1fBthFloor   int_floor
 # air gap layer positions and restances
 # layer thermophysical properties
 # conduc-  | density |specific | thick- |dpnd|ref.| temp. |moisture|surface|layer

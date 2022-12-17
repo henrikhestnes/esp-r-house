@@ -1,15 +1,15 @@
 *Constructions 2.1                              # thermophysical properties of 1fSleep1
-*date Thu Dec  8 10:23:11 2022                  # latest file modification
+*date Sat Dec 17 12:51:22 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
-     3     0   0.93   0.93   0.70   0.70   0    #   1  wall-1       ext_wall_norway
+     3     0   0.93   0.93   0.70   0.70   0    #   1  northWall    ext_wall_norway
      3     0   0.93   0.93   0.70   0.70   0    #   2  1fSl1WallSl2 int_wall
-     3     0   0.93   0.93   0.70   0.70   0    #   3  Wall-4       ext_wall_norway
+     3     0   0.93   0.93   0.70   0.70   0    #   3  eastWall     ext_wall_norway
      3     0   0.93   0.93   0.70   0.70   0    #   4  1fSlp1Ceil   int_ceil
-     3     0   0.93   0.93   0.70   0.70   0    #   5  gfSlpCeil    int_floor
-     3     0   0.93   0.93   0.70   0.70   0    #   6  1fStrWallSlp int_wall
-     3     0   0.93   0.93   0.70   0.70   0    #   7  gfLrCeilSlp  int_floor
-     5     0   0.04   0.04   0.01   0.01   1    #   8  1fSlpWin     tripglz_1.08
+     3     0   0.93   0.93   0.70   0.70   0    #   5  1fSlp1FlrSlp int_floor
+     3     0   0.93   0.93   0.70   0.70   0    #   6  1fSl1WallStr int_wall
+     3     0   0.93   0.93   0.70   0.70   0    #   7  1fSlp1FlrLr  int_floor
+     5     0   0.04   0.04   0.01   0.01   1    #   8  1fSlp1Win    tripglz_1.08
      3     0   0.93   0.93   0.70   0.70   0    #   9  1fSl1WallEnt int_wall
      1     0   0.93   0.93   0.70   0.70   0    #  10  1fSl1DoorEnt int_doors
 # air gap layer positions and restances

@@ -1,16 +1,16 @@
 *Constructions 2.1                              # thermophysical properties of 2fOffice
-*date Thu Dec  8 10:23:16 2022                  # latest file modification
+*date Sat Dec 17 12:51:23 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
-     3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-3       ext_wall_norway
-     3     0   0.93   0.93   0.70   0.70   0    #   2  Wall-4       ext_wall_norway
-     3     0   0.93   0.90   0.70   0.90   0    #   3  2fOfcCeil    ext_roof
-     3     0   0.93   0.93   0.70   0.70   0    #   4  1fBthCeil    int_floor
-     3     0   0.93   0.93   0.70   0.70   0    #   5  2fStrWallOfc int_wall
-     3     0   0.93   0.93   0.70   0.70   0    #   6  2fLrWal1Of   int_wall
+     3     0   0.93   0.93   0.70   0.70   0    #   1  southWall    ext_wall_norway
+     3     0   0.93   0.93   0.70   0.70   0    #   2  eastWall     ext_wall_norway
+     3     0   0.93   0.90   0.70   0.90   0    #   3  2fOfcRoof    ext_roof
+     3     0   0.93   0.93   0.70   0.70   0    #   4  2fOfcCeil    int_floor
+     3     0   0.93   0.93   0.70   0.70   0    #   5  2fOfcWallStr int_wall
+     3     0   0.93   0.93   0.70   0.70   0    #   6  2fOfcWal1Lr  int_wall
      5     0   0.04   0.04   0.01   0.01   1    #   7  2fOfcWin     tripglz_1.08
-     1     0   0.93   0.93   0.70   0.70   0    #   8  2fLrDoorOfc  int_doors
-     3     0   0.93   0.93   0.70   0.70   0    #   9  2fLrWal2Of   int_wall
+     1     0   0.93   0.93   0.70   0.70   0    #   8  2fOfcDoorLr  int_doors
+     3     0   0.93   0.93   0.70   0.70   0    #   9  2fOfcWal2Lr  int_wall
 # air gap layer positions and restances
 # layer thermophysical properties
 # conduc-  | density |specific | thick- |dpnd|ref.| temp. |moisture|surface|layer

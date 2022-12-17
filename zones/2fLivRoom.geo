@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,2fLivRoom # tag version, format, zone name
-*date Sat Dec 17 12:09:59 2022  # latest file modification 
+*date Sat Dec 17 12:54:08 2022  # latest file modification 
 2fLivRoom describes the living room and kitchen of 2nd floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,8.40000,8.10000,4.80000  #   1
@@ -78,8 +78,8 @@
 #  boundary condition tag followed by two data items
 *surf,westWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
 *surf,southWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
-*surf,2fLrWal1Ofc,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,013,006  #   3 ||< 2fLrWal1Of:2fOffice
-*surf,2fLrWal2Ofc,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,013,009  #   4 ||< 2fLrWal2Of:2fOffice
+*surf,2fLrWal1Ofc,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,013,006  #   3 ||< 2fOfcWal1Lr:2fOffice
+*surf,2fLrWal2Ofc,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,013,009  #   4 ||< 2fOfcWal2Lr:2fOffice
 *surf,eastWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   5 ||< external
 *surf,2fLrRoof,SLOP,-,ROOF,FLAT,ext_roof,OPAQUE,EXTERIOR,00,000  #   6 ||< external
 *surf,northWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   7 ||< external
@@ -94,7 +94,7 @@
 *surf,2fLrDoorExt,VERT,southWall,DOOR,CLOSED,ext_door,OPAQUE,EXTERIOR,00,000  #  16 ||< external
 *surf,2fLrWinNor1,VERT,northWall,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #  17 ||< external
 *surf,2fLrWinNor2,VERT,northWall,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #  18 ||< external
-*surf,2fLrDoorOfc,VERT,2fLrWal2Ofc,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,013,008  #  19 ||< 2fLrDoorOfc:2fOffice
+*surf,2fLrDoorOfc,VERT,2fLrWal2Ofc,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,013,008  #  19 ||< 2fOfcDoorLr:2fOffice
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

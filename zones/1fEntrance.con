@@ -1,23 +1,23 @@
 *Constructions 2.1                              # thermophysical properties of 1fEntrance
-*date Thu Dec  8 15:29:16 2022                  # latest file modification
+*date Sat Dec 17 12:51:23 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
-     3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-3       ext_wall_norway
+     3     0   0.93   0.93   0.70   0.70   0    #   1  southWall    ext_wall_norway
      3     0   0.93   0.93   0.70   0.70   0    #   2  1fEntCeil    int_ceil
-     1     0   0.93   0.93   0.70   0.70   0    #   3  1fSl2DoorEnt int_doors
-     3     0   0.93   0.93   0.70   0.70   0    #   4  1fSl2WallEnt int_wall
-     3     0   0.93   0.93   0.70   0.70   0    #   5  1fSl1WallEnt int_wall
-     1     0   0.93   0.93   0.70   0.70   0    #   6  1fSl1DoorEnt int_doors
-     1     0   0.93   0.93   0.70   0.70   0    #   7  1fBthDoorEnt int_doors
+     1     0   0.93   0.93   0.70   0.70   0    #   3  1fEntDoorSl2 int_doors
+     3     0   0.93   0.93   0.70   0.70   0    #   4  1fEntWallSl2 int_wall
+     3     0   0.93   0.93   0.70   0.70   0    #   5  1fEntWallSl1 int_wall
+     1     0   0.93   0.93   0.70   0.70   0    #   6  1fEntDoorSl1 int_doors
+     1     0   0.93   0.93   0.70   0.70   0    #   7  1fEntDoorBth int_doors
      3     0   0.93   0.93   0.70   0.70   0    #   8  1fEntWal2Bth int_wall
      3     0   0.93   0.93   0.70   0.70   0    #   9  1fEntWal1Bth int_wall
-     3     0   0.93   0.93   0.70   0.70   0    #  10  gfLrCeil     int_floor
-     3     0   0.93   0.93   0.70   0.70   0    #  11  gfBthCeilEnt int_floor
-     3     0   0.93   0.93   0.70   0.70   0    #  12  gfSrCeilEnt  int_floor
-     3     0   0.93   0.93   0.70   0.70   0    #  13  1fEntDoor    ext_door
-     1     0   0.99   0.99   0.01   0.01   1    #  14  strWall1f    fictitious
-     3     0   0.93   0.93   0.70   0.70   0    #  15  1fSl3WallEnt int_wall
-     1     0   0.93   0.93   0.70   0.70   0    #  16  1fSl3DoorEnt int_doors
+     3     0   0.93   0.93   0.70   0.70   0    #  10  1fEntFlrLr   int_floor
+     3     0   0.93   0.93   0.70   0.70   0    #  11  1fEntFlrBth  int_floor
+     3     0   0.93   0.93   0.70   0.70   0    #  12  1fEntFlrSr   int_floor
+     3     0   0.93   0.93   0.70   0.70   0    #  13  1fEntDoorExt ext_door
+     1     0   0.99   0.99   0.01   0.01   1    #  14  1fEntFictStr fictitious
+     3     0   0.93   0.93   0.70   0.70   0    #  15  1fEntWallSl3 int_wall
+     1     0   0.93   0.93   0.70   0.70   0    #  16  1fEntDoorSl3 int_doors
 # air gap layer positions and restances
 # layer thermophysical properties
 # conduc-  | density |specific | thick- |dpnd|ref.| temp. |moisture|surface|layer

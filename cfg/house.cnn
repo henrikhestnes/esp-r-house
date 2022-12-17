@@ -1,5 +1,5 @@
 *connections for house
-*Date Sat Dec 17 12:11:43 2022
+*Date Sat Dec 17 12:54:25 2022
     143  # number of connections
    1   1   0   0   0  #    1 northWall in gfSleep is External
    1   2   0   0   0  #    2 eastWall in gfSleep is External

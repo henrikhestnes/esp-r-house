@@ -1,15 +1,15 @@
 *Constructions 2.1                              # thermophysical properties of gfStorRoom
-*date Thu Dec  8 10:23:11 2022                  # latest file modification
+*date Sat Dec 17 12:51:21 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
-     3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-3       ext_wall_norway
-     3     0   0.93   0.93   0.70   0.70   0    #   2  Wall-4       ext_wall_norway
+     3     0   0.93   0.93   0.70   0.70   0    #   1  southWall    ext_wall_norway
+     3     0   0.93   0.93   0.70   0.70   0    #   2  eastWall     ext_wall_norway
      3     0   0.93   0.93   0.70   0.70   0    #   3  gfSrCeilBth  int_ceil
-     3     0   0.93   0.93   0.70   0.70   0    #   4  gfSrFlr      floor_ground_floor
-     1     0   0.93   0.93   0.70   0.70   0    #   5  gfLrDoorSr   int_doors
-     3     0   0.93   0.93   0.70   0.70   0    #   6  gfLrWallSr   int_wall
-     3     0   0.93   0.93   0.70   0.70   0    #   7  gfStrWallSr  int_wall
-     3     0   0.93   0.93   0.70   0.70   0    #   8  gfBthWallSr  int_wall
+     3     0   0.93   0.93   0.70   0.70   0    #   4  gfSrFloor    floor_ground_floor
+     1     0   0.93   0.93   0.70   0.70   0    #   5  gfSrDoorLr   int_doors
+     3     0   0.93   0.93   0.70   0.70   0    #   6  gfSrWallLr   int_wall
+     3     0   0.93   0.93   0.70   0.70   0    #   7  gfSrWallStr  int_wall
+     3     0   0.93   0.93   0.70   0.70   0    #   8  gfSrWallBth  int_wall
      3     0   0.93   0.93   0.70   0.70   0    #   9  gfSrCeilEnt  int_ceil
 # air gap layer positions and restances
 # layer thermophysical properties

@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,gfBath # tag version, format, zone name
-*date Sat Dec 17 11:43:13 2022  # latest file modification 
+*date Sat Dec 17 12:53:29 2022  # latest file modification 
 gfBath describes the bathroom in the ground floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,3.97000,2.40000,0.00000  #   1
@@ -34,12 +34,12 @@ gfBath describes the bathroom in the ground floor
 #  boundary condition tag followed by two data items
 *surf,westWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
 *surf,southWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
-*surf,gfBthCeilEnt,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,11,011  #   3 ||< gfBthCeilEnt:1fEntrance
+*surf,gfBthCeilEnt,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,11,011  #   3 ||< 1fEntFlrBth:1fEntrance
 *surf,gfBthFloor,FLOR,-,FLOOR,EXTGRND,floor_ground_floor,OPAQUE,GROUND,0,001  #   4 ||< user def grnd profile  1
 *surf,gfBthDoorLr,VERT,gfBthWallLr,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,013,013  #   5 ||< gfLrDoorBth:gfLivRoom
 *surf,gfBthWallLr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,008,008  #   6 ||< gfLrWallBth:gfLivRoom
-*surf,gfBthWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,008,008  #   7 ||< gfBthWallSr:gfStorRoom
-*surf,gfBthCeilSl3,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,008,008  #   8 ||< gfBthCeilSl3:1fSleep3
+*surf,gfBthWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,008,008  #   7 ||< gfSrWallBth:gfStorRoom
+*surf,gfBthCeilSl3,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,008,008  #   8 ||< 1fSl3FlrBth:1fSleep3
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

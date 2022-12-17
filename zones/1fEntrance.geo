@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,1fEntrance # tag version, format, zone name
-*date Sat Dec 17 12:06:17 2022  # latest file modification 
+*date Sat Dec 17 12:54:03 2022  # latest file modification 
 1fEntrance describes the 1st floor entrance
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,6.60000,5.10000,2.40000  #   1
@@ -65,7 +65,7 @@
 #  construction name, optical name
 #  boundary condition tag followed by two data items
 *surf,southWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
-*surf,1fEntCeil,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,12,011  #   2 ||< 1fEntCeil:2fLivRoom
+*surf,1fEntCeil,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,12,011  #   2 ||< 2fLrFlrEnt:2fLivRoom
 *surf,1fEntDoorSl2,VERT,1fEntWallSl2,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,007,007  #   3 ||< 1fSl2DoorEnt:1fSleep2
 *surf,1fEntWallSl2,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,003  #   4 ||< 1fSl2WallEnt:1fSleep2
 *surf,1fEntWallSl1,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,009,009  #   5 ||< 1fSl1WallEnt:1fSleep1

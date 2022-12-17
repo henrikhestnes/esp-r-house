@@ -1,14 +1,14 @@
 *Constructions 2.1                              # thermophysical properties of 1fStorRoom
-*date Thu Dec  8 10:23:14 2022                  # latest file modification
+*date Sat Dec 17 12:51:22 2022                  # latest file modification
 # layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
 #       |gaps|inside other|inside other|index| index  |name        |name 
-     3     0   0.93   0.93   0.70   0.70   0    #   1  Wall-1       ext_wall_norway
-     3     0   0.93   0.93   0.70   0.70   0    #   2  Wall-3       ext_wall_norway
-     3     0   0.93   0.93   0.70   0.70   0    #   3  Wall-4       ext_wall_norway
-     3     0   0.93   0.90   0.70   0.90   0    #   4  Top-5        ext_roof
-     3     0   0.93   0.93   0.70   0.70   0    #   5  Base-6       floor_ground_floor
-     3     0   0.93   0.93   0.70   0.70   0    #   6  1fBthWallSr  inv_ext_wall_norway
-     3     0   0.93   0.93   0.70   0.70   0    #   7  extSrDoor    ext_door
+     3     0   0.93   0.93   0.70   0.70   0    #   1  northWall    ext_wall_norway
+     3     0   0.93   0.93   0.70   0.70   0    #   2  southWall    ext_wall_norway
+     3     0   0.93   0.93   0.70   0.70   0    #   3  eastWall     ext_wall_norway
+     3     0   0.93   0.90   0.70   0.90   0    #   4  1fSrRoof     ext_roof
+     3     0   0.93   0.93   0.70   0.70   0    #   5  1fSrFloor    floor_ground_floor
+     3     0   0.93   0.93   0.70   0.70   0    #   6  1fSrWallBth  inv_ext_wall_norway
+     3     0   0.93   0.93   0.70   0.70   0    #   7  1fSrDoorExt  ext_door
 # air gap layer positions and restances
 # layer thermophysical properties
 # conduc-  | density |specific | thick- |dpnd|ref.| temp. |moisture|surface|layer
