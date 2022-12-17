@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,gfSleep # tag version, format, zone name
-*date Tue Dec  6 20:59:41 2022  # latest file modification 
+*date Sat Dec 17 11:35:44 2022  # latest file modification 
 gfSleep describes the Ground Floor sleeping room
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,8.40000,8.10000,0.00000  #   1
@@ -37,15 +37,15 @@ gfSleep describes the Ground Floor sleeping room
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,Wall-1,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
-*surf,Wall-4,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
+*surf,northWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
+*surf,eastWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
 *surf,gfSlpCeil,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,005,005  #   3 ||< gfSlpCeil:1fSleep1
-*surf,gfSlpFlr,FLOR,-,FLOOR,EXTGRND,floor_ground_floor,OPAQUE,GROUND,0,001  #   4 ||< user def grnd profile  1
-*surf,gfSlpWin,VERT,Wall-1,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #   5 ||< external
-*surf,gfSlpDoorLr,VERT,gfLrWallSlp,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,010,010  #   6 ||< gfSlpDoorLr:gfLivRoom
-*surf,gfLrWallSlp2,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,003  #   7 ||< gfLrWall2Slp:gfLivRoom
-*surf,gfStrWallSlp,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #   8 ||< gfStrWallSlp:stairs
-*surf,gfLrWallSlp,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,004,004  #   9 ||< gfLrWallSlp:gfLivRoom
+*surf,gfSlpFloor,FLOR,-,FLOOR,EXTGRND,floor_ground_floor,OPAQUE,GROUND,0,001  #   4 ||< user def grnd profile  1
+*surf,gfSlpWin,VERT,northWall,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #   5 ||< external
+*surf,gfSlpDoorLr,VERT,gfSlpWall1Lr,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,010,010  #   6 ||< gfSlpDoorLr:gfLivRoom
+*surf,gfSlpWall2Lr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,003  #   7 ||< gfLrWall2Slp:gfLivRoom
+*surf,gfSlpWallStr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #   8 ||< gfStrWallSlp:stairs
+*surf,gfSlpWall1Lr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,004,004  #   9 ||< gfLrWall1Slp:gfLivRoom
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

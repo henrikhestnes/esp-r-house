@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,1fSleep3 # tag version, format, zone name
-*date Tue Dec  6 20:59:41 2022  # latest file modification 
+*date Sat Dec 17 11:54:30 2022  # latest file modification 
 1fSleep3 describes the smallest sleeping room in 1 floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,2.10000,5.10000,2.40000  #   1
@@ -37,15 +37,15 @@
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,Wall-2,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
-*surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
+*surf,westWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
+*surf,northWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
 *surf,1fSl3WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,011,015  #   3 ||< 1fSl3WallEnt:1fEntrance
 *surf,1fSlp3Ceil,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,12,010  #   4 ||< 1fSlp3Ceil:2fLivRoom
-*surf,gfLrCeilSlp3,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,017,017  #   5 ||< gfLrCeilSlp3:gfLivRoom
-*surf,1fSl2Wallsl3,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,005,005  #   6 ||< 1fSl2Wallsl3:1fSleep2
-*surf,1fSlp3Win,VERT,Wall-3,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #   7 ||< external
-*surf,gfBthCeilSl3,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,008,008  #   8 ||< gfBthCeilSl3:gfBath
-*surf,1fSl3DoorEnt,VERT,-,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,011,016  #   9 ||< 1fSl3DoorEnt:1fEntrance
+*surf,1fSlp3FlrLr,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,017,017  #   5 ||< gfLrCeilSlp3:gfLivRoom
+*surf,1fSl3WallSl2,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,005,005  #   6 ||< 1fSl2WallSl3:1fSleep2
+*surf,1fSlp3Win,VERT,northWall,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #   7 ||< external
+*surf,1fSl3FlrBth,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,008,008  #   8 ||< gfBthCeilSl3:gfBath
+*surf,1fSl3DoorEnt,VERT,1fSl3WallEnt,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,011,016  #   9 ||< 1fSl3DoorEnt:1fEntrance
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

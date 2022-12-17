@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,1fBath # tag version, format, zone name
-*date Tue Dec  6 20:59:41 2022  # latest file modification 
+*date Sat Dec 17 11:56:40 2022  # latest file modification 
 1fBath describes the bath in 1floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,8.40000,2.40000,2.40000  #   1
@@ -35,15 +35,15 @@
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
+*surf,southWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
 *surf,1fBthWallSr,VERT,-,PARTN,-,ext_wall_norway,OPAQUE,ANOTHER,006,006  #   2 ||< 1fBthWallSr:1fStorRoom
 *surf,1fBthCeil,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,13,004  #   3 ||< 1fBthCeil:2fOffice
-*surf,1fBthDoorEnt,VERT,1fEntWal2Bth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,11,007  #   4 ||< 1fBthDoorEnt:1fEntrance
-*surf,1fEntWal2Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,11,008  #   5 ||< 1fEntWal2Bth:1fEntrance
-*surf,1fEntWal1Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,11,009  #   6 ||< 1fEntWal1Bth:1fEntrance
-*surf,1fStrWallBth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,009,009  #   7 ||< 1fStrWallBth:stairs
-*surf,Wall-9,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   8 ||< external
-*surf,gfSrCeilBth,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,003,003  #   9 ||< gfSrCeilBth:gfStorRoom
+*surf,1fBthDoorEnt,VERT,1fBthWal2Ent,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,11,007  #   4 ||< 1fBthDoorEnt:1fEntrance
+*surf,1fBthWal2Ent,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,11,008  #   5 ||< 1fEntWal2Bth:1fEntrance
+*surf,1fBthWal1Ent,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,11,009  #   6 ||< 1fEntWal1Bth:1fEntrance
+*surf,1fBthWallStr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,009,009  #   7 ||< strWallBth1f:stairs
+*surf,eastWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   8 ||< external
+*surf,1fBthFloor,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,003,003  #   9 ||< gfSrCeilBth:gfStorRoom
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,2fOffice # tag version, format, zone name
-*date Tue Dec  6 20:59:41 2022  # latest file modification 
+*date Sat Dec 17 12:11:35 2022  # latest file modification 
 2fOffice describes the office in 2nd floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,8.40000,2.40000,4.80000  #   1
@@ -38,15 +38,15 @@
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
-*surf,Wall-4,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
-*surf,2fOfcCeil,SLOP,-,ROOF,FLAT,ext_roof,OPAQUE,EXTERIOR,00,000  #   3 ||< external
-*surf,1fBthCeil,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,009,003  #   4 ||< 1fBthCeil:1fBath
-*surf,2fStrWallOfc,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,010  #   5 ||< 2fStrWallOfc:stairs
-*surf,2fLrWal1Of,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,012,003  #   6 ||< 2fLrWal1Of:2fLivRoom
-*surf,2fOfcWin,VERT,Wall-3,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #   7 ||< external
-*surf,2fLrDoorOfc,VERT,2fLrWal2Of,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,012,019  #   8 ||< 2fLrDoorOfc:2fLivRoom
-*surf,2fLrWal2Of,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,012,004  #   9 ||< 2fLrWal2Of:2fLivRoom
+*surf,southWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
+*surf,eastWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
+*surf,2fOfcRoof,SLOP,-,ROOF,FLAT,ext_roof,OPAQUE,EXTERIOR,00,000  #   3 ||< external
+*surf,2fOfcCeil,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,009,003  #   4 ||< 1fBthCeil:1fBath
+*surf,2fOfcWallStr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,010  #   5 ||< strWallOfc2f:stairs
+*surf,2fOfcWal1Lr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,012,003  #   6 ||< 2fLrWal1Ofc:2fLivRoom
+*surf,2fOfcWin,VERT,southWall,C-WINDOW,-,tripglz_1.08,nor_trip_glz,EXTERIOR,00,000  #   7 ||< external
+*surf,2fOfcDoorLr,VERT,2fOfcWal2Lr,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,012,019  #   8 ||< 2fLrDoorOfc:2fLivRoom
+*surf,2fOfcWal2Lr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,012,004  #   9 ||< 2fLrWal2Ofc:2fLivRoom
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

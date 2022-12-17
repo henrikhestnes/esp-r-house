@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,gfStorRoom # tag version, format, zone name
-*date Tue Dec  6 20:59:41 2022  # latest file modification 
+*date Sat Dec 17 11:45:30 2022  # latest file modification 
 gfStorRoom describes the storage room in the ground floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,8.40000,2.40000,0.00000  #   1
@@ -35,14 +35,14 @@ gfStorRoom describes the storage room in the ground floor
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
-*surf,Wall-4,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
+*surf,southWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
+*surf,eastWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   2 ||< external
 *surf,gfSrCeilBth,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,009,009  #   3 ||< gfSrCeilBth:1fBath
-*surf,gfSrFlr,FLOR,-,FLOOR,EXTGRND,floor_ground_floor,OPAQUE,GROUND,0,001  #   4 ||< user def grnd profile  1
-*surf,gfLrDoorSr,VERT,gfLrWallSr,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,014,014  #   5 ||< gfLrDoorSr:gfLivRoom
-*surf,gfLrWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,009,009  #   6 ||< gfLrWallSr:gfLivRoom
-*surf,gfStrWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,012,012  #   7 ||< gfStrWallSr:stairs
-*surf,gfBthWallSr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,007,007  #   8 ||< gfBthWallSr:gfBath
+*surf,gfSrFloor,FLOR,-,FLOOR,EXTGRND,floor_ground_floor,OPAQUE,GROUND,0,001  #   4 ||< user def grnd profile  1
+*surf,gfSrDoorLr,VERT,gfSrWallLr,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,014,014  #   5 ||< gfLrDoorSr:gfLivRoom
+*surf,gfSrWallLr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,009,009  #   6 ||< gfLrWallSr:gfLivRoom
+*surf,gfSrWallStr,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,012,012  #   7 ||< strWallSrGf:stairs
+*surf,gfSrWallBth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,007,007  #   8 ||< gfBthWallSr:gfBath
 *surf,gfSrCeilEnt,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,11,012  #   9 ||< gfSrCeilEnt:1fEntrance
 # 
 *insol,3,0,0,0  # default insolation distribution

@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,1fEntrance # tag version, format, zone name
-*date Thu Dec  8 15:29:13 2022  # latest file modification 
+*date Sat Dec 17 12:06:17 2022  # latest file modification 
 1fEntrance describes the 1st floor entrance
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,6.60000,5.10000,2.40000  #   1
@@ -64,22 +64,22 @@
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,Wall-3,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
+*surf,southWall,VERT,-,WALL,-,ext_wall_norway,OPAQUE,EXTERIOR,00,000  #   1 ||< external
 *surf,1fEntCeil,CEIL,-,PARTN,-,int_ceil,OPAQUE,ANOTHER,12,011  #   2 ||< 1fEntCeil:2fLivRoom
-*surf,1fSl2DoorEnt,VERT,1fSl2WallEnt,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,007,007  #   3 ||< 1fSl2DoorEnt:1fSleep2
-*surf,1fSl2WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,003  #   4 ||< 1fSl2WallEnt:1fSleep2
-*surf,1fSl1WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,009,009  #   5 ||< 1fSl1WallEnt:1fSleep1
-*surf,1fSl1DoorEnt,VERT,-,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,010,010  #   6 ||< 1fSl1DoorEnt:1fSleep1
-*surf,1fBthDoorEnt,VERT,1fEntWal2Bth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,004,004  #   7 ||< 1fBthDoorEnt:1fBath
-*surf,1fEntWal2Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,005,005  #   8 ||< 1fEntWal2Bth:1fBath
-*surf,1fEntWal1Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #   9 ||< 1fEntWal1Bth:1fBath
-*surf,gfLrCeil,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,005,005  #  10 ||< gfLrCeil:gfLivRoom
-*surf,gfBthCeilEnt,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,003,003  #  11 ||< gfBthCeilEnt:gfBath
-*surf,gfSrCeilEnt,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,009,009  #  12 ||< gfSrCeilEnt:gfStorRoom
-*surf,1fEntDoor,VERT,Wall-3,DOOR,CLOSED,ext_door,OPAQUE,EXTERIOR,00,000  #  13 ||< external
-*surf,strWall1f,VERT,-,FICT,BIDIR,fictitious,SC_fictit,ANOTHER,003,003  #  14 ||< strWall1f:stairs
-*surf,1fSl3WallEnt,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,008,003  #  15 ||< 1fSl3WallEnt:1fSleep3
-*surf,1fSl3DoorEnt,VERT,1fSl3WallEnt,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,008,009  #  16 ||< 1fSl3DoorEnt:1fSleep3
+*surf,1fEntDoorSl2,VERT,1fEntWallSl2,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,007,007  #   3 ||< 1fSl2DoorEnt:1fSleep2
+*surf,1fEntWallSl2,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,003,003  #   4 ||< 1fSl2WallEnt:1fSleep2
+*surf,1fEntWallSl1,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,009,009  #   5 ||< 1fSl1WallEnt:1fSleep1
+*surf,1fEntDoorSl1,VERT,-,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,010,010  #   6 ||< 1fSl1DoorEnt:1fSleep1
+*surf,1fEntDoorBth,VERT,1fEntWal2Bth,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,004,004  #   7 ||< 1fBthDoorEnt:1fBath
+*surf,1fEntWal2Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,005,005  #   8 ||< 1fBthWal2Ent:1fBath
+*surf,1fEntWal1Bth,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,006,006  #   9 ||< 1fBthWal1Ent:1fBath
+*surf,1fEntFlrLr,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,005,005  #  10 ||< gfLrCeil:gfLivRoom
+*surf,1fEntFlrBth,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,003,003  #  11 ||< gfBthCeilEnt:gfBath
+*surf,1fEntFlrSr,FLOR,-,PARTN,-,int_floor,OPAQUE,ANOTHER,009,009  #  12 ||< gfSrCeilEnt:gfStorRoom
+*surf,1fEntDoorExt,VERT,Wall-3,DOOR,CLOSED,ext_door,OPAQUE,EXTERIOR,00,000  #  13 ||< external
+*surf,1fEntFictStr,VERT,-,FICT,BIDIR,fictitious,SC_fictit,ANOTHER,003,003  #  14 ||< strFict1f:stairs
+*surf,1fEntWallSl3,VERT,-,PARTN,-,int_wall,OPAQUE,ANOTHER,008,003  #  15 ||< 1fSl3WallEnt:1fSleep3
+*surf,1fEntDoorSl3,VERT,1fEntWallSl3,DOOR,OPEN,int_doors,OPAQUE,ANOTHER,008,009  #  16 ||< 1fSl3DoorEnt:1fSleep3
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

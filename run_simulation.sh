@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/bin/sh
 
 CUR_PATH=$(pwd)
 
